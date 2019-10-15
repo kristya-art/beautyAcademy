@@ -24,7 +24,7 @@ public class UserPrinciple implements UserDetails {
     @JsonIgnore
     private String password;
 
-    private String first_name;
+    private String name;
 
     private String last_name;
 
@@ -33,30 +33,28 @@ public class UserPrinciple implements UserDetails {
     private Collection<? extends GrantedAuthority> authorities;
 
     public UserPrinciple(Long id, String username,String email, String password,
-                         String first_name, String last_name, String date_of_Birth,
+                         String name,
                          Collection<? extends GrantedAuthority> authorities) {
         this.id = id;
         this.username = username;
         this.email = email;
         this.password = password;
-        this.first_name = first_name;
-        this.last_name = last_name;
-        this.date_of_Birth = date_of_Birth;
+        this.name = name;
         this.authorities = authorities;
     }
 
     public static UserPrinciple build(User user){
         List<GrantedAuthority> authorities = user.getRoles().stream().map(role ->
-                new SimpleGrantedAuthority(role.getType().name())
+                new SimpleGrantedAuthority(role.getName().name())
         ).collect(Collectors.toList());
         return new UserPrinciple(
                 user.getId(),
                 user.getUsername(),
                 user.getEmail(),
                 user.getPassword(),
-                user.getFirst_name(),
-                user.getLast_name(),
-                user.getDate_of_Birth(),
+                user.getName(),
+//                user.getLast_name(),
+//                user.getDate_of_Birth(),
                 authorities
 
 
@@ -102,7 +100,7 @@ public class UserPrinciple implements UserDetails {
     }
 
     public String getFirst_name() {
-        return first_name;
+        return name;
     }
 
     public String getLast_name() {

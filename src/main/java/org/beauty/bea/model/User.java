@@ -7,12 +7,24 @@ import java.util.HashSet;
 import java.util.Set;
 
 @Entity
+//@Table(name = "users", uniqueConstraints = {
+//        @UniqueConstraint(columnNames = {
+//                "username"
+//        }),
+//        @UniqueConstraint(columnNames = {
+//                "email"
+//        })
+//})
 @Table(name="users")
 public class User {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
+
+    @Column(nullable = false)
+    @Size(min=3, max=50)
+    private String name;
 
     @Column(nullable = false)
     @Size(min=3, max=50)
@@ -24,19 +36,17 @@ public class User {
     private String email;
 
     @Column(nullable = false)
-    @Size(min=6, max=50)
+   // @Size(min=6, max=50)
     private String password;
 
-    @Column(nullable = false)
-    @Size(min=3, max=50)
-    private String first_name;
 
-    @Column(nullable = false)
-    @Size(min=3, max=50)
-    private String last_name;
 
-    @Column(nullable = false)
-    private String date_of_Birth;
+//    @Column(nullable = false)
+//    @Size(min=3, max=50)
+//    private String last_name;
+
+//    @Column(nullable = false)
+//    private String date_of_Birth;
 
     private String profile_pict;
 //    private String weight;
@@ -47,20 +57,17 @@ public class User {
             joinColumns = @JoinColumn(name = "user_id"),
             inverseJoinColumns = @JoinColumn(name = "role_id"))
     private Set<Role> roles = new HashSet<>();
-    private String activation_code;
-    private String registration_date;
-    private String status;
+//    private String activation_code;
+//    private String registration_date;
+//    private String status;
 
-    public User() {}
+   public User() {}
 
-    public User(String username, String email, String password, String first_name,
-                String last_name, String date_of_Birth) {
+    public User(String name, String username, String email, String password) {
+        this.name = name;
         this.username = username;
         this.email = email;
         this.password = password;
-        this.first_name = first_name;
-        this.last_name = last_name;
-        this.date_of_Birth = date_of_Birth;
     }
 
     public Long getId() {
@@ -95,29 +102,29 @@ public class User {
         this.password = password;
     }
 
-    public String getFirst_name() {
-        return first_name;
+    public String getName() {
+        return name;
     }
 
-    public void setFirst_name(String first_name) {
-        this.first_name = first_name;
+    public void setName(String first_name) {
+        this.name = first_name;
     }
 
-    public String getLast_name() {
-        return last_name;
-    }
+//    public String getLast_name() {
+//        return last_name;
+//    }
+//
+//    public void setLast_name(String last_name) {
+//        this.last_name = last_name;
+//    }
 
-    public void setLast_name(String last_name) {
-        this.last_name = last_name;
-    }
-
-    public String getDate_of_Birth() {
-        return date_of_Birth;
-    }
-
-    public void setDate_of_Birth(String date_of_Birth) {
-        this.date_of_Birth = date_of_Birth;
-    }
+//    public String getDate_of_Birth() {
+//        return date_of_Birth;
+//    }
+//
+//    public void setDate_of_Birth(String date_of_Birth) {
+//        this.date_of_Birth = date_of_Birth;
+//    }
 
     public String getProfile_pict() {
         return profile_pict;
@@ -135,27 +142,27 @@ public class User {
         this.roles = roles;
     }
 
-    public String getActivation_code() {
-        return activation_code;
-    }
-
-    public void setActivation_code(String activation_code) {
-        this.activation_code = activation_code;
-    }
-
-    public String getRegistration_date() {
-        return registration_date;
-    }
-
-    public void setRegistration_date(String registration_date) {
-        this.registration_date = registration_date;
-    }
-
-    public String getStatus() {
-        return status;
-    }
-
-    public void setStatus(String status) {
-        this.status = status;
-    }
+//    public String getActivation_code() {
+//        return activation_code;
+//    }
+//
+//    public void setActivation_code(String activation_code) {
+//        this.activation_code = activation_code;
+//    }
+//
+//    public String getRegistration_date() {
+//        return registration_date;
+//    }
+//
+//    public void setRegistration_date(String registration_date) {
+//        this.registration_date = registration_date;
+//    }
+//
+//    public String getStatus() {
+//        return status;
+//    }
+//
+//    public void setStatus(String status) {
+//        this.status = status;
+//    }
 }
