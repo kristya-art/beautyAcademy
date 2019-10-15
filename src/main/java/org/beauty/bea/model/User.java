@@ -1,6 +1,8 @@
 package org.beauty.bea.model;
 
 import javax.persistence.*;
+import javax.validation.constraints.Email;
+import javax.validation.constraints.Size;
 import java.util.HashSet;
 import java.util.Set;
 
@@ -11,16 +13,28 @@ public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
+
     @Column(nullable = false)
+    @Size(min=3, max=50)
     private String username;
+
     @Column(nullable = false)
+    @Size(max=50)
+    @Email
     private String email;
+
     @Column(nullable = false)
+    @Size(min=6, max=50)
     private String password;
+
     @Column(nullable = false)
+    @Size(min=3, max=50)
     private String first_name;
+
     @Column(nullable = false)
+    @Size(min=3, max=50)
     private String last_name;
+
     @Column(nullable = false)
     private String date_of_Birth;
 
@@ -28,6 +42,10 @@ public class User {
 //    private String weight;
 //    private String height;
 
+    @ManyToMany(fetch = FetchType.LAZY)
+    @JoinTable(name = "user_roles",
+            joinColumns = @JoinColumn(name = "user_id"),
+            inverseJoinColumns = @JoinColumn(name = "role_id"))
     private Set<Role> roles = new HashSet<>();
     private String activation_code;
     private String registration_date;
