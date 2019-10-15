@@ -1,4 +1,4 @@
-package org.beauty.bea;
+package org.beauty.bea.controller;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
