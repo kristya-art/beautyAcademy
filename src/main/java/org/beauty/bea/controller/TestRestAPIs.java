@@ -15,10 +15,10 @@ public class TestRestAPIs {
 		return ">>> User Contents!";
 	}
 
-	@GetMapping("/api/test/pm")
-	@PreAuthorize("hasRole('USER') or hasRole('ADMIN')")
-	public String projectManagementAccess() {
-		return ">>> Project Management Board";
+	@GetMapping("/api/test/lecturer")
+	@PreAuthorize("hasRole('LECTURER') or hasRole('ADMIN')")
+	public String lecturerAccess() {
+		return ">>> Lecturer Contents";
 	}
 	
 	@GetMapping("/api/test/admin")
