@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { UserService } from '../services/user.service'
 
 @Component({
   selector: 'app-lecturer',
@@ -6,10 +7,20 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./lecturer.component.css']
 })
 export class LecturerComponent implements OnInit {
+  board: string;
+  errorMessage: string;
 
-  constructor() { }
+  constructor(private userService: UserService) { }
 
   ngOnInit() {
+    this.userService.getAdminBoard().subscribe(
+      data=> {
+        this.board = data;
+      },
+      error=> {
+        this.errorMessage = `${error.status}: ${JSON.parse(error.error).message}`;
+      }
+    );
   }
 
 }
