@@ -60,6 +60,8 @@ public class User {
 //    private String activation_code;
 //    private String registration_date;
 //    private String status;
+    @Column(name="enabled")
+    private boolean enabled;
 
    public User() {}
 
@@ -68,6 +70,7 @@ public class User {
         this.username = username;
         this.email = email;
         this.password = password;
+        this.enabled = false;
     }
 
     public Long getId() {
@@ -125,6 +128,15 @@ public class User {
 //    public void setDate_of_Birth(String date_of_Birth) {
 //        this.date_of_Birth = date_of_Birth;
 //    }
+
+
+    public boolean isEnabled() {
+        return enabled;
+    }
+
+    public void setEnabled(boolean enabled) {
+        this.enabled = enabled;
+    }
 
     public String getProfile_pict() {
         return profile_pict;

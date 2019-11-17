@@ -11,8 +11,11 @@ import org.beauty.bea.repository.RoleRepository;
 import org.beauty.bea.repository.UserRepository;
 import org.beauty.bea.security.jwt.JwtProvider;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.ApplicationEventPublisher;
+import org.springframework.context.MessageSource;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.mail.javamail.JavaMailSender;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.Authentication;
@@ -29,6 +32,15 @@ import java.util.Set;
 @RestController
 @RequestMapping("/api/auth")
 public class AuthController {
+
+	@Autowired
+	ApplicationEventPublisher eventPublisher;
+
+	@Autowired
+	private MessageSource messages;
+
+	@Autowired
+	private JavaMailSender mailSender;
 
 	@Autowired
 	AuthenticationManager authenticationManager;
