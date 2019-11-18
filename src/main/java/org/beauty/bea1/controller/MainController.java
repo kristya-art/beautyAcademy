@@ -1,5 +1,6 @@
-package org.beauty.bea1.domain;
+package org.beauty.bea1.controller;
 
+import org.beauty.bea1.domain.Message;
 import org.beauty.bea1.repository.MessageRepo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -12,7 +13,7 @@ import java.util.List;
 import java.util.Map;
 
 @Controller
-public class GreetingController {
+public class MainController {
     @Autowired
     private MessageRepo messageRepo;
 
