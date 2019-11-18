@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7249c7d0-1691-4f21-b395-e17d3ecfd392" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/beauty/bea1/controller/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/beauty/bea1/controller/MainController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/beauty/bea1/controller/RegistrationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/beauty/bea1/controller/RegistrationController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/beauty/bea1/controller/MainController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/beauty/bea1/controller/MainController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/beauty/bea1/controller/RegistrationController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/beauty/bea1/controller/RegistrationController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/client/dist/" />
     <ignored path="$PROJECT_DIR$/client/tmp/" />
@@ -82,55 +78,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/login.mustache">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/beauty/bea1/controller/MainController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-122">
-              <caret line="20" selection-start-line="20" selection-end-line="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/beauty/Application.java">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/beauty/bea1/controller/RegistrationController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="17" column="17" selection-start-line="16" selection-start-column="2" selection-end-line="17" selection-end-column="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/src/app/services/user.service.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#0#43#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="133">
+              <caret line="27" column="46" selection-start-line="27" selection-start-column="46" selection-end-line="27" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -196,7 +148,6 @@
         <option value="$PROJECT_DIR$/src/main/resources/templates/greeting.mustache" />
         <option value="$PROJECT_DIR$/src/main/java/org/beauty/bea1/domain/GreetingController.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/beauty/bea1/config/MvcConfig.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/login.html" />
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/login.mustache" />
@@ -210,6 +161,7 @@
         <option value="$PROJECT_DIR$/src/main/resources/templates/main.mustache" />
         <option value="$PROJECT_DIR$/src/main/java/org/beauty/bea1/controller/RegistrationController.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/beauty/bea1/controller/MainController.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -282,7 +234,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1574115535740" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1574115564270" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="editor.config.ad.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../projects/spring-angular/demo/demo" />
@@ -388,17 +340,18 @@
       <workItem from="1573940899043" duration="1777000" />
       <workItem from="1574016703415" duration="5522000" />
       <workItem from="1574028210119" duration="14426000" />
-      <workItem from="1574115132645" duration="214000" />
+      <workItem from="1574115132645" duration="653000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43089000" />
+    <option name="totallyTimeSpent" value="43358000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="-6" width="1293" height="773" extended-state="6" />
+    <frame x="-5" y="0" width="651" height="766" extended-state="1" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2388664" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.10286678" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -422,7 +375,7 @@
       <window_info anchor="bottom" id="Database Changes" order="13" weight="0.32970452" />
       <window_info anchor="bottom" id="Version Control" order="14" />
       <window_info anchor="bottom" id="TypeScript" order="15" weight="0.2830482" />
-      <window_info active="true" anchor="bottom" id="Run Dashboard" order="16" visible="true" weight="0.36391914" />
+      <window_info anchor="bottom" id="Run Dashboard" order="16" visible="true" weight="0.36792454" />
       <window_info anchor="bottom" id="Database Console" order="17" weight="0.47433904" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -639,13 +592,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="68" column="51" lean-forward="true" selection-start-line="68" selection-start-column="51" selection-end-line="68" selection-end-column="51" />
         </state>
       </provider>
     </entry>
@@ -919,6 +865,13 @@
           <folding>
             <element signature="e#0#43#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="27" column="46" selection-start-line="27" selection-start-column="46" selection-end-line="27" selection-end-column="46" />
         </state>
       </provider>
     </entry>
