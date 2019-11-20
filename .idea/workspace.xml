@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7249c7d0-1691-4f21-b395-e17d3ecfd392" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bea-documentation/bea-report.docx" beforeDir="false" afterPath="$PROJECT_DIR$/bea-documentation/bea-report.docx" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/client/dist/" />
@@ -146,8 +145,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="1268" />
-    <option name="width" value="1306" />
+    <option name="x" value="240" />
+    <option name="width" value="1618" />
     <option name="height" value="1522" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -164,105 +163,6 @@
             <path>
               <item name="beauty-academy" type="b2602c69:ProjectViewProjectNode" />
               <item name="beauty-academy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="beauty-academy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="beauty-academy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="beauty-academy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="beauty-academy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="beauty-academy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="beauty-academy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="beauty-academy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="beauty-academy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="beauty" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="beauty-academy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="beauty-academy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="beauty" type="462c0819:PsiDirectoryNode" />
-              <item name="bea1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="beauty-academy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="beauty-academy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="beauty" type="462c0819:PsiDirectoryNode" />
-              <item name="bea1" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="beauty-academy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="beauty-academy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="beauty" type="462c0819:PsiDirectoryNode" />
-              <item name="bea1" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="beauty-academy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="beauty-academy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="beauty" type="462c0819:PsiDirectoryNode" />
-              <item name="bea1" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="beauty-academy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="beauty-academy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="beauty" type="462c0819:PsiDirectoryNode" />
-              <item name="bea1" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="beauty-academy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="beauty-academy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="beauty-academy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="beauty-academy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="beauty-academy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="beauty-academy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="parts" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -281,7 +181,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1574262020222" />
     <property name="database.console.LAST_STATE" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../bfh/drive/OneDrive - Berner Fachhochschule/projects/software/academia-ng-yellow/academia-ng-yellow" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../bfh/projects-school/project-1-frontend/eval" />
   </component>
   <component name="RunDashboard">
     <option name="configurationTypes">
@@ -357,17 +257,17 @@
       <workItem from="1572644158836" duration="1271000" />
       <workItem from="1572652887335" duration="1275000" />
       <workItem from="1574244243527" duration="6380000" />
-      <workItem from="1574284365489" duration="652000" />
+      <workItem from="1574284365489" duration="1433000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12977000" />
+    <option name="totallyTimeSpent" value="13758000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1293" height="773" extended-state="7" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.024291499" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27125505" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
