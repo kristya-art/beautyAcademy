@@ -38,10 +38,12 @@ public class UserService implements UserDetailsService {
         userRepo.save(user);
 
         if (!StringUtils.isEmpty(user.getEmail())) {
-            String message = "Hello, %s! \n " +
-                    "Wellcome to Beautiful academy. Please visit next link : http://localhost:8080/activate/%s";
-            user.getUsername();
-            user.getActivationCode();
+            String message = String.format(
+                    "Hello, %s! \n" +
+                            "Welcome to Beautiful Academy. Please, visit next link: http://localhost:8080/activate/%s",
+                    user.getUsername(),
+                    user.getActivationCode()
+            );
             mailSender.send(user.getEmail(), "Activation code", message);
         }
         return true;

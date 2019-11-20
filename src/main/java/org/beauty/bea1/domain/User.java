@@ -125,6 +125,7 @@ public class User implements UserDetails {
         return roles.contains(Role.ADMIN);
     }
 
+
     public String getActivationCode() {
         return activationCode;
     }
