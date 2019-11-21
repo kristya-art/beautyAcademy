@@ -32,7 +32,7 @@ public class UserService implements UserDetailsService {
         if (userFromDb != null) {
             return false;
         }
-        user.setActive(true);
+       // user.setActive(true);
         user.setRoles(Collections.singleton(Role.USER));
         user.setActivationCode(UUID.randomUUID().toString());
         userRepo.save(user);
@@ -45,6 +45,7 @@ public class UserService implements UserDetailsService {
                     user.getActivationCode()
             );
             mailSender.send(user.getEmail(), "Activation code", message);
+           // if(this.activateUser(user.getActivationCode())){userRepo.save(user);user.setActive(true);user.setRoles(Collections.singleton(Role.USER));}
         }
         return true;
 
@@ -58,7 +59,7 @@ public class UserService implements UserDetailsService {
         }
 
         user.setActivationCode(null);
-
+        user.setActive(true);
         userRepo.save(user);
         return true;
     }
