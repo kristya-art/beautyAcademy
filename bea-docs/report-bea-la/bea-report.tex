@@ -6,6 +6,9 @@
 \usepackage{colortbl}
 \usepackage{multirow}
 \usepackage{subfloat}
+\usepackage{float}
+\floatstyle{boxed} 
+\restylefloat{figure}
 
 \usepackage{lipsum}
 
@@ -17,6 +20,7 @@
 \usepackage[backend=biber, style=ieee]{biblatex}
 
 \usepackage{graphicx}
+\graphicspath{ {./photos/} }
 
 
 
@@ -26,22 +30,13 @@
 
 
 \title{\textsc{\LARGE Bern University of Applied Sciences | BFH }\\[1cm]
+\begin{center}
+\includegraphics[width = 60mm]{bea_logo.JPG}
+\end{center}
 \textsc{\small Departement of Engineering and Information Technology}\\
-\begin{figure}
-  \includegraphics[width=\linewidth]{images/logo.jpg}
-  \caption{logo.}
-  \label{fig:boat1}
-\end{figure}
-
 \textsc{\small Project2 (Modul BTI7302) 19/20}\\[1cm]
-\begin{figure}
-	\includegraphics[width=\linewidth]{./photos/bea_logo.JPG}
-	\caption{A boat.}
-	\label{fig:boat1}
-\end{figure}
 \textsc{\small Report on management system for: }\\
 \textsc{"Academy of the handsome men and beautiful woman(BEA)" web application}}
-
 \date{\today}   %% or \date{01 november 2019}
 \author{\textit{author: }Kristina \textsc{Shiryagina} (\texttt{kristina.shiryagina@bfh.ch}) \\
  \textit{supervisor: } Prof.Dr Olivier  \textsc{Biberstein}  (\texttt{cccc.cccc@bfh.ch})\\
@@ -57,9 +52,8 @@
 /**The abstract may not be what you write first, as it might be easiest to summarize your whole paper after it's been completed. You could draft it from your outline, but you'll want to double-check later that you have included the most important points from your article and that there's nothing in the abstract that you decided not to include in your report.., max 250 words*/
 \lipsum[1-3]
 
-\section{Intoduction}
 
-  For that we red the article book of 
+ For that we red the article book of 
 \cite{Diniz:2010:UG0:525452.452352}                 /** just an example
 
 
@@ -168,8 +162,16 @@ A \textbf{\textit{ Software life cycle}} is the series of identifiable stages th
 its lifetime .A software lifecycle model is a descriptive and diagrammatic representation of the
 software life cycle .A life cycle model represents all the activities required to make a software
 product transit through its lifecycle phases .It also captures the order in which these activities are
-to be taken .
-\textbf{\textit{ Life Cycle Models}} \\
+to be taken .\\
+
+\textbf{\textit{ Life Cycle Models}} \\[1cm]
+\begin{figure}[h]
+\centering
+\includegraphics[width = 60mm]{lc.JPG}
+\caption{This is a Life Cycle Model}
+\label{Life Cucle Models}
+\end{figure}
+
 There are various life cycle models to improve the software processes. And we have used the WATERFALL MODEL.\\
 This model contains\textbf{\textit{  6 phases:}}\\
 o \textbf{\textit{ Feasibility study}}
