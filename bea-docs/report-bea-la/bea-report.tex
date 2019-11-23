@@ -229,13 +229,160 @@ Release planning (if product is to be delivered in releases):\\
 
 
 
- 	 
+\subsection{Analysis} 	 
+\subsubsection{Domain model}  
+\begin{figure}[h]
+\centering
+\includegraphics[width=150mm]{domain-in-use.JPG}
+\caption{This is a Domain model for Beautiful academy(BEA)}
+\label{Life Cucle Models}
+\end{figure}
+
+This document describes the domain model of the Beautiful Academy BEA. It introduces the most important concepts and the associations among them. It also introduces the respective multiplicities. \\
+
+Concept Classes \\
+
+Concept class Participant models a person who is taking the courses. \\
+Concept class Lecturer models a person who is teaching and give an exam for the participant.\\
+Concept class Course models the main courses that offer application.\\
+Concept class Grade models the grades of a participant.\\
+Concept class Topic models the sub course of the course.\\
+Concept class Lesson models a set of lessons that contains each topic.\\
+Concept class Exam models a exam that can be taken by participant.\\
+Concept class Subscription models a subscription, that has a date when participant is subscribed.\\
+Concept class Quiz models a quiz that belongs to exam.\\
+Concept class Question models a question that belong to quiz.\\
+Concept class Answer models a possible answer to questions.\\
+
+Associations\\
+
+Association take an between Participant and Exam denotes the fact that Participant can make many exams, hence (*) multiplicity, and (*) multiplicity at the Exam side means that the  Exam can be done by many Participants.\\
+Association has between Participant and Evaluation denotes the fact that Participant can get zero or more Evaluations, hence multiplicity (0..*), and (1 )multiplicity at the Participant side means that each Participant has its own set of Evaluation.\\
+Association subscribes between Participant and Course denotes the fact that that zero or more Participant can be entered to the Course depending of the number of participant, hence multiplicity(*), and each Participant can be subscribed to zero more courses, hence multiplicity(*)\\
+Association result in between Exam and Evaluation denotes the fact that each exam has it’s own unique evaluation, hence multiplicity 1, and 1 multiplicity at the evaluation side means that each evaluation belongs to unique exam.\\
+Association has between Exam and Topic denotes the fact that each topic has it’s unique an intermediate exam. \\
+Association contains between Exam and Course denotes the fact that each exam belongs to it unique course , and each course has it own unique final exam. \\
+Association include between Course and Topic denotes the fact that course has many topics, hence multiplicity (*), and each topic belongs to exactly one course, hence multiplicity (*). \\
+Association include between Topic and Lesson denotes the fact that topic has many lessons, hence multiplicity (*), and each lesson belongs to exactly one topic, hence multiplicity (*). \\
+Association teaches between Lecturer and Lesson denote the fact that Lecturer can teaches zero or more lessons, hence multiplicity (*), and each lesson can have zero or more lecturer, hence multiplicity (*). \\
+Association gives an between Lecturer and Exam denotes the fact that Lecturer can give zero or more exam, hence multiplicity (*), and each exam can be done by 1 or more lecturer, hence multiplicity ( 1..*). \\
+Association enter between the Lecturer and Evaluation denotes the fact that each lecturer can enter zero or more evaluations, hence multiplicity (*), and evaluation can be entered by exactly one lecturer, hence multiplicity (1). \\
+Association manages between the Lecturer and Course denotes the fact that each lecturer can manage zero or more courses, hence multiplicity (*), and each course can be manage by exactly one lecturer, hence multiplicity (1). \\
+Association belongs to between Quiz and Exam denotes the fact that each Quiz belongs to exactly one exam, hence multiplicity (1), and each exam can have zero or more quizzes, hence multiplicity(0..*). \\
+Association belongs to between Quiz and Question denotes the fact that each Question belongs to exactly one Quiz, hence multiplicity (1), and each Quiz can have zero or more questions, hence multiplicity(0..*). \\
+Association belongs to between Question and Answers denotes the fact that each Answer belongs to exactly one Question, hence multiplicity (1), and each exam can have one or more answer, hence multiplicity(1..*). \\
+\subsubsection{Product Backlog}
+The product backlog is a list of user stories which is used to implement the product vision. It is sorted according to the priority of the user stories according to the product owner. The priority of these stories will be modified during the process of the project.\\
+
+\begin{table}[ht]
+    \centering
+    \begin{tabular}{c@{\qquad}lll}
+        \toprule
+           & id & Story name & Story description  \\
+        \midrule
+        
+	
+	&1.0 & Log in & As a user, I want to be able to login into the system with my credential (username, password).
+ Success: The user is logged in and can use the functionality of the system.
+ Failure: An error message is displayed: “Wrong username or password, please try again!”. \\ \hline
+	&2.0 & List courses & As a Participant I want to list courses I'm entitled to subscribe such that I can perform a subscription. \\ \hline
+	&3.0 & View information & As a Participant, I want to see the information about the courses. \\ \hline
+	&4.0 & List results & As a Participant, I want to see my marks of the already finished courses and topics. \\ \hline
+	&5.0 & View schedule & As a Participant or a Lecturer I want to be able to get a schedule showing the time and place of available exams. \\ \hline
+	&6.0 & Exam reservation & As a Participant, I want to be able to select an exam (there are different data on an exam).
+ Success: A participant has selected exam.
+ Failure: An error message is displayed “This date is already reserved, please take another date for your final exam". \\ \hline
+	&7.0 & Cancelation of exam & As a Participant, I want to be able to cancel the exam registration.
+ Success: A message “You have successfully deleted your exam registration”
+ Failure: An error message "The period of availability of deleting registration is expired, please take a contact to the administration". \\ \hline
+	&8.0 & Personal information & As a Participant or a lecturer I want to see my page with my personal information .
+ Success: The participant can see his page with all the information it has.
+ Failure: We are sorry, this page is on reconstruction , you can access it after 12 hours. \\ \hline
+	&9.0 & Manage course & As a System Administrator, I want to be able to change the information on a course .
+ Success: An Administrator can manage the data of courses, participants, exams.
+ Failure: \\ \hline
+	&10.0 & List participants and corresponding courses & As a lecturer, I want to see a list of participants with courses that they have .
+ Success: A Lecturer can see the list with all the data he needs.
+ Failure: \\ \hline
+
+
+        
+        \midrule
+    \end{tabular}
+    \caption{Product Backlog}
+    \label{tab:typo}
+\end{table}
+
+\subsection{Design}
+\subsubsection{System Sequence Diagrams}
+
+1.Use case "Log in"
+\begin{figure}[h]
+\centering
+\includegraphics[width = 60mm]{ssd-login.JPG}
+\caption{ssd for login}
+\label{ssd for login}
+\end{figure}
+
+
+
+
+
+
+
+\subsection{Implementation}
+BUILD Backend WITH SPRING BOOT\\
+Before starting with spring boot, it was clear for me about spring boot that spring boot does not provides any extra features on functionality on top of spring framework. Rather, it provides unlimited defaults configurations and useful conventions to create a stand-lone, production grade web applications in no time.\\
+Spring Boot is the starting point for building all Spring-based applications. Spring Boot is designed to get you up and running as quickly as possible, with minimal upfront configuration of Spring.\\
+ -Get started in seconds using Spring Initializer\\
+-Build anything: REST API, WebSocket, web, streaming, tasks, and more\\
+-Simplified security\\
+-Rich support for SQL and NoSQL\\
+-Embedded runtime support: Tomcat, Jetty, and Undertow\\
+-Developer productivity tools such as Live Reload and Auto Restart\\
+-Curated dependencies that just work\\
+-Production-ready features such as tracing, metrics, and health status\\
+-Works in your favourite IDE: Spring Tool Suite, IntelliJ IDEA, and NetBeans\\
+
+Using these features it has really made building a production grade Spring applications very easy and faster for developers. Also, no XML configurations required anymore with spring boot.\\
+
+ANGULAR FOR FRONT-END \\
+The technology for front-end is Angular.\\
+Angular helps build interactive and dynamic single page applications (SPAs) with its compelling features including templating, two-way binding, modularization, RESTful API handling,\\ dependency injection, and AJAX handling. We can use HTML as template language and even extend HTML’ syntax to easily convey the components of the application.\\
+Angular applications are built using TypeScript language, a superscript for JavaScript, which ensures higher security as it supports types (primitives, interfaces, etc.). It helps catch and eliminate errors early when writing the code or performing maintenance tasks.\\
+Angular has a lot of pros\\
+-simplicity\\
+-efficiency\\
+- Developers find AngularJS very effective especially in creating dynamic, single page apps, and supporting MVC (Model View Controller) programming structure.\\
+-time-saving Projects that previously used to take many months with other frameworks can now be completed faster with AngularJS. All that AngularJS framework requires is splitting the app into several MVC components. From there, the framework takes over because you do not require additional coding.\\
+-the app is easy to learn and get started.\\
+-data binding in AngularJS is very easy.\\
+I like in Angular that it gives our application a clean structure, that is easy to understand and easy to maintain.\\
+It brings a lot of utility code that we can reuse, for example users navigation. Angular applications are more testable.\\
+
+
 
 \section{Conclusion and future work}
 /**
-
+ In the conclusion of the project, you first summarize the most important results of your project in an understandable way. The main thing here is to filter out the essential content from the previous chapters and get to the point in a compact, clear and concise way.
 */
 \lipsum[6-7]
+
+\subsubsection{Summary}
+/* Summary of the main results of your work/thesis*/
+
+\subsubsection{Interpretation }
+/Interpretation of my results
+
+/**. In the theoretical part of your project, you should research and present the current state of research in detail in order to draw the right conclusions from the conclusion of your project. Even if your question could not be answered satisfactorily, you should present it honestly. Check what you could and could not achieve, what you would do differently in retrospect and which methods have proven to be useful.*/
+
+\subsubsection{Outlook}
+/** outlook of my project and future research recommendation*/
+
+
+
+
+
 
 %% print the bibliography and add the section to the table of content
 \printbibliography[heading=bibintoc]
@@ -244,6 +391,160 @@ Release planning (if product is to be delivered in releases):\\
 
 \begin{thebibliography}{books}
 \bibitem{ABCDE}Walter Abish \emph{The Alphabetical Africa},1974
+\bibitem{ABCDE} Prof.Dr. Olivier Biberstein, Prof.Dr Eric Dubuis \emph{software Engineering and Design},
+\bibitem{ABCDE}Spring.io/guides \emph{•},2019
+\bibitem{ABCDE} \emph{•},
 \end{thebibliography}
 
+
+\section{Project planning}
+\subsubsection{Meetings calendar}
+
+
+
+
+
+\subsubsection{Spring Backlog}
+
+\subsubsection{Protocol}
+Frequency: (weekly) \\
+Meeting length: (35-45 minutes)\\
+
+Agenda
+
+\begin{itemize}
+  	\item Demo and Discuss Deliverables(Demo)
+  	\item Planning next Goals(Plan)
+  	\item Lessons learned (Lessons)
+  	\item Date, time of the next meeting(next meeting)
+ \end{itemize} 	
+
+
+Report from 09.10.19\\
+Plan\\
+Next goals are: 
+\begin{itemize}
+
+
+	\item Introduction of a Vision make clear. Write about an application I want to build. I have to write a Vision that can make a good picture about the functionality of this application.
+	\item	Change the problem statement: 
+	\item	Join 2 Systems in 1 . Rename system in functions. And write that these functions just a part of this system we want to build. 
+	\item	Write concrete user stories to these functions, group the stories according the function.
+	\item	Analyze domain model, put attributes to each conceptual class, make description for each association. Rebuild domain model according of new clear representation of necessary functions of the system.
+	\item	Sequence diagram of first function we want to implement (probably log in)
+	\item	Try to make class-diagram.
+	\item	Implement of log in function.
+	\item	Write a protocol in the main doc.
+\end{itemize}	
+Lessons learned\\
+To documentation plays decisive role in Software Engineering Project. The first analysing phase have to be done well to make a good start for design and implementation of the IT Product.
+Next Meeting: 16.10.19, 14:30\\
+
+
+
+
+Report from 16.10.19\\
+Plan:\\
+The next goals are:\\
+\begin{itemize}
+
+
+	\item	A domain model – last version. +
+	\item	Vision complete. +
+	\item	Put spring plan in the main document (Time planning is the first preference).
+	\item	After completing 3d point, merge sprint1 and make a del1.
+	\item	Start with Design part: 1st we start with design for login feature.+
+	\item	SSD for login +
+	\item	Write good document for Spring Boot and Angular. Describe the most successful aspects,that has spring boot , angular. Describe why we have chosen it for this project. Describe how can be implement login with spring boot.    +
+	\item	Make a Product Backlog( list of user stories) and divide to 4 sprints. +
+	\item	Point 1 and 2 have highest priority. Just when these 2 points successfully completed I will continue my  to-dos.  +
+	\item	Change the style of document, make headers numerable, and the style more readable.  +
+ \end{itemize}
+Lesson Learned\\
+With this practical work I become always clearer the main principles of building software.\\
+
+Next meeting:		23.10.19, 14:30\\
+
+
+
+Report from 23.10.19\\
+
+Plan:
+\begin{itemize}
+
+
+ 
+	\item	Make Vision clear( Describe how people will use this application. Describe what is it exactly the course(content, PDF, Unterricht) The vision needs to be loner ,about 1 A4 page.
+Vision-Solution belongs to Vision, here I have to write what we will produce.
+	\item	Domain model. Change word entity to concept by description.
+Add two concepts: subscription with a Date attribute .
+Add to exam concept boolean , that will show the difference between final and intermediate exam.
+	\item	Change product backlog (failure and success) 
+	\item	Make ssd for login with all needed classes( show exactly what’s happened in system ). 
+	\item	Implement login function, test it. Have to be able to make a demo.
+	\item	After making all 5 points and if I’ll have more time make ssd for other features.
+	\end{itemize}
+Lesson learned: \\
+More experience about software engineering diagrams\\
+Next meeting: 30.10.19, 14:30\\
+
+
+Report from 30.10.19\\
+Plan:\\
+\begin{itemize}
+
+
+	\item	Start frontend with Angular. Make frontend for login and registration.
+	\end{itemize}
+Lesson learned:\\
+
+Next meeting: 06.11.19, 14:30\\
+
+
+
+Report from 06.11.19\\
+Plan:\\
+\begin{itemize}
+
+
+	\item	Documentation
+	\item	Most important thing in a documentation is to write it so that the reader can easily understand the main scope of project, how it will be realised, etc.  
+	\item	Angular and spring . Make description of angular and spring , reader have to understand for what we use exactly this frameworks. (have to notice in bibliography everything I use from other authors)
+	\item	Make a build of architecture of angular and spring( probably layers build)
+	\item	Vision more
+	\item	User-stories
+	\item	Agile and scrum -\/
+	\item	Make registration with via email address. (read about registration via facebook, ect if I have more time)
+	\item	 Start to learn about microservices. Try to add first documentation about it. 
+\end{itemize}
+Lesson learned:\\
+Today I’ve learned that I have to plan my work better, means that first I have to realise the most difficult and most important tasks, and then make tasks less difficult. \\
+ 
+Next meeting: 13.11.19, 14:30\\
+
+
+
+
+
+Report from 13.11.19\\
+
+Plan:\\
+\begin{itemize}
+	\item	Documentation: 
+Describe:\\
+        What is it monolith architecture, what is different from monolith and microservices?\\
+       What is restful? (in layer diagram)\\
+	\item	Code \\
+Make registration via email. Start other features. This step I have to do just when I have finished the documentation.
+For next time be able to make a demo of what we have.
+\end{itemize}
+
+Lesson learned:\\
+Be able to define clear the features I want to realise in this project.\\
+Next meeting: 27.11.19, 14:30
+
+
+
 \end{document}
+
+

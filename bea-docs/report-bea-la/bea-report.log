@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2019/dev/Debian) (preloaded format=xelatex 2019.10.20)  23 NOV 2019 22:43
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2019/dev/Debian) (preloaded format=xelatex 2019.10.20)  24 NOV 2019 00:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1149,7 +1149,20 @@ Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 
 \@quotelevel=\count402
 \@quotereset=\count403
-(./bea-report.aux)
+(./bea-report.aux
+
+LaTeX Warning: Label `Life Cucle Models' multiply defined.
+
+
+LaTeX Warning: Label `ABCDE' multiply defined.
+
+
+LaTeX Warning: Label `ABCDE' multiply defined.
+
+
+LaTeX Warning: Label `ABCDE' multiply defined.
+
+)
 \openout1 = `bea-report.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/jkp/m/it on input line 27.
@@ -1303,16 +1316,167 @@ Underfull \hbox (badness 10000) in paragraph at lines 197--227
 
  []
 
+File: ./photos/domain-in-use.JPG Graphic file (type bmp)
+<./photos/domain-in-use.JPG>
+
+Overfull \hbox (8.53578pt too wide) in paragraph at lines 236--239
+ [][] 
+ []
+
 [9]
+Underfull \hbox (badness 10000) in paragraph at lines 241--242
 
-LaTeX Warning: Empty bibliography on input line 241.
+ []
 
-[10] (./bea-report.aux)
+
+Underfull \hbox (badness 10000) in paragraph at lines 243--244
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 245--256
+
+ []
+
+[10]
+Underfull \hbox (badness 10000) in paragraph at lines 257--258
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 259--274
+
+ []
+
+[11]
+Underfull \hbox (badness 10000) in paragraph at lines 275--276
+
+ []
+
+
+Overfull \hbox (1195.85794pt too wide) in paragraph at lines 279--312
+ [][] 
+ []
+
+File: ./photos/ssd-login.JPG Graphic file (type bmp)
+<./photos/ssd-login.JPG>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 334--346
+
+ []
+
+[12]
+Underfull \hbox (badness 10000) in paragraph at lines 347--348
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 349--362
+
+ []
+
+[13] [14]
+
+LaTeX Warning: Empty bibliography on input line 388.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 410--412
+
+ []
+
+[15]
+Overfull \hbox (0.29723pt too wide) in paragraph at lines 439--442
+\TU/lmr/m/n/10.95 To documentation plays decisive role in Software Engineering 
+Project. The first analysing
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 439--442
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 446--449
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 463--465
+
+ []
+
+[16]
+Underfull \hbox (badness 10000) in paragraph at lines 466--467
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 470--471
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 487--490
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 492--494
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 499--500
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 501--502
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 505--507
+
+ []
+
+[17]
+Underfull \hbox (badness 10000) in paragraph at lines 520--522
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 523--524
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 529--530
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 531--532
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 533--537
+
+ []
+
+[18] (./bea-report.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 
 LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
 
 
 Package biblatex Warning: Please (re)run Biber on the file:
@@ -1324,12 +1488,12 @@ Package logreq Info: Writing requests to 'bea-report.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 24346 strings out of 492912
- 491703 string characters out of 6134892
- 1143175 words of memory out of 5000000
- 28161 multiletter control sequences out of 15000+600000
+ 24357 strings out of 492912
+ 491942 string characters out of 6134892
+ 1146175 words of memory out of 5000000
+ 28170 multiletter control sequences out of 15000+600000
  553968 words of font info for 93 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 50i,8n,54p,9089b,3588s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 50i,9n,54p,9089b,3588s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on bea-report.pdf (10 pages).
+Output written on bea-report.pdf (18 pages).
