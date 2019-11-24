@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'bea-frontend';
+  title = 'BEA';
+  message = 'Welcome to the beautiful academy!';
 }
