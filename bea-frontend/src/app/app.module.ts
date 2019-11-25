@@ -6,13 +6,15 @@ import {CoursesComponent} from "./courses.component";
 import { CourseComponent } from './course/course.component';
 import {CoursesService} from "./courses.service";
 import { HeaderComponent } from './header/header.component';
+import { CatalogComponent } from './catalog/catalog.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CoursesComponent,
     CourseComponent,
-    HeaderComponent
+    HeaderComponent,
+    CatalogComponent
 
   ],
   imports: [
