@@ -1,7 +1,11 @@
-function log(message){
-  console.log(message);
+class Point {
+  x: number;
+  y: number;
+
+  draw(){}
+
+  getDistance(another: Point){}
+
 }
 
-var message = 'Hello World';
-
-log(message);
+let drwaPoint = (point:Point) =>{}
