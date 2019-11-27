@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2019/dev/Debian) (preloaded format=xelatex 2019.10.20)  26 NOV 2019 00:27
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2019/dev/Debian) (preloaded format=xelatex 2019.10.20)  27 NOV 2019 00:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1319,247 +1319,281 @@ Underfull \hbox (badness 10000) in paragraph at lines 197--227
 
  []
 
+[9]
 File: ./photos/domain-in-use.JPG Graphic file (type bmp)
 <./photos/domain-in-use.JPG>
 
-Overfull \hbox (8.53578pt too wide) in paragraph at lines 236--239
+Overfull \hbox (8.53578pt too wide) in paragraph at lines 262--265
  [][] 
  []
 
-[9]
-Underfull \hbox (badness 10000) in paragraph at lines 241--242
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 267--268
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 243--244
+Underfull \hbox (badness 10000) in paragraph at lines 269--270
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 245--256
+Underfull \hbox (badness 10000) in paragraph at lines 271--282
 
  []
 
-[10]
-Underfull \hbox (badness 10000) in paragraph at lines 257--258
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 259--274
-
- []
-
-[11]
-Underfull \hbox (badness 10000) in paragraph at lines 275--276
+[10] [11]
+Underfull \hbox (badness 10000) in paragraph at lines 283--284
 
  []
 
 
-Overfull \hbox (1195.85794pt too wide) in paragraph at lines 279--312
+Underfull \hbox (badness 10000) in paragraph at lines 285--300
+
+ []
+
+[12]
+Underfull \hbox (badness 10000) in paragraph at lines 301--302
+
+ []
+
+
+Overfull \hbox (1195.85794pt too wide) in paragraph at lines 305--338
  [][] 
  []
 
 File: ./photos/ssd-login.JPG Graphic file (type bmp)
 <./photos/ssd-login.JPG>
-[12]
-Underfull \hbox (badness 10000) in paragraph at lines 332--344
+[13]
+Missing character: There is no ​ in font [lmroman10-regular]:mapping=tex-text;!
+
+Underfull \hbox (badness 10000) in paragraph at lines 369--378
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 345--346
+Underfull \hbox (badness 10000) in paragraph at lines 379--382
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 347--360
+Underfull \hbox (badness 10000) in paragraph at lines 383--384
 
  []
 
-[13] [14]
+[14]
+Underfull \hbox (badness 10000) in paragraph at lines 385--386
 
-LaTeX Warning: Empty bibliography on input line 386.
+ []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 387--388
+
+ []
+
+File: ./photos/layer.JPG Graphic file (type bmp)
+<./photos/layer.JPG>
+
+Underfull \hbox (badness 10000) in paragraph at lines 410--422
+
+ []
+
+[15]
+Underfull \hbox (badness 10000) in paragraph at lines 423--424
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 425--438
+
+ []
+
+[16]
+
+LaTeX Warning: Empty bibliography on input line 468.
+
+[17]
 File: ./photos/agenda.jpg Graphic file (type bmp)
 <./photos/agenda.jpg>
-[15]
-Overfull \hbox (481.7078pt too wide) in paragraph at lines 411--467
+
+Overfull \hbox (481.7078pt too wide) in paragraph at lines 493--549
  [][] 
  []
 
-[16] [17]
+[18] [19]
 Overfull \vbox (89.29964pt too high) has occurred while \output is active []
 
 
-[18]
-Underfull \hbox (badness 10000) in paragraph at lines 480--481
+[20]
+Underfull \hbox (badness 10000) in paragraph at lines 562--563
 
  []
 
 
-Overfull \hbox (0.29723pt too wide) in paragraph at lines 508--511
+Overfull \hbox (0.29723pt too wide) in paragraph at lines 590--593
 \TU/lmr/m/n/10.95 To documentation plays decisive role in Software Engineering 
 Project. The first analysing
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 508--511
+Underfull \hbox (badness 10000) in paragraph at lines 590--593
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 515--518
-
- []
-
-[19]
-Underfull \hbox (badness 10000) in paragraph at lines 532--534
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 535--536
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 539--540
-
- []
-
-[20]
-Underfull \hbox (badness 10000) in paragraph at lines 556--559
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 561--563
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 568--569
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 570--571
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 574--576
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 589--591
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 592--593
+Underfull \hbox (badness 10000) in paragraph at lines 597--600
 
  []
 
 [21]
-Underfull \hbox (badness 10000) in paragraph at lines 598--599
+Underfull \hbox (badness 10000) in paragraph at lines 614--616
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 600--601
+Underfull \hbox (badness 10000) in paragraph at lines 617--618
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 602--606
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 611--614
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 618--620
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 627--628
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 629--630
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 632--634
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 641--642
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 643--644
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 646--648
+Underfull \hbox (badness 10000) in paragraph at lines 621--622
 
  []
 
 [22]
-Underfull \hbox (badness 10000) in paragraph at lines 655--656
+Underfull \hbox (badness 10000) in paragraph at lines 638--641
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 657--658
+Underfull \hbox (badness 10000) in paragraph at lines 643--645
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 661--663
+Underfull \hbox (badness 10000) in paragraph at lines 650--651
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 670--671
+Underfull \hbox (badness 10000) in paragraph at lines 652--653
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 672--673
+Underfull \hbox (badness 10000) in paragraph at lines 656--658
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 676--678
+Underfull \hbox (badness 10000) in paragraph at lines 671--673
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 685--686
+Underfull \hbox (badness 10000) in paragraph at lines 674--675
+
+ []
+
+[23]
+Underfull \hbox (badness 10000) in paragraph at lines 680--681
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 687--688
+Underfull \hbox (badness 10000) in paragraph at lines 682--683
 
  []
 
-[23] (./bea-report.aux)
+
+Underfull \hbox (badness 10000) in paragraph at lines 684--688
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 693--696
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 700--702
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 709--710
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 711--712
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 714--716
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 723--724
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 725--726
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 728--730
+
+ []
+
+[24]
+Underfull \hbox (badness 10000) in paragraph at lines 737--738
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 739--740
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 743--745
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 752--753
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 754--755
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 758--760
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 767--768
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 769--770
+
+ []
+
+[25] (./bea-report.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -1579,12 +1613,12 @@ Package logreq Info: Writing requests to 'bea-report.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 24364 strings out of 492912
- 492045 string characters out of 6134892
- 1147175 words of memory out of 5000000
- 28175 multiletter control sequences out of 15000+600000
+ 24370 strings out of 492912
+ 492148 string characters out of 6134892
+ 1148175 words of memory out of 5000000
+ 28180 multiletter control sequences out of 15000+600000
  553968 words of font info for 93 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  50i,9n,54p,9089b,3588s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on bea-report.pdf (23 pages).
+Output written on bea-report.pdf (25 pages).

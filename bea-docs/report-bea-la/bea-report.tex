@@ -225,8 +225,34 @@ requirements\\
 Release planning (if product is to be delivered in releases):\\
 	•	Select and prioritize items of Product Backlog for the next Release Backlog\\
 
-
-
+\subsection{Feasibility}
+\subsubsection{Technical Feasibility}
+This project is a web-based application. The main technologies and tools:
+\begin{itemize}
+  	\item HTML
+  	\item CSS
+  	\item TYPESCRIPT
+  	\item FREE MAKER(ftl)
+  	\item JAVA
+  	\item SPRING-BOOT FRAMEWORK
+  	\item ANGULAR FRAMEWORK
+  	\item POSGRESQL
+  	\item INTELIJ IDEA
+  	\item GIT
+  	\item GIFFY(DIAGRAM DRAWING TOOL)
+  	\item LATEX
+  	\item
+  	
+  	\end{itemize}
+ \subsubsection{Financial Feasibility}
+ Being a web application BEA will have a hosting cost.
+ \subsubsection{Resource and Time Feasibility}
+ \begin{itemize}
+ \item Laptop (programming device)
+ \item Hosting
+ \item Programming tools
+ \end{itemize}
+ 
 
 
 \subsection{Analysis} 	 
@@ -235,7 +261,7 @@ Release planning (if product is to be delivered in releases):\\
 \centering
 \includegraphics[width=150mm]{domain-in-use.JPG}
 \caption{This is a Domain model for Beautiful academy(BEA)}
-\label{Life Cucle Models}
+\label{Life Cycle Models}
 \end{figure}
 
 This document describes the domain model of the Beautiful Academy BEA. It introduces the most important concepts and the associations among them. It also introduces the respective multiplicities. \\
@@ -329,7 +355,59 @@ The product backlog is a list of user stories which is used to implement the pro
 
 
 \subsection{Implementation}
-BUILD Backend WITH SPRING BOOT\\
+
+\textbf{\textit{Backend - Srpring-boot }}
+
+\begin{itemize}
+	\item Integration/ Data layer (entity models and repository)	
+	
+	\item	Application/ Service layer (contains logic)
+	\item  Web layer (RESTful controllers)
+
+\end{itemize}
+
+\textbf{What is restful?}
+Building REST services with Spring
+REST has quickly become the de-facto standard for building web services on the web because they’re easy to build and easy to consume.\\
+\textbf{Why REST?} REST embraces the precepts of the web, including its architecture, benefits, and everything else.
+What \textbf{benefits}? The web and its core protocol, HTTP, provide a stack of features:\\
+Suitable actions (GET, POST, PUT, DELETE, …​)\\
+Caching\\
+Redirection and forwarding\\
+Security (encryption and authentication)\\
+
+So building on top of HTTP, REST APIs provide the means to build flexible APIs that can:\\
+Support backward compatibility\\
+Evolvable APIs\\
+
+Scaleable services\\
+
+Securable services\\
+
+A spectrum of stateless to stateful services\\
+
+
+\textbf{\textit{Frontend – Angular}}
+
+\begin{itemize}
+	\item	Angular MVC Framework by Google
+	\item	Component based
+	\item	Main programming Language is Typscript
+	\item	Own structure
+	\item	CSS (Design the Gui)
+	\item   Angular Material Design
+
+\end{itemize}
+\begin{figure}[H]
+\centering
+\includegraphics[width = 130mm]{layer.JPG}
+\caption{Layer model of application implementation}
+\label{layers}
+\end{figure}
+
+\subsubsection{Why Spring Boot And Angular ?}
+
+\textbf{BUILD Backend WITH SPRING BOOT}\\
 Before starting with spring boot, it was clear for me about spring boot that spring boot does not provides any extra features on functionality on top of spring framework. Rather, it provides unlimited defaults configurations and useful conventions to create a stand-lone, production grade web applications in no time.\\
 Spring Boot is the starting point for building all Spring-based applications. Spring Boot is designed to get you up and running as quickly as possible, with minimal upfront configuration of Spring.\\
  -Get started in seconds using Spring Initializer\\
@@ -344,7 +422,7 @@ Spring Boot is the starting point for building all Spring-based applications. Sp
 
 Using these features it has really made building a production grade Spring applications very easy and faster for developers. Also, no XML configurations required anymore with spring boot.\\
 
-ANGULAR FOR FRONT-END \\
+\textbf{ANGULAR FOR FRONT-END} \\
 The technology for front-end is Angular.\\
 Angular helps build interactive and dynamic single page applications (SPAs) with its compelling features including templating, two-way binding, modularization, RESTful API handling,\\ dependency injection, and AJAX handling. We can use HTML as template language and even extend HTML’ syntax to easily convey the components of the application.\\
 Angular applications are built using TypeScript language, a superscript for JavaScript, which ensures higher security as it supports types (primitives, interfaces, etc.). It helps catch and eliminate errors early when writing the code or performing maintenance tasks.\\
@@ -359,7 +437,11 @@ I like in Angular that it gives our application a clean structure, that is easy 
 It brings a lot of utility code that we can reuse, for example users navigation. Angular applications are more testable.\\
 
 
-
+\subsection{Integration and System testing}
+For testing  our application we have use different tests:
+• JUNIT is used as the main testing tool that automates the testing process.
+• Checklist to check if we have all function we need in UI.
+• Postman to test crud operation in controller
 \section{Conclusion and future work}
 /**
  In the conclusion of the project, you first summarize the most important results of your project in an understandable way. The main thing here is to filter out the essential content from the previous chapters and get to the point in a compact, clear and concise way.
