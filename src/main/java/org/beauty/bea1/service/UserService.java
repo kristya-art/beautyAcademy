@@ -11,6 +11,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.util.StringUtils;
 
 import java.util.Collections;
+import java.util.List;
 import java.util.UUID;
 
 @Service
@@ -33,6 +34,9 @@ public class UserService implements UserDetailsService {
             return false;
         }
        // user.setActive(true);
+        /**The randomUUID() method is used to retrieve a type 4 (pseudo randomly generated) UUID.
+         * The UUID is generated using a cryptographically strong pseudo random number generator.
+         */
         user.setRoles(Collections.singleton(Role.USER));
         user.setActivationCode(UUID.randomUUID().toString());
         userRepo.save(user);
@@ -63,4 +67,11 @@ public class UserService implements UserDetailsService {
         userRepo.save(user);
         return true;
     }
+
+    public User saveUser(User user) { return userRepo.save(user);}
+
+    public void deleteUser(User user) { userRepo.delete(user);}
+
+    public List<User> userList() { return userRepo.findAll();}
+
 }

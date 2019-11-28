@@ -7,6 +7,12 @@ import { CourseComponent } from './course/course.component';
 import {CoursesService} from "./courses.service";
 import { HeaderComponent } from './header/header.component';
 import { CatalogComponent } from './catalog/catalog.component';
+import { RegisterComponent } from './register/register.component';
+import { LoginComponent } from './login/login.component';
+import { HomeComponent } from './home/home.component';
+import {HttpClientModule, ɵHttpInterceptingHandler} from "@angular/common/http";
+import {AppRoutingModule} from "./app-routing/app-routing.module";
+import {FormsModule} from "@angular/forms";
 
 @NgModule({
   declarations: [
@@ -14,14 +20,21 @@ import { CatalogComponent } from './catalog/catalog.component';
     CoursesComponent,
     CourseComponent,
     HeaderComponent,
-    CatalogComponent
+    CatalogComponent,
+    RegisterComponent,
+    LoginComponent,
+    HomeComponent
 
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule,
+    FormsModule,
+    HttpClientModule
   ],
   providers: [
-    CoursesService
+    CoursesService,
+    ɵHttpInterceptingHandler
   ],
   bootstrap: [AppComponent]
 })

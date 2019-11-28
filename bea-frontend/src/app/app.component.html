@@ -1,12 +1,19 @@
+<nav class="navbar navbar-inverse ">
+  <ul class="nav navbar-nav" routerLinkActive="active">
+    <li class="nav-item"><a class="nav-link" routerLink="home">Home</a></li>
 
+    <li *ngIf="authority === 'user'" class="nav-item" >
+      <a class="nav-link" routerLink="user">User Board</a>
+    </li>
+    <li *ngIf="authority === 'admin'" class = "nav-item">
+      <a class="nav-link" routerLink="admin">Admin Board</a>
+    </li>
+    <li *ngIf="authority === 'lecturer'" class = "nav-item">
+      <a class="nav-link" routerLink="admin">Lecturer Board</a>
+    </li>
+    <li *ngIf="!authority" class = "nav-item">
+      <a class="nav-link" routerLink="auth/login">Login</a>
+    </li>
 
-
-
-<div style="text-align:center">
-  <h1>
-  <br>
-    {{message}}
-  </h1>
-</div>
-<!--<courses></courses>-->
-<app-catalog></app-catalog>
+    </ul>
+</nav>
