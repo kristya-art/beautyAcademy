@@ -116,13 +116,19 @@ public class AuthController {
 
 	@GetMapping("/activate/{code}")
 	public String activate(@PathVariable String code) {
-		boolean isActivated = userService.activateUser(code);
+//		boolean isActivated = userService.activateUser(code);
+//
+//		if (isActivated) {
+//			return "user seccessfully activated!";
+//		} else {
+//			return "activated code is not found!";
+//		}
+		User user = userRepository.findByActivationCode(code);
+		user.setActive(true);
+		user.setActivationCode(null);
+		userRepository.save(user);
+		return "ok";
 
-		if (isActivated) {
-			return "user seccessfully activated!";
-		} else {
-			return "activated code is not found!";
-		}
 	}
 
 //	@GetMapping("/activate/{code}")

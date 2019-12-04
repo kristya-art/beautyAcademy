@@ -2,6 +2,7 @@ package org.bea.bea.security.services;
 
 import org.bea.bea.model.User;
 import org.bea.bea.repository.UserRepository;
+import org.bea.bea.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
@@ -14,6 +15,8 @@ public class UserDetailsServiceImpl implements UserDetailsService {
 
     @Autowired
     UserRepository userRepository;
+    @Autowired
+    UserService userService;
 
     @Override
     @Transactional
