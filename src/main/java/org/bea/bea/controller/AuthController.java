@@ -20,6 +20,7 @@ import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.crypto.password.PasswordEncoder;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 
 import javax.validation.Valid;
@@ -31,7 +32,7 @@ import java.util.Set;
 @RequestMapping("/api/auth")
 public class AuthController {
 	@Autowired
-    UserService userService;
+	UserService userService;
 
 	@Autowired
 	AuthenticationManager authenticationManager;
@@ -40,14 +41,13 @@ public class AuthController {
 	UserRepository userRepository;
 
 	@Autowired
-    RoleRepository roleRepository;
+	RoleRepository roleRepository;
 
 	@Autowired
 	PasswordEncoder encoder;
 
 	@Autowired
 	JwtProvider jwtProvider;
-
 
 
 	@PostMapping("/signin")
@@ -116,32 +116,24 @@ public class AuthController {
 
 	@GetMapping("/activate/{code}")
 	public String activate(@PathVariable String code) {
-//		boolean isActivated = userService.activateUser(code);
-//
-//		if (isActivated) {
-//			return "user seccessfully activated!";
-//		} else {
-//			return "activated code is not found!";
-//		}
-		User user = userRepository.findByActivationCode(code);
-		user.setActive(true);
-		user.setActivationCode(null);
-		userRepository.save(user);
-		return "ok";
+		boolean isActivated = userService.activateUser(code);
 
+		if (isActivated) {
+			return "user seccessfully activated!";
+		} else {
+			return "activated code is not found!";
+		}
 	}
 
 //	@GetMapping("/activate/{code}")
-//	public String activate(WebRequest request, @RequestParam("code") String code) {
+//	public String activate(Model model, @PathVariable String code){
 //		boolean isActivated = userService.activateUser(code);
+//		// boolean isActivated = userService.addUser(user);
 //
-//		if (isActivated) {
-//			return "user seccessfully activated!";
-//		} else {
-//			return "activated code is not found!";
-//		}
-//		userService.activateUser(code);
-//		return "Alles ok!";
+//		if(isActivated){
+//			model.addAttribute("message","User successfully activated");
+//		}else{model.addAttribute("message", "Activation code is not found!");}
+//		return "login";
 //	}
 
 }

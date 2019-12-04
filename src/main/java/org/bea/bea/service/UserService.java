@@ -72,7 +72,7 @@ public class UserService implements UserDetailsService {
         if (!StringUtils.isEmpty(user.getEmail())) {
             String message = String.format(
                     "Hello, %s! \n" +
-                            "Welcome to Beautiful Academy. Please, visit next link: http://localhost:4200/activate/%s",
+                            "Welcome to Beautiful Academy. Please, visit next link: http://localhost:4200/api/auth/activate/%s",
                     user.getUsername(),
                     user.getActivationCode()
             );
