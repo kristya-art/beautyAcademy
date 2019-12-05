@@ -53,6 +53,8 @@ Thumbs.db
 *.toc
 *.nav
 *.vrb
+*.bcf
+*.synctex.gz
 auto
 stale_outputs_checked
 _region_.tex
