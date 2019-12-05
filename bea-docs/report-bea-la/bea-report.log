@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.10.0 (TeX Live 2019)  (format=lualatex 2019.8.24)  4 DEC 2019 16:26
+This is LuaTeX, Version 1.10.0 (TeX Live 2019)  (format=lualatex 2019.8.24)  5 DEC 2019 09:57
  restricted system commands enabled.
 **bea-report.tex
 (./bea-report.tex
@@ -55,7 +55,7 @@ Lua module: luaotfload-multiscript 2019-09-13 3.00 luaotfload submodule / multis
 cript
 Inserting `luaotfload.rewrite_fontname' at position 5 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.142 seconds
+luaotfload | main : initialization completed in 0.192 seconds
 (/opt/texlive/2019/texmf-dist/tex/latex/koma-script/scrartcl.cls
 Document Class: scrartcl 2019/02/01 v3.26b KOMA-Script document class (article)
 (/opt/texlive/2019/texmf-dist/tex/latex/koma-script/scrkbase.sty
@@ -1744,7 +1744,7 @@ live/2019/texmf-dist/fonts/opentype/public/lm/lmromancaps10-regular.otf></opt/te
 xlive/2019/texmf-dist/fonts/opentype/public/lm/lmroman12-regular.otf></opt/texli
 ve/2019/texmf-dist/fonts/opentype/public/lm/lmroman12-italic.otf></opt/texlive/2
 019/texmf-dist/fonts/opentype/public/lm/lmsans10-bold.otf>
-Output written on bea-report.pdf (25 pages, 573387 bytes).
+Output written on bea-report.pdf (25 pages, 573494 bytes).
 
 PDF statistics: 152 PDF objects out of 1000 (max. 8388607)
  91 compressed objects within 1 object stream
