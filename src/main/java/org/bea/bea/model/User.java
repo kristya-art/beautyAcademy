@@ -6,15 +6,8 @@ import javax.validation.constraints.Size;
 import java.util.HashSet;
 import java.util.Set;
 
+//@MappedSuperclass
 @Entity
-//@Table(name = "users", uniqueConstraints = {
-//        @UniqueConstraint(columnNames = {
-//                "username"
-//        }),
-//        @UniqueConstraint(columnNames = {
-//                "email"
-//        })
-//})
 @Table(name="users")
 public class User {
 
@@ -56,7 +49,7 @@ public class User {
 //    private String weight;
 //    private String height;
 
-    @ManyToMany(fetch = FetchType.LAZY)
+    @ManyToMany(cascade = {CascadeType.ALL},fetch = FetchType.LAZY)
     @JoinTable(name = "user_roles",
             joinColumns = @JoinColumn(name = "user_id"),
             inverseJoinColumns = @JoinColumn(name = "role_id"))

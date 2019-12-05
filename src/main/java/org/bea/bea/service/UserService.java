@@ -1,14 +1,19 @@
 package org.bea.bea.service;
 
+import org.bea.bea.model.Role;
 import org.bea.bea.model.User;
 import org.bea.bea.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
+import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 import org.springframework.util.StringUtils;
 
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
 import java.util.UUID;
 
 @Service
@@ -22,6 +27,9 @@ public class UserService implements UserDetailsService {
     @Autowired
     private MailSender mailSender;
 
+    @Autowired
+    PasswordEncoder encoder;
+
     @Override
     public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
           return (UserDetails) userRepo.findByUsername(username);
@@ -32,6 +40,18 @@ public class UserService implements UserDetailsService {
 //    public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
 //       return userRepo.findByUsername(username);
 //  }
+
+    public void saveUser(User user){
+        // user = new User(user.getName(), user.getUsername(), user.getEmail(),
+             //   encoder.encode(user.getPassword()));
+        encoder.encode(user.getPassword());
+
+        Set<String> strRoles = new HashSet<>();
+        Set<Role> roles = new HashSet<>();
+        user.setRoles(roles);
+
+        userRepo.save(user);
+    }
 
     public boolean addUser(User user) {
         User userFromDb = (User) userRepo.findByUsername(user.getUsername());
@@ -54,7 +74,7 @@ public class UserService implements UserDetailsService {
         if (!StringUtils.isEmpty(user.getEmail())) {
             String message = String.format(
                     "Hello, %s! \n" +
-                            "Welcome to Beautiful Academy. Please, visit next link: http://localhost:4200/activate/%s",
+                            "Welcome to Beautiful Academy. Please, visit next link: http://localhost:4200/api/auth/activate/%s",
                     user.getUsername(),
                     user.getActivationCode()
             );
@@ -77,6 +97,10 @@ public class UserService implements UserDetailsService {
         userRepo.save(user);
         return true;
     }
+
+    public List<User> listUsers(){return userRepo.findAll();}
+
+    public void deleteUser(User user){userRepo.delete(user);}
 
 
 }
