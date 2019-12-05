@@ -140,6 +140,16 @@ public class User {
         this.roles = roles;
     }
 
+    public void addRole(Role role){
+       roles.add(role);
+    }
+
+    public void deleteRole(Role role){
+       roles.remove(role);
+    }
+
+
+
 //    public String getActivation_code() {
 //        return activation_code;
 //    }

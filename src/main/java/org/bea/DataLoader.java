@@ -18,6 +18,8 @@ import java.util.Collections;
 import java.util.HashSet;
 import java.util.Set;
 
+import static org.bea.bea.model.RoleName.ROLE_ADMIN;
+
 @Component
 public class DataLoader implements ApplicationRunner {
 
@@ -38,21 +40,22 @@ public class DataLoader implements ApplicationRunner {
     @Override
     public void run(ApplicationArguments args) throws Exception {
 
-        Role role1 = new Role(RoleName.ROLE_ADMIN);
+        Role role1 = new Role(ROLE_ADMIN);
         Role role2 = new Role(RoleName.ROLE_LECTURER);
         Role role3 = new Role(RoleName.ROLE_USER);
         roleRepository.save(role1);
         roleRepository.save(role2);
         roleRepository.save(role3);
 
-        User steve = new Participant("steve","steve","steve@gmal.com","stevesteve");
+        User steve = new User("steve","steve","steve@gmal.com","stevesteve");
         Set<Role> roles = new HashSet<>();
-
-       // userRepo.save(steve);
-        Role role = new Role(RoleName.ROLE_ADMIN);
+        Role role = new Role(ROLE_ADMIN);
         roles.add(role);
-        steve.setRoles(roles);
-        steve.setActive(true);
-        userService.saveUser(steve);
+
+       steve.setRoles(roles);
+
+       userService.saveUser(steve);
+
+
     }
 }

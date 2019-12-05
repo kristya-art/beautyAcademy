@@ -20,6 +20,7 @@ import java.util.UUID;
 public class UserService implements UserDetailsService {
 
 
+
     @Autowired
     private UserRepository userRepo;
 
@@ -29,6 +30,9 @@ public class UserService implements UserDetailsService {
 
     @Autowired
     PasswordEncoder encoder;
+
+
+    public UserService(){}
 
     @Override
     public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
@@ -42,13 +46,14 @@ public class UserService implements UserDetailsService {
 //  }
 
     public void saveUser(User user){
-        // user = new User(user.getName(), user.getUsername(), user.getEmail(),
-             //   encoder.encode(user.getPassword()));
-        encoder.encode(user.getPassword());
+      //  user = new User(user.getName(), user.getUsername(), user.getEmail(),
+         //       encoder.encode(user.getPassword()));
 
-        Set<String> strRoles = new HashSet<>();
-        Set<Role> roles = new HashSet<>();
-        user.setRoles(roles);
+       user.setPassword(encoder.encode(user.getPassword()));
+//        Set<Role> roles = new HashSet<>();
+//        user.setRoles(roles);
+//
+//        user.setRoles(user.getRoles());
 
         userRepo.save(user);
     }
