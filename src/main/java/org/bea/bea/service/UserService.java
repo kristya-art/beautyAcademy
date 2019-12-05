@@ -42,8 +42,9 @@ public class UserService implements UserDetailsService {
 //  }
 
     public void saveUser(User user){
-         user = new User(user.getName(), user.getUsername(), user.getEmail(),
-                encoder.encode(user.getPassword()));
+        // user = new User(user.getName(), user.getUsername(), user.getEmail(),
+             //   encoder.encode(user.getPassword()));
+        encoder.encode(user.getPassword());
 
         Set<String> strRoles = new HashSet<>();
         Set<Role> roles = new HashSet<>();

@@ -6,15 +6,8 @@ import javax.validation.constraints.Size;
 import java.util.HashSet;
 import java.util.Set;
 
+//@MappedSuperclass
 @Entity
-//@Table(name = "users", uniqueConstraints = {
-//        @UniqueConstraint(columnNames = {
-//                "username"
-//        }),
-//        @UniqueConstraint(columnNames = {
-//                "email"
-//        })
-//})
 @Table(name="users")
 public class User {
 

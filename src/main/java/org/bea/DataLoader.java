@@ -1,5 +1,6 @@
 package org.bea;
 
+import org.bea.bea.model.Participant;
 import org.bea.bea.model.Role;
 import org.bea.bea.model.RoleName;
 import org.bea.bea.model.User;
@@ -44,7 +45,7 @@ public class DataLoader implements ApplicationRunner {
         roleRepository.save(role2);
         roleRepository.save(role3);
 
-        User steve = new User("steve","steve","steve@gmal.com","stevesteve");
+        User steve = new Participant("steve","steve","steve@gmal.com","stevesteve");
         Set<Role> roles = new HashSet<>();
 
        // userRepo.save(steve);
