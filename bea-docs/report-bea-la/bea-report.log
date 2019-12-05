@@ -1,29 +1,79 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2019/dev/Debian) (preloaded format=xelatex 2019.10.20)  27 NOV 2019 00:57
-entering extended mode
- restricted \write18 enabled.
- %&-line parsing enabled.
+This is LuaTeX, Version 1.10.0 (TeX Live 2019)  (format=lualatex 2019.8.24)  4 DEC 2019 16:26
+ restricted system commands enabled.
 **bea-report.tex
 (./bea-report.tex
 LaTeX2e <2018-12-01>
-(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrartcl.cls
+Lua module: luaotfload-main 2019-09-13 3.00 luaotfload entry point
+Lua module: luaotfload-init 2019-09-13 3.00 luaotfload submodule / initializatio
+n
+Lua module: lualibs 2019-08-11 2.67 ConTeXt Lua standard libraries.
+Lua module: lualibs-extended 2019-08-11 2.67 ConTeXt Lua libraries -- extended c
+ollection.
+Lua module: luaotfload-log 2019-09-13 3.00 luaotfload submodule / logging
+Lua module: luaotfload-parsers 2019-09-13 3.00 luaotfload submodule / filelist
+Lua module: luaotfload-configuration 2019-09-13 3.00 luaotfload submodule / conf
+ig file reader
+luaotfload | conf : Root cache directory is /opt/texlive/2019/texmf-var/luatex-c
+ache/generic/names.
+luaotfload | init : Loading fontloader “fontloader-2019-08-11.lua” from kpse
+-resolved path “/opt/texlive/2019/texmf-dist/tex/luatex/luaotfload/fontloader-
+2019-08-11.lua”.
+Lua-only attribute luaotfload@state = 2
+Lua-only attribute luaotfload@noligature = 3
+Lua-only attribute luaotfload@syllabe = 4
+luaotfload | init : Context OpenType loader version “3.109”
+Inserting `luaotfload.node_processor' at position 1 in `pre_linebreak_filter'.
+Inserting `luaotfload.node_processor' at position 1 in `hpack_filter'.
+Lua module: luaotfload-loaders 2019-09-13 3.00 luaotfload submodule / callback h
+andling
+Inserting `luaotfload.define_font' at position 1 in `define_font'.
+Lua module: luaotfload-database 2019-09-13 3.00 luaotfload submodule / database
+Lua module: luaotfload-unicode 2019-09-13 3.00 luaotfload submodule / Unicode he
+lpers
+Lua module: luaotfload-colors 2019-09-13 3.00 luaotfload submodule / color
+Lua-only attribute luaotfload_color_attribute = 5
+Lua module: luaotfload-resolvers 2019-09-13 3.00 luaotfload submodule / resolver
+s
+luaotfload | conf : Root cache directory is /opt/texlive/2019/texmf-var/luatex-c
+ache/generic/names.
+Lua module: luaotfload-features 2019-09-13 3.00 luaotfload submodule / features
+Lua module: luaotfload-letterspace 2019-09-13 3.00 luaotfload submodule / color
+Lua module: luaotfload-embolden 2019-09-13 3.00 luaotfload submodule / color
+Lua module: luaotfload-notdef 2019-09-13 3.00 luaotfload submodule / color
+Lua module: luaotfload-auxiliary 2019-09-13 3.00 luaotfload submodule / auxiliar
+y functions
+Inserting `luaotfload.aux.set_sscale_dimens' at position 1 in `luaotfload.patch_
+font'.
+Inserting `luaotfload.aux.patch_cambria_domh' at position 2 in `luaotfload.patch
+_font'.
+Inserting `luaotfload.aux.fixup_fontdata' at position 1 in `luaotfload.patch_fon
+t_unsafe'.
+Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
+'.
+Inserting `luaotfload.aux.set_xheight' at position 4 in `luaotfload.patch_font'.
+Lua module: luaotfload-multiscript 2019-09-13 3.00 luaotfload submodule / multis
+cript
+Inserting `luaotfload.rewrite_fontname' at position 5 in `luaotfload.patch_font'
+.
+luaotfload | main : initialization completed in 0.142 seconds
+(/opt/texlive/2019/texmf-dist/tex/latex/koma-script/scrartcl.cls
 Document Class: scrartcl 2019/02/01 v3.26b KOMA-Script document class (article)
+(/opt/texlive/2019/texmf-dist/tex/latex/koma-script/scrkbase.sty
+Package: scrkbase 2019/02/01 v3.26b KOMA-Script package (KOMA-Script-dependent b
+asics and keyval usage)
 
-(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrkbase.sty
-Package: scrkbase 2019/02/01 v3.26b KOMA-Script package (KOMA-Script-dependent 
+(/opt/texlive/2019/texmf-dist/tex/latex/koma-script/scrbase.sty
+Package: scrbase 2019/02/01 v3.26b KOMA-Script package (KOMA-Script-independent 
 basics and keyval usage)
 
-(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrbase.sty
-Package: scrbase 2019/02/01 v3.26b KOMA-Script package (KOMA-Script-independent
- basics and keyval usage)
-
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+(/opt/texlive/2019/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks14
 )
-(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrlfile.sty
+(/opt/texlive/2019/texmf-dist/tex/latex/koma-script/scrlfile.sty
 Package: scrlfile 2019/02/01 v3.26b KOMA-Script package (loading files)
 )))
-(/usr/share/texlive/texmf-dist/tex/latex/koma-script/tocbasic.sty
+(/opt/texlive/2019/texmf-dist/tex/latex/koma-script/tocbasic.sty
 Package: tocbasic 2019/02/01 v3.26b KOMA-Script package (handling toc-files)
 \scr@dte@tocline@numberwidth=\skip41
 \scr@dte@tocline@numbox=\box27
@@ -32,14 +82,15 @@ Package tocbasic Info: omitting babel extension for `toc'
 (tocbasic)             because of feature `nobabel' available
 (tocbasic)             for `toc' on input line 134.
 Class scrartcl Info: File `scrsize11pt.clo' used instead of
-(scrartcl)           file `scrsize11.clo' to setup font sizes on input line 216
-2.
+(scrartcl)           file `scrsize11.clo' to setup font sizes on input line 2162
+.
 
-(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrsize11pt.clo
-File: scrsize11pt.clo 2019/02/01 v3.26b KOMA-Script font size class option (11p
-t)
+(/opt/texlive/2019/texmf-dist/tex/latex/koma-script/scrsize11pt.clo
+File: scrsize11pt.clo 2019/02/01 v3.26b KOMA-Script font size class option (11pt
 )
-(/usr/share/texlive/texmf-dist/tex/latex/koma-script/typearea.sty
+luaotfload | db : Font names database loaded from /opt/texlive/2019/texmf-var/lu
+atex-cache/generic/names/luaotfload-names.luc)
+(/opt/texlive/2019/texmf-dist/tex/latex/koma-script/typearea.sty
 Package: typearea 2019/02/01 v3.26b KOMA-Script package (type area)
 \ta@bcor=\skip42
 \ta@div=\count80
@@ -115,7 +166,7 @@ Package tocbasic Info: omitting babel extension for `lot'
 Class scrartcl Info: Redefining `\numberline' on input line 5957.
 \bibindent=\dimen102
 )
-(/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty
+(/opt/texlive/2019/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2016/04/27 v1.618033 publication quality tables
 \heavyrulewidth=\dimen103
 \lightrulewidth=\dimen104
@@ -135,10 +186,10 @@ Package: booktabs 2016/04/27 v1.618033 publication quality tables
 \@lastruleclass=\count92
 \@thisrulewidth=\dimen115
 )
-(/usr/share/texlive/texmf-dist/tex/latex/colortbl/colortbl.sty
+(/opt/texlive/2019/texmf-dist/tex/latex/colortbl/colortbl.sty
 Package: colortbl 2018/12/12 v1.0d Color table columns (DPC)
 
-(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
+(/opt/texlive/2019/texmf-dist/tex/latex/tools/array.sty
 Package: array 2018/12/30 v2.4k Tabular extension package (FMi)
 \col@sep=\dimen116
 \ar@mcellbox=\box29
@@ -148,28 +199,28 @@ Package: array 2018/12/30 v2.4k Tabular extension package (FMi)
 \backup@length=\skip58
 \ar@cellbox=\box30
 )
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
+(/opt/texlive/2019/texmf-dist/tex/latex/graphics/color.sty
 Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
+(/opt/texlive/2019/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
-Package color Info: Driver file: xetex.def on input line 147.
+Package color Info: Driver file: luatex.def on input line 147.
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/xetex.def
-File: xetex.def 2017/06/24 v5.0h Graphics/color driver for xetex
+(/opt/texlive/2019/texmf-dist/tex/latex/graphics-def/luatex.def
+File: luatex.def 2018/01/08 v1.0l Graphics/color driver for luatex
 ))
 \everycr=\toks16
 \minrowclearance=\skip59
 )
-(/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty
-Package: multirow 2019/01/01 v2.4 Span multiple rows of a table
+(/opt/texlive/2019/texmf-dist/tex/latex/multirow/multirow.sty
+Package: multirow 2019/05/31 v2.5 Span multiple rows of a table
 \multirow@colwidth=\skip60
 \multirow@cntb=\count93
 \multirow@dima=\skip61
 \bigstrutjot=\dimen118
 )
-(/usr/share/texlive/texmf-dist/tex/latex/subfloat/subfloat.sty
+(/opt/texlive/2019/texmf-dist/tex/latex/subfloat/subfloat.sty
 Package: subfloat 2003/08/21 version 2.14
 
 Package `subfloat', Version 2.14 of 2003/08/21.
@@ -182,7 +233,7 @@ Package subfloat Warning: Numbers of floats not counted:
 (subfloat)                Please switch on countmax or remove the code using
 (subfloat)                the counter then..
 
-) (/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
+) (/opt/texlive/2019/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count94
 \float@exts=\toks17
@@ -192,23 +243,25 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 )
 \@float@every@figure=\toks19
 
-(/usr/share/texlive/texmf-dist/tex/latex/lipsum/lipsum.sty
-(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2019-02-15 L3 programming layer (loader) 
+(/opt/texlive/2019/texmf-dist/tex/latex/lipsum/lipsum.sty
+(/opt/texlive/2019/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2019-09-19 L3 programming layer (loader) 
 
-(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3-code.tex
-Package: expl3 2019-02-15 L3 programming layer (code)
+(/opt/texlive/2019/texmf-dist/tex/latex/l3kernel/expl3-code.tex
+Package: expl3 2019-09-19 L3 programming layer (code)
+\ucharcat@table=\catcodetable5
 \c_max_int=\count95
 \l_tmpa_int=\count96
 \l_tmpb_int=\count97
 \g_tmpa_int=\count98
 \g_tmpb_int=\count99
 \g__kernel_prg_map_int=\count100
-\c_log_iow=\count101
-\l_iow_line_count_int=\count102
-\l__iow_line_target_int=\count103
-\l__iow_one_indent_int=\count104
-\l__iow_indent_int=\count105
+\c__ior_term_noprompt_ior=\count101
+\c_log_iow=\count102
+\l_iow_line_count_int=\count103
+\l__iow_line_target_int=\count104
+\l__iow_one_indent_int=\count105
+\l__iow_indent_int=\count106
 \c_zero_dim=\dimen119
 \c_max_dim=\dimen120
 \l_tmpa_dim=\dimen121
@@ -227,75 +280,76 @@ Package: expl3 2019-02-15 L3 programming layer (code)
 \l_tmpb_muskip=\muskip13
 \g_tmpa_muskip=\muskip14
 \g_tmpb_muskip=\muskip15
-\l_keys_choice_int=\count106
-\l__intarray_loop_int=\count107
+\l_keys_choice_int=\count107
+\l__intarray_loop_int=\count108
 \c__intarray_sp_dim=\dimen125
-\g__intarray_font_int=\count108
-\c__fp_leading_shift_int=\count109
-\c__fp_middle_shift_int=\count110
-\c__fp_trailing_shift_int=\count111
-\c__fp_big_leading_shift_int=\count112
-\c__fp_big_middle_shift_int=\count113
-\c__fp_big_trailing_shift_int=\count114
-\c__fp_Bigg_leading_shift_int=\count115
-\c__fp_Bigg_middle_shift_int=\count116
-\c__fp_Bigg_trailing_shift_int=\count117
-\g__fp_array_int=\count118
-\l__fp_array_loop_int=\count119
-\l__sort_length_int=\count120
-\l__sort_min_int=\count121
-\l__sort_top_int=\count122
-\l__sort_max_int=\count123
-\l__sort_true_max_int=\count124
-\l__sort_block_int=\count125
-\l__sort_begin_int=\count126
-\l__sort_end_int=\count127
-\l__sort_A_int=\count128
-\l__sort_B_int=\count129
-\l__sort_C_int=\count130
-\l__tl_analysis_normal_int=\count131
-\l__tl_analysis_index_int=\count132
-\l__tl_analysis_nesting_int=\count133
-\l__tl_analysis_type_int=\count134
-\l__regex_internal_a_int=\count135
-\l__regex_internal_b_int=\count136
-\l__regex_internal_c_int=\count137
-\l__regex_balance_int=\count138
-\l__regex_group_level_int=\count139
-\l__regex_mode_int=\count140
-\c__regex_cs_in_class_mode_int=\count141
-\c__regex_cs_mode_int=\count142
-\l__regex_catcodes_int=\count143
-\l__regex_default_catcodes_int=\count144
-\c__regex_catcode_L_int=\count145
-\c__regex_catcode_O_int=\count146
-\c__regex_catcode_A_int=\count147
-\c__regex_all_catcodes_int=\count148
-\l__regex_show_lines_int=\count149
-\l__regex_min_state_int=\count150
-\l__regex_max_state_int=\count151
-\l__regex_left_state_int=\count152
-\l__regex_right_state_int=\count153
-\l__regex_capturing_group_int=\count154
-\l__regex_min_pos_int=\count155
-\l__regex_max_pos_int=\count156
-\l__regex_curr_pos_int=\count157
-\l__regex_start_pos_int=\count158
-\l__regex_success_pos_int=\count159
-\l__regex_curr_char_int=\count160
-\l__regex_curr_catcode_int=\count161
-\l__regex_last_char_int=\count162
-\l__regex_case_changed_char_int=\count163
-\l__regex_curr_state_int=\count164
-\l__regex_step_int=\count165
-\l__regex_min_active_int=\count166
-\l__regex_max_active_int=\count167
-\l__regex_replacement_csnames_int=\count168
-\l__regex_match_count_int=\count169
-\l__regex_min_submatch_int=\count170
-\l__regex_submatch_int=\count171
-\l__regex_zeroth_submatch_int=\count172
-\g__regex_trace_regex_int=\count173
+\g__intarray_font_int=\count109
+\c__fp_leading_shift_int=\count110
+\c__fp_middle_shift_int=\count111
+\c__fp_trailing_shift_int=\count112
+\c__fp_big_leading_shift_int=\count113
+\c__fp_big_middle_shift_int=\count114
+\c__fp_big_trailing_shift_int=\count115
+\c__fp_Bigg_leading_shift_int=\count116
+\c__fp_Bigg_middle_shift_int=\count117
+\c__fp_Bigg_trailing_shift_int=\count118
+\g__fp_array_int=\count119
+\l__fp_array_loop_int=\count120
+\l__sort_length_int=\count121
+\l__sort_min_int=\count122
+\l__sort_top_int=\count123
+\l__sort_max_int=\count124
+\l__sort_true_max_int=\count125
+\l__sort_block_int=\count126
+\l__sort_begin_int=\count127
+\l__sort_end_int=\count128
+\l__sort_A_int=\count129
+\l__sort_B_int=\count130
+\l__sort_C_int=\count131
+\l__str_internal_int=\count132
+\l__tl_analysis_normal_int=\count133
+\l__tl_analysis_index_int=\count134
+\l__tl_analysis_nesting_int=\count135
+\l__tl_analysis_type_int=\count136
+\l__regex_internal_a_int=\count137
+\l__regex_internal_b_int=\count138
+\l__regex_internal_c_int=\count139
+\l__regex_balance_int=\count140
+\l__regex_group_level_int=\count141
+\l__regex_mode_int=\count142
+\c__regex_cs_in_class_mode_int=\count143
+\c__regex_cs_mode_int=\count144
+\l__regex_catcodes_int=\count145
+\l__regex_default_catcodes_int=\count146
+\c__regex_catcode_L_int=\count147
+\c__regex_catcode_O_int=\count148
+\c__regex_catcode_A_int=\count149
+\c__regex_all_catcodes_int=\count150
+\l__regex_show_lines_int=\count151
+\l__regex_min_state_int=\count152
+\l__regex_max_state_int=\count153
+\l__regex_left_state_int=\count154
+\l__regex_right_state_int=\count155
+\l__regex_capturing_group_int=\count156
+\l__regex_min_pos_int=\count157
+\l__regex_max_pos_int=\count158
+\l__regex_curr_pos_int=\count159
+\l__regex_start_pos_int=\count160
+\l__regex_success_pos_int=\count161
+\l__regex_curr_char_int=\count162
+\l__regex_curr_catcode_int=\count163
+\l__regex_last_char_int=\count164
+\l__regex_case_changed_char_int=\count165
+\l__regex_curr_state_int=\count166
+\l__regex_step_int=\count167
+\l__regex_min_active_int=\count168
+\l__regex_max_active_int=\count169
+\l__regex_replacement_csnames_int=\count170
+\l__regex_match_count_int=\count171
+\l__regex_min_submatch_int=\count172
+\l__regex_submatch_int=\count173
+\l__regex_zeroth_submatch_int=\count174
+\g__regex_trace_regex_int=\count175
 \c_empty_box=\box33
 \l_tmpa_box=\box34
 \l_tmpb_box=\box35
@@ -325,46 +379,45 @@ Package: expl3 2019-02-15 L3 programming layer (code)
 \l_tmpb_coffin=\box44
 \g_tmpa_coffin=\box45
 \g_tmpb_coffin=\box46
+\l__coffin_bounding_shift_dim=\dimen141
+\l__coffin_left_corner_dim=\dimen142
+\l__coffin_right_corner_dim=\dimen143
+\l__coffin_bottom_corner_dim=\dimen144
+\l__coffin_top_corner_dim=\dimen145
+\l__coffin_scaled_total_height_dim=\dimen146
+\l__coffin_scaled_width_dim=\dimen147
 \c__coffin_empty_coffin=\box47
 \l__coffin_display_coffin=\box48
 \l__coffin_display_coord_coffin=\box49
 \l__coffin_display_pole_coffin=\box50
-\l__coffin_display_offset_dim=\dimen141
-\l__coffin_display_x_dim=\dimen142
-\l__coffin_display_y_dim=\dimen143
-\g__file_internal_ior=\read1
-\l__coffin_bounding_shift_dim=\dimen144
-\l__coffin_left_corner_dim=\dimen145
-\l__coffin_right_corner_dim=\dimen146
-\l__coffin_bottom_corner_dim=\dimen147
-\l__coffin_top_corner_dim=\dimen148
-\l__coffin_scaled_total_height_dim=\dimen149
-\l__coffin_scaled_width_dim=\dimen150
-\l__seq_internal_a_int=\count174
-\l__seq_internal_b_int=\count175
+\l__coffin_display_offset_dim=\dimen148
+\l__coffin_display_x_dim=\dimen149
+\l__coffin_display_y_dim=\dimen150
+\g__char_data_ior=\read1
+\l__seq_internal_a_int=\count176
+\l__seq_internal_b_int=\count177
 )
-(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3xdvipdfmx.def
-File: l3xdvipdfmx.def 2019-02-15 v L3 Experimental driver: xdvipdfmx
-\g__driver_image_int=\count176
-\g__driver_pdf_object_int=\count177
+(/opt/texlive/2019/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
+File: l3backend-pdfmode.def 2019-04-06 v L3 backend support: PDF mode
+\l__kernel_color_stack_int=\count178
+\l__pdf_internal_box=\box51
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
-Package: xparse 2018-10-17 L3 Experimental document command parser
-\l__xparse_current_arg_int=\count178
-\g__xparse_grabber_int=\count179
-\l__xparse_m_args_int=\count180
-\l__xparse_mandatory_args_int=\count181
+(/opt/texlive/2019/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2019-05-28 L3 Experimental document command parser
+\l__xparse_current_arg_int=\count179
+\g__xparse_grabber_int=\count180
+\l__xparse_m_args_int=\count181
 \l__xparse_v_nesting_int=\count182
 )
 Package: lipsum 2019/01/02 v2.2 150 paragraphs of Lorem Ipsum dummy text
 
-(/usr/share/texlive/texmf-dist/tex/latex/lipsum/lipsum.ltd.tex
+(/opt/texlive/2019/texmf-dist/tex/latex/lipsum/lipsum.ltd.tex
 File: lipsum.ltd.tex 2019/01/02 v2.2 The Lorem ipsum dummy text
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/kpfonts/kpfonts.sty
+(/opt/texlive/2019/texmf-dist/tex/latex/kpfonts/kpfonts.sty
 Package: kpfonts  2010/08/20 v3.31
 
-(/usr/share/texlive/texmf-dist/tex/latex/base/textcomp.sty
+(/opt/texlive/2019/texmf-dist/tex/latex/base/textcomp.sty
 Package: textcomp 2018/08/11 v2.0j Standard LaTeX package
 Package textcomp Info: Sub-encoding information:
 (textcomp)               5 = only ISO-Adobe without \textcurrency
@@ -380,7 +433,7 @@ Package textcomp Info: Sub-encoding information:
 Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 79.
 Package textcomp Info: Changing ? sub-encoding to TS1/0 on input line 80.
 
-(/usr/share/texlive/texmf-dist/tex/latex/base/ts1enc.def
+(/opt/texlive/2019/texmf-dist/tex/latex/base/ts1enc.def
 File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
 )
 LaTeX Info: Redefining \oldstylenums on input line 334.
@@ -408,7 +461,6 @@ Package textcomp Info: Setting ul9 sub-encoding to TS1/4 on input line 369.
 Package textcomp Info: Setting augie sub-encoding to TS1/5 on input line 370.
 Package textcomp Info: Setting dayrom sub-encoding to TS1/3 on input line 371.
 Package textcomp Info: Setting dayroms sub-encoding to TS1/3 on input line 372.
-
 Package textcomp Info: Setting pxr sub-encoding to TS1/0 on input line 373.
 Package textcomp Info: Setting pxss sub-encoding to TS1/0 on input line 374.
 Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 375.
@@ -447,24 +499,24 @@ Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
 Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
 Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
 )
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+(/opt/texlive/2019/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2018/12/01 v2.17b AMS math features
 \@mathmargin=\skip68
 
 For additional information on amsmath, use the `?' option.
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+(/opt/texlive/2019/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2000/06/29 v2.01 AMS text
 
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+(/opt/texlive/2019/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks20
 \ex@=\dimen151
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+(/opt/texlive/2019/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen152
 )
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+(/opt/texlive/2019/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
 \inf@bad=\count183
@@ -477,8 +529,8 @@ LaTeX Info: Redefining \overline on input line 385.
 LaTeX Info: Redefining \ldots on input line 482.
 LaTeX Info: Redefining \dots on input line 485.
 LaTeX Info: Redefining \cdots on input line 606.
-\Mathstrutbox@=\box51
-\strutbox@=\box52
+\Mathstrutbox@=\box52
+\strutbox@=\box53
 \big@size=\dimen153
 LaTeX Font Info:    Redeclaring font encoding OML on input line 729.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 730.
@@ -505,8 +557,6 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 730.
 LaTeX Info: Redefining \[ on input line 2844.
 LaTeX Info: Redefining \] on input line 2845.
 )
-Invalid UTF-8 byte or sequence at line 157 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 157 replaced by U+FFFD.
 \c@mv@rm=\count195
 \c@mv@boldrm=\count196
 \c@mv@sf=\count197
@@ -766,42 +816,40 @@ LaTeX Font Info:    Overwriting symbol font `largesymbolsA' in version `bold'
 LaTeX Font Info:    Overwriting symbol font `largesymbolsA' in version `rm'
 (Font)                  U/jkpexa/m/n --> U/jkpexa/m/n on input line 617.
 LaTeX Font Info:    Overwriting symbol font `largesymbolsA' in version `boldrm'
-
 (Font)                  U/jkpexa/m/n --> U/jkpexa/bx/n on input line 618.
 LaTeX Font Info:    Overwriting symbol font `largesymbolsA' in version `sf'
 (Font)                  U/jkpexa/m/n --> U/jkpexa/m/n on input line 619.
 LaTeX Font Info:    Overwriting symbol font `largesymbolsA' in version `boldsf'
-
 (Font)                  U/jkpexa/m/n --> U/jkpexa/bx/n on input line 620.
 LaTeX Info: Redefining \not on input line 1580.
 )
-(/usr/share/texlive/texmf-dist/tex/latex/polyglossia/polyglossia.sty
-Package: polyglossia 2018/04/07 v1.43 Alternative to Babel for XeLaTeX and LuaL
-aTeX
+(/opt/texlive/2019/texmf-dist/tex/latex/polyglossia/polyglossia.sty
+Package: polyglossia 2019/04/04 v1.44 Alternative to Babel for XeLaTeX and LuaLa
+TeX
 
-(/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
-Package: etoolbox 2018/08/19 v2.5f e-TeX tools for LaTeX (JAW)
+(/opt/texlive/2019/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2019/09/21 v2.5h e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count199
 )
-(/usr/share/texlive/texmf-dist/tex/latex/makecmds/makecmds.sty
+(/opt/texlive/2019/texmf-dist/tex/latex/makecmds/makecmds.sty
 Package: makecmds 2009/09/03 v1.0a extra command making commands
 )
-(/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+(/opt/texlive/2019/texmf-dist/tex/latex/xkeyval/xkeyval.sty
 Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 
-(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex
-(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+(/opt/texlive/2019/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/opt/texlive/2019/texmf-dist/tex/generic/xkeyval/xkvutils.tex
 \XKV@toks=\toks25
 \XKV@tempa@toks=\toks26
 )
 \XKV@depth=\count266
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec.sty
-Package: fontspec 2019/02/12 v2.7b Font selection for XeLaTeX and LuaLaTeX
-
-(/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
-Package: fontspec-xetex 2019/02/12 v2.7b Font selection for XeLaTeX and LuaLaTe
+(/opt/texlive/2019/texmf-dist/tex/latex/fontspec/fontspec.sty
+Package: fontspec 2019/03/15 v2.7c Font selection for XeLaTeX and LuaLaTeX
+Lua module: fontspec 2019/03/15 2.7c Font selection for XeLaTeX and LuaLaTeX
+(/opt/texlive/2019/texmf-dist/tex/latex/fontspec/fontspec-luatex.sty
+Package: fontspec-luatex 2019/03/15 v2.7c Font selection for XeLaTeX and LuaLaTe
 X
 \l__fontspec_script_int=\count267
 \l__fontspec_language_int=\count268
@@ -818,121 +866,131 @@ X
 \l__fontspec_tmpb_dim=\dimen161
 \l__fontspec_tmpc_dim=\dimen162
 
-(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+(/opt/texlive/2019/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2018/08/11 v2.0j Standard LaTeX package
 
-(/usr/share/texlive/texmf-dist/tex/latex/base/tuenc.def
+(/opt/texlive/2019/texmf-dist/tex/latex/base/tuenc.def
 File: tuenc.def 2018/08/11 v2.0j Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding TU on input line 82.
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec.cfg)
-LaTeX Info: Redefining \itshape on input line 4044.
-LaTeX Info: Redefining \slshape on input line 4049.
-LaTeX Info: Redefining \scshape on input line 4054.
-LaTeX Info: Redefining \upshape on input line 4059.
-LaTeX Info: Redefining \em on input line 4089.
-LaTeX Info: Redefining \emph on input line 4114.
+(/opt/texlive/2019/texmf-dist/tex/latex/fontspec/fontspec.cfg)
+LaTeX Info: Redefining \itshape on input line 3783.
+LaTeX Info: Redefining \slshape on input line 3788.
+LaTeX Info: Redefining \scshape on input line 3793.
+LaTeX Info: Redefining \upshape on input line 3798.
+LaTeX Info: Redefining \em on input line 3828.
+LaTeX Info: Redefining \emph on input line 3853.
 ))
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+(/opt/texlive/2019/texmf-dist/tex/generic/oberdiek/ifluatex.sty
 Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
-Package ifluatex Info: LuaTeX not detected.
+Package ifluatex Info: LuaTeX detected.
 )
-(/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+(/opt/texlive/2019/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-\xpg@normalclass=\XeTeXcharclass1
+(/opt/texlive/2019/texmf-dist/tex/luatex/luatexbase/luatexbase.sty
+Package: luatexbase 2015/10/04 v1.3 luatexbase interface to LuaTeX 
+
+(/opt/texlive/2019/texmf-dist/tex/luatex/ctablestack/ctablestack.sty
+Package: ctablestack 2015/10/01 v1.0 Catcode table stable support
+\@catcodetablestackcnt=\count278
 )
-(/usr/share/texlive/texmf-dist/tex/latex/polyglossia/gloss-english.ldf
+\CatcodeTableOther=\catcodetable6
+\CatcodeTableExpl=\catcodetable7
+)
+luatex-hyphen: using data file: /opt/texlive/2019/texmf-var/tex/generic/config/l
+anguage.dat.lua
+Lua module: polyglossia 2013/05/11 1.3 Polyglossia)
+(/opt/texlive/2019/texmf-dist/tex/latex/polyglossia/gloss-english.ldf
 File: gloss-english.ldf polyglossia: module for english
 )
 Package polyglossia Info: Default language is english.
 
-(/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.sty
-Package: biblatex 2018/11/02 v3.12 programmable bibliographies (PK/MW)
+(/opt/texlive/2019/texmf-dist/tex/latex/biblatex/biblatex.sty
+Package: biblatex 2019/08/31 v3.13a programmable bibliographies (PK/MW)
 
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
-Package: pdftexcmds 2018/09/10 v0.29 Utility functions of pdfTeX for LuaTeX (HO
-)
+(/opt/texlive/2019/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2019/07/25 v0.30 Utility functions of pdfTeX for LuaTeX (HO)
 
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+
+(/opt/texlive/2019/texmf-dist/tex/generic/oberdiek/infwarerr.sty
 Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
 )
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+(/opt/texlive/2019/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
 Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 )
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+(/opt/texlive/2019/texmf-dist/tex/generic/oberdiek/ifpdf.sty
 Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
 )
-Package pdftexcmds Info: LuaTeX not detected.
-Package pdftexcmds Info: pdfTeX >= 1.30 not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode not found.
+Package pdftexcmds Info: \pdfdraftmode found.
+\pdftexcmds@toks=\toks27
 )
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+(/opt/texlive/2019/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+(/opt/texlive/2019/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
 Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
 
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+(/opt/texlive/2019/texmf-dist/tex/generic/oberdiek/etexcmds.sty
 Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
 )))
-(/usr/share/texlive/texmf-dist/tex/latex/logreq/logreq.sty
+(/opt/texlive/2019/texmf-dist/tex/latex/logreq/logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count278
+\lrq@indent=\count279
 
-(/usr/share/texlive/texmf-dist/tex/latex/logreq/logreq.def
+(/opt/texlive/2019/texmf-dist/tex/latex/logreq/logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+(/opt/texlive/2019/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+(/opt/texlive/2019/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-\c@tabx@nest=\count279
-\c@listtotal=\count280
-\c@listcount=\count281
-\c@liststart=\count282
-\c@liststop=\count283
-\c@citecount=\count284
-\c@citetotal=\count285
-\c@multicitecount=\count286
-\c@multicitetotal=\count287
-\c@instcount=\count288
-\c@maxnames=\count289
-\c@minnames=\count290
-\c@maxitems=\count291
-\c@minitems=\count292
-\c@citecounter=\count293
-\c@maxcitecounter=\count294
-\c@savedcitecounter=\count295
-\c@uniquelist=\count296
-\c@uniquename=\count297
-\c@refsection=\count298
-\c@refsegment=\count299
-\c@maxextratitle=\count300
-\c@maxextratitleyear=\count301
-\c@maxextraname=\count302
-\c@maxextradate=\count303
-\c@maxextraalpha=\count304
-\c@abbrvpenalty=\count305
-\c@highnamepenalty=\count306
-\c@lownamepenalty=\count307
-\c@maxparens=\count308
-\c@parenlevel=\count309
-\blx@tempcnta=\count310
-\blx@tempcntb=\count311
-\blx@tempcntc=\count312
-\blx@maxsection=\count313
-\blx@maxsegment@0=\count314
-\blx@notetype=\count315
-\blx@parenlevel@text=\count316
-\blx@parenlevel@foot=\count317
-\blx@sectionciteorder@0=\count318
-\blx@entrysetcounter=\count319
+\c@tabx@nest=\count280
+\c@listtotal=\count281
+\c@listcount=\count282
+\c@liststart=\count283
+\c@liststop=\count284
+\c@citecount=\count285
+\c@citetotal=\count286
+\c@multicitecount=\count287
+\c@multicitetotal=\count288
+\c@instcount=\count289
+\c@maxnames=\count290
+\c@minnames=\count291
+\c@maxitems=\count292
+\c@minitems=\count293
+\c@citecounter=\count294
+\c@maxcitecounter=\count295
+\c@savedcitecounter=\count296
+\c@uniquelist=\count297
+\c@uniquename=\count298
+\c@refsection=\count299
+\c@refsegment=\count300
+\c@maxextratitle=\count301
+\c@maxextratitleyear=\count302
+\c@maxextraname=\count303
+\c@maxextradate=\count304
+\c@maxextraalpha=\count305
+\c@abbrvpenalty=\count306
+\c@highnamepenalty=\count307
+\c@lownamepenalty=\count308
+\c@maxparens=\count309
+\c@parenlevel=\count310
+\blx@tempcnta=\count311
+\blx@tempcntb=\count312
+\blx@tempcntc=\count313
+\blx@maxsection=\count314
+\blx@maxsegment@0=\count315
+\blx@notetype=\count316
+\blx@parenlevel@text=\count317
+\blx@parenlevel@foot=\count318
+\blx@sectionciteorder@0=\count319
+\blx@entrysetcounter=\count320
 \labelnumberwidth=\skip71
 \labelalphawidth=\skip72
 \biblabelsep=\skip73
@@ -943,87 +1001,88 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 \bibhang=\skip78
 \blx@bcfin=\read2
 \blx@bcfout=\write3
-\c@mincomprange=\count320
-\c@maxcomprange=\count321
-\c@mincompwidth=\count322
+\blx@langwohyphens=\language2
+\c@mincomprange=\count321
+\c@maxcomprange=\count322
+\c@mincompwidth=\count323
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
 
-(/usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-dm.def
-File: blx-dm.def 2018/11/02 v3.12 biblatex localization (PK/MW)
+(/opt/texlive/2019/texmf-dist/tex/latex/biblatex/blx-dm.def
+File: blx-dm.def 2019/08/31 v3.13a biblatex localization (PK/MW)
 )
 Package biblatex Info: Trying to load biblatex style data model...
 Package biblatex Info: ... file 'ieee.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count323
-\c@savedafterword=\count324
-\c@annotator=\count325
-\c@savedannotator=\count326
-\c@author=\count327
-\c@savedauthor=\count328
-\c@bookauthor=\count329
-\c@savedbookauthor=\count330
-\c@commentator=\count331
-\c@savedcommentator=\count332
-\c@editor=\count333
-\c@savededitor=\count334
-\c@editora=\count335
-\c@savededitora=\count336
-\c@editorb=\count337
-\c@savededitorb=\count338
-\c@editorc=\count339
-\c@savededitorc=\count340
-\c@foreword=\count341
-\c@savedforeword=\count342
-\c@holder=\count343
-\c@savedholder=\count344
-\c@introduction=\count345
-\c@savedintroduction=\count346
-\c@namea=\count347
-\c@savednamea=\count348
-\c@nameb=\count349
-\c@savednameb=\count350
-\c@namec=\count351
-\c@savednamec=\count352
-\c@translator=\count353
-\c@savedtranslator=\count354
-\c@shortauthor=\count355
-\c@savedshortauthor=\count356
-\c@shorteditor=\count357
-\c@savedshorteditor=\count358
-\c@labelname=\count359
-\c@savedlabelname=\count360
-\c@institution=\count361
-\c@savedinstitution=\count362
-\c@lista=\count363
-\c@savedlista=\count364
-\c@listb=\count365
-\c@savedlistb=\count366
-\c@listc=\count367
-\c@savedlistc=\count368
-\c@listd=\count369
-\c@savedlistd=\count370
-\c@liste=\count371
-\c@savedliste=\count372
-\c@listf=\count373
-\c@savedlistf=\count374
-\c@location=\count375
-\c@savedlocation=\count376
-\c@organization=\count377
-\c@savedorganization=\count378
-\c@origlocation=\count379
-\c@savedoriglocation=\count380
-\c@origpublisher=\count381
-\c@savedorigpublisher=\count382
-\c@publisher=\count383
-\c@savedpublisher=\count384
-\c@language=\count385
-\c@savedlanguage=\count386
-\c@origlanguage=\count387
-\c@savedoriglanguage=\count388
-\c@pageref=\count389
-\c@savedpageref=\count390
+\c@afterword=\count324
+\c@savedafterword=\count325
+\c@annotator=\count326
+\c@savedannotator=\count327
+\c@author=\count328
+\c@savedauthor=\count329
+\c@bookauthor=\count330
+\c@savedbookauthor=\count331
+\c@commentator=\count332
+\c@savedcommentator=\count333
+\c@editor=\count334
+\c@savededitor=\count335
+\c@editora=\count336
+\c@savededitora=\count337
+\c@editorb=\count338
+\c@savededitorb=\count339
+\c@editorc=\count340
+\c@savededitorc=\count341
+\c@foreword=\count342
+\c@savedforeword=\count343
+\c@holder=\count344
+\c@savedholder=\count345
+\c@introduction=\count346
+\c@savedintroduction=\count347
+\c@namea=\count348
+\c@savednamea=\count349
+\c@nameb=\count350
+\c@savednameb=\count351
+\c@namec=\count352
+\c@savednamec=\count353
+\c@translator=\count354
+\c@savedtranslator=\count355
+\c@shortauthor=\count356
+\c@savedshortauthor=\count357
+\c@shorteditor=\count358
+\c@savedshorteditor=\count359
+\c@labelname=\count360
+\c@savedlabelname=\count361
+\c@institution=\count362
+\c@savedinstitution=\count363
+\c@lista=\count364
+\c@savedlista=\count365
+\c@listb=\count366
+\c@savedlistb=\count367
+\c@listc=\count368
+\c@savedlistc=\count369
+\c@listd=\count370
+\c@savedlistd=\count371
+\c@liste=\count372
+\c@savedliste=\count373
+\c@listf=\count374
+\c@savedlistf=\count375
+\c@location=\count376
+\c@savedlocation=\count377
+\c@organization=\count378
+\c@savedorganization=\count379
+\c@origlocation=\count380
+\c@savedoriglocation=\count381
+\c@origpublisher=\count382
+\c@savedorigpublisher=\count383
+\c@publisher=\count384
+\c@savedpublisher=\count385
+\c@language=\count386
+\c@savedlanguage=\count387
+\c@origlanguage=\count388
+\c@savedoriglanguage=\count389
+\c@pageref=\count390
+\c@savedpageref=\count391
 \shorthandwidth=\skip79
 \shortjournalwidth=\skip80
 \shortserieswidth=\skip81
@@ -1041,61 +1100,67 @@ Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
 Package biblatex Info: Trying to load enhanced support for Unicode engines...
 Package biblatex Info: ... file 'blx-unicode.def' found.
 
-(/usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-unicode.def)
+(/opt/texlive/2019/texmf-dist/tex/latex/biblatex/blx-unicode.def)
 Package biblatex Info: Trying to load compatibility code...
 Package biblatex Info: ... file 'blx-compat.def' found.
 
-(/usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-compat.def
-File: blx-compat.def 2018/11/02 v3.12 biblatex compatibility (PK/MW)
+(/opt/texlive/2019/texmf-dist/tex/latex/biblatex/blx-compat.def
+File: blx-compat.def 2019/08/31 v3.13a biblatex compatibility (PK/MW)
 )
 Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
 
-(/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.def
-File: biblatex.def 2018/11/02 v3.12 biblatex compatibility (PK/MW)
-\c@textcitecount=\count391
-\c@textcitetotal=\count392
-\c@textcitemaxnames=\count393
-\c@biburlnumpenalty=\count394
-\c@biburlucpenalty=\count395
-\c@biburllcpenalty=\count396
-\c@smartand=\count397
+(/opt/texlive/2019/texmf-dist/tex/latex/biblatex/biblatex.def
+File: biblatex.def 2019/08/31 v3.13a biblatex compatibility (PK/MW)
+\c@textcitecount=\count392
+\c@textcitetotal=\count393
+\c@textcitemaxnames=\count394
+\c@biburlbigbreakpenalty=\count395
+\c@biburlbreakpenalty=\count396
+\c@biburlnumpenalty=\count397
+\c@biburlucpenalty=\count398
+\c@biburllcpenalty=\count399
+\biburlbigskip=\muskip18
+\biburlnumskip=\muskip19
+\biburlucskip=\muskip20
+\biburllcskip=\muskip21
+\c@smartand=\count400
 )
 Package biblatex Info: Trying to load bibliography style 'ieee'...
 Package biblatex Info: ... file 'ieee.bbx' found.
 
-(/usr/share/texlive/texmf-dist/tex/latex/biblatex-ieee/ieee.bbx
-File: ieee.bbx 2018/08/20 v1.3 biblatex bibliography style
+(/opt/texlive/2019/texmf-dist/tex/latex/biblatex-ieee/ieee.bbx
+File: ieee.bbx 2019/06/19 v1.3a biblatex bibliography style
 Package biblatex Info: Trying to load bibliography style 'numeric-comp'...
 Package biblatex Info: ... file 'numeric-comp.bbx' found.
 
-(/usr/share/texlive/texmf-dist/tex/latex/biblatex/bbx/numeric-comp.bbx
-File: numeric-comp.bbx 2018/11/02 v3.12 biblatex bibliography style (PK/MW)
+(/opt/texlive/2019/texmf-dist/tex/latex/biblatex/bbx/numeric-comp.bbx
+File: numeric-comp.bbx 2019/08/31 v3.13a biblatex bibliography style (PK/MW)
 Package biblatex Info: Trying to load bibliography style 'numeric'...
 Package biblatex Info: ... file 'numeric.bbx' found.
 
-(/usr/share/texlive/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx
-File: numeric.bbx 2018/11/02 v3.12 biblatex bibliography style (PK/MW)
+(/opt/texlive/2019/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx
+File: numeric.bbx 2019/08/31 v3.13a biblatex bibliography style (PK/MW)
 Package biblatex Info: Trying to load bibliography style 'standard'...
 Package biblatex Info: ... file 'standard.bbx' found.
 
-(/usr/share/texlive/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
-File: standard.bbx 2018/11/02 v3.12 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count398
-\c@bbx:relatedtotal=\count399
+(/opt/texlive/2019/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
+File: standard.bbx 2019/08/31 v3.13a biblatex bibliography style (PK/MW)
+\c@bbx:relatedcount=\count401
+\c@bbx:relatedtotal=\count402
 ))))
 Package biblatex Info: Trying to load citation style 'ieee'...
 Package biblatex Info: ... file 'ieee.cbx' found.
 
-(/usr/share/texlive/texmf-dist/tex/latex/biblatex-ieee/ieee.cbx
-File: ieee.cbx 2018/08/20 v1.3 biblatex citation style
+(/opt/texlive/2019/texmf-dist/tex/latex/biblatex-ieee/ieee.cbx
+File: ieee.cbx 2019/06/19 v1.3a biblatex citation style
 Package biblatex Info: Trying to load citation style 'numeric-comp'...
 Package biblatex Info: ... file 'numeric-comp.cbx' found.
 
-(/usr/share/texlive/texmf-dist/tex/latex/biblatex/cbx/numeric-comp.cbx
-File: numeric-comp.cbx 2018/11/02 v3.12 biblatex citation style (PK/MW)
-\c@cbx@tempcnta=\count400
-\c@cbx@tempcntb=\count401
+(/opt/texlive/2019/texmf-dist/tex/latex/biblatex/cbx/numeric-comp.cbx
+File: numeric-comp.cbx 2019/08/31 v3.13a biblatex citation style (PK/MW)
+\c@cbx@tempcnta=\count403
+\c@cbx@tempcntb=\count404
 Package biblatex Info: Redefining '\cite'.
 Package biblatex Info: Redefining '\parencite'.
 Package biblatex Info: Redefining '\footcite'.
@@ -1114,45 +1179,46 @@ Package biblatex Info: Redefining '\cites'.
 Package biblatex Info: Trying to load configuration file...
 Package biblatex Info: ... file 'biblatex.cfg' found.
 
-(/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.cfg
+(/opt/texlive/2019/texmf-dist/tex/latex/biblatex/biblatex.cfg
 File: biblatex.cfg 
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+(/opt/texlive/2019/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+(/opt/texlive/2019/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+(/opt/texlive/2019/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+(/opt/texlive/2019/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: xetex.def on input line 99.
+Package graphics Info: Driver file: luatex.def on input line 99.
 )
 \Gin@req@height=\dimen163
 \Gin@req@width=\dimen164
 )
 
-Package biblatex Warning: File 'english-ieee.lbx' not found!
-(biblatex)                Ignoring mapping 'english' -> 'english-ieee'.
+Package biblatex Warning: Package 'polyglossia' detected.
+(biblatex)                Please note that biblatex's polyglossia
+(biblatex)                interface has some rough edges.
+(biblatex)                Language variants are not picked up correctly.
+(biblatex)                You can disable this warning by defining the macro
+(biblatex)                '\blx@nowarnpolyglossia' in the preamble.
 
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
-(/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/english.lbx
-File: english.lbx 2018/11/02 v3.12 biblatex localization (PK/MW)
+(/opt/texlive/2019/texmf-dist/tex/latex/biblatex/lbx/english.lbx
+File: english.lbx 2019/08/31 v3.13a biblatex localization (PK/MW)
 )
 
 Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 (biblatex)                Loading 'csquotes' recommended.
 
-\@quotelevel=\count402
-\@quotereset=\count403
+\@quotelevel=\count405
+\@quotereset=\count406
 (./bea-report.aux
-
-LaTeX Warning: Label `Life Cucle Models' multiply defined.
-
 
 LaTeX Warning: Label `ABCDE' multiply defined.
 
@@ -1166,11 +1232,11 @@ LaTeX Warning: Label `ABCDE' multiply defined.
 LaTeX Warning: Label `tab:typo' multiply defined.
 
 )
-\openout1 = `bea-report.aux'.
+\openout1 = bea-report.aux
 
 LaTeX Font Info:    Checking defaults for OML/jkp/m/it on input line 27.
 LaTeX Font Info:    Try loading font information for OML+jkp on input line 27.
- (/usr/share/texlive/texmf-dist/tex/latex/kpfonts/omljkp.fd
+ (/opt/texlive/2019/texmf-dist/tex/latex/kpfonts/omljkp.fd
 File: omljkp.fd 2006/08/15 v1.0
 )
 LaTeX Font Info:    ... okay on input line 27.
@@ -1181,7 +1247,7 @@ LaTeX Font Info:    ... okay on input line 27.
 LaTeX Font Info:    Checking defaults for OMS/jkp/m/n on input line 27.
 LaTeX Font Info:    Try loading font information for OMS+jkp on input line 27.
 
-(/usr/share/texlive/texmf-dist/tex/latex/kpfonts/omsjkp.fd
+(/opt/texlive/2019/texmf-dist/tex/latex/kpfonts/omsjkp.fd
 File: omsjkp.fd 2006/08/15 v1.0
 )
 LaTeX Font Info:    ... okay on input line 27.
@@ -1190,31 +1256,64 @@ LaTeX Font Info:    ... okay on input line 27.
 LaTeX Font Info:    Checking defaults for OMX/jkp/m/n on input line 27.
 LaTeX Font Info:    Try loading font information for OMX+jkp on input line 27.
 
-(/usr/share/texlive/texmf-dist/tex/latex/kpfonts/omxjkp.fd
+(/opt/texlive/2019/texmf-dist/tex/latex/kpfonts/omxjkp.fd
 File: omxjkp.fd 2006/08/15 v1.0
 )
 LaTeX Font Info:    ... okay on input line 27.
 LaTeX Font Info:    Checking defaults for U/jkpexa/m/n on input line 27.
 LaTeX Font Info:    Try loading font information for U+jkpexa on input line 27.
 
-
-(/usr/share/texlive/texmf-dist/tex/latex/kpfonts/ujkpexa.fd
+(/opt/texlive/2019/texmf-dist/tex/latex/kpfonts/ujkpexa.fd
 File: ujkpexa.fd 2006/08/15 v1.0
 )
 LaTeX Font Info:    ... okay on input line 27.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 27.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 27.
 
-(/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
+(/opt/texlive/2019/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 27.
-Package biblatex Info: XeTeX detected.
+
+(/opt/texlive/2019/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count407
+\scratchdimen=\dimen165
+\scratchbox=\box54
+\nofMPsegments=\count408
+\nofMParguments=\count409
+\everyMPshowfont=\toks28
+\MPscratchCnt=\count410
+\MPscratchDim=\dimen166
+\MPnumerator=\count411
+\makeMPintoPDFobject=\count412
+\everyMPtoPDFconversion=\toks29
+) (/opt/texlive/2019/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+(/opt/texlive/2019/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+
+(/opt/texlive/2019/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+))
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 43
+8.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG
+,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+
+(/opt/texlive/2019/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+
+))
+Package biblatex Info: LuaTeX detected.
 (biblatex)             Assuming input encoding 'utf8'.
 Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'utf8'.
-\openout3 = `bea-report.bcf'.
 
+\openout3 = bea-report.bcf
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'bea-report.bbl' not found.
 
@@ -1231,38 +1330,37 @@ LaTeX Font Warning: Font shape `TU/lmss/b/sc' undefined
 
 LaTeX Font Info:    Font shape `TU/lmss/b/sc' in size <17.28> not available
 (Font)              Font shape `TU/lmss/bx/n' tried instead on input line 45.
-File: ./photos/bea_logo.JPG Graphic file (type bmp)
-<./photos/bea_logo.JPG>
+<./photos/bea_logo.JPG, id=1, 400.49625pt x 187.07391pt>
+File: ./photos/bea_logo.JPG Graphic file (type jpg)
+<use ./photos/bea_logo.JPG>
+Package luatex.def Info: ./photos/bea_logo.JPG  used on input line 45.
+(luatex.def)             Requested size: 170.71652pt x 79.7437pt.
 LaTeX Font Info:    Font shape `TU/lmss/b/sc' in size <20.74> not available
 (Font)              Font shape `TU/lmss/bx/n' tried instead on input line 45.
 LaTeX Font Info:    Font shape `TU/lmss/b/sc' in size <10> not available
 (Font)              Font shape `TU/lmss/bx/n' tried instead on input line 45.
 LaTeX Font Info:    Try loading font information for OT1+jkp on input line 45.
-(/usr/share/texlive/texmf-dist/tex/latex/kpfonts/ot1jkp.fd
+(/opt/texlive/2019/texmf-dist/tex/latex/kpfonts/ot1jkp.fd
 File: ot1jkp.fd 2007/08/30 Fontinst v1.928 font definitions for OT1/jkp.
 )
 LaTeX Font Info:    Try loading font information for U+jkpmia on input line 45.
 
-
-(/usr/share/texlive/texmf-dist/tex/latex/kpfonts/ujkpmia.fd
+(/opt/texlive/2019/texmf-dist/tex/latex/kpfonts/ujkpmia.fd
 File: ujkpmia.fd 2006/08/15 v1.0
 )
 LaTeX Font Info:    Try loading font information for U+jkpsya on input line 45.
 
-
-(/usr/share/texlive/texmf-dist/tex/latex/kpfonts/ujkpsya.fd
+(/opt/texlive/2019/texmf-dist/tex/latex/kpfonts/ujkpsya.fd
 File: ujkpsya.fd 2006/08/15 v1.0
 )
 LaTeX Font Info:    Try loading font information for U+jkpsyb on input line 45.
 
-
-(/usr/share/texlive/texmf-dist/tex/latex/kpfonts/ujkpsyb.fd
+(/opt/texlive/2019/texmf-dist/tex/latex/kpfonts/ujkpsyb.fd
 File: ujkpsyb.fd 2006/08/15 v1.0
 )
 LaTeX Font Info:    Try loading font information for U+jkpsyc on input line 45.
 
-
-(/usr/share/texlive/texmf-dist/tex/latex/kpfonts/ujkpsyc.fd
+(/opt/texlive/2019/texmf-dist/tex/latex/kpfonts/ujkpsyc.fd
 File: ujkpsyc.fd 2006/08/15 v1.0
 )
 LaTeX Font Info:    Font shape `TU/lmss/b/n' in size <14.4> not available
@@ -1271,14 +1369,15 @@ LaTeX Font Info:    Font shape `TU/lmss/b/n' in size <14.4> not available
 [1
 
 
-])
+{/opt/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}<./photos/bea_lo
+go.JPG>])
 \tf@toc=\write4
-\openout4 = `bea-report.toc'.
 
+\openout4 = bea-report.toc
  [2]
 
-LaTeX Warning: Citation 'Diniz:2010:UG0:525452.452352' on page 3 undefined on i
-nput line 57.
+LaTeX Warning: Citation 'Diniz:2010:UG0:525452.452352' on page 3 undefined on in
+put line 57.
 
 [3
 
@@ -1286,9 +1385,9 @@ nput line 57.
 LaTeX Font Info:    Font shape `TU/lmss/b/n' in size <12> not available
 (Font)              Font shape `TU/lmss/bx/n' tried instead on input line 64.
 
-Overfull \hbox (6.07884pt too wide) in paragraph at lines 81--85
-\TU/lmr/m/n/10.95 This application will establish a network between the lecture
-rs and participants. Academia
+Overfull \hbox (6.07881pt too wide) in paragraph at lines 81--85
+\TU/lmr/m/n/10.95 This ap-pli-ca-tion will es-tab-lish a net-work be-tween the 
+lec-tur-ers and par-tic-i-pants. Academia
  []
 
 
@@ -1307,21 +1406,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 150--166
  []
 
 [7]
-File: ./photos/lc.JPG Graphic file (type bmp)
-<./photos/lc.JPG>
+<./photos/lc.JPG, id=32, 714.67pt x 375.4025pt>
+File: ./photos/lc.JPG Graphic file (type jpg)
+<use ./photos/lc.JPG>
+Package luatex.def Info: ./photos/lc.JPG  used on input line 170.
+(luatex.def)             Requested size: 170.71652pt x 89.67455pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 175--196
 
  []
 
-[8]
+[8<./photos/lc.JPG>]
 Underfull \hbox (badness 10000) in paragraph at lines 197--227
 
  []
 
 [9]
-File: ./photos/domain-in-use.JPG Graphic file (type bmp)
-<./photos/domain-in-use.JPG>
+<./photos/domain-in-use.JPG, id=40, 603.75563pt x 436.25484pt>
+File: ./photos/domain-in-use.JPG Graphic file (type jpg)
+<use ./photos/domain-in-use.JPG>
+Package luatex.def Info: ./photos/domain-in-use.JPG  used on input line 262.
+(luatex.def)             Requested size: 426.79134pt x 308.38513pt.
 
 Overfull \hbox (8.53578pt too wide) in paragraph at lines 262--265
  [][] 
@@ -1345,7 +1450,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 271--282
 
  []
 
-[10] [11]
+[10] [11<./photos/domain-in-use.JPG>]
 Underfull \hbox (badness 10000) in paragraph at lines 283--284
 
  []
@@ -1361,15 +1466,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 301--302
  []
 
 
-Overfull \hbox (1195.85794pt too wide) in paragraph at lines 305--338
+Overfull \hbox (1195.85857pt too wide) in paragraph at lines 305--338
  [][] 
  []
 
-File: ./photos/ssd-login.JPG Graphic file (type bmp)
-<./photos/ssd-login.JPG>
+<./photos/ssd-login.JPG, id=51, 484.81125pt x 388.45125pt>
+File: ./photos/ssd-login.JPG Graphic file (type jpg)
+<use ./photos/ssd-login.JPG>
+Package luatex.def Info: ./photos/ssd-login.JPG  used on input line 347.
+(luatex.def)             Requested size: 284.52756pt x 227.98692pt.
 [13]
-Missing character: There is no ​ in font [lmroman10-regular]:mapping=tex-text;!
-
 Underfull \hbox (badness 10000) in paragraph at lines 369--378
 
  []
@@ -1384,7 +1490,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 383--384
 
  []
 
-[14]
+[14<./photos/ssd-login.JPG>]
 Underfull \hbox (badness 10000) in paragraph at lines 385--386
 
  []
@@ -1394,14 +1500,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 387--388
 
  []
 
-File: ./photos/layer.JPG Graphic file (type bmp)
-<./photos/layer.JPG>
+<./photos/layer.JPG, id=58, 679.41328pt x 315.80484pt>
+File: ./photos/layer.JPG Graphic file (type jpg)
+<use ./photos/layer.JPG>
+Package luatex.def Info: ./photos/layer.JPG  used on input line 403.
+(luatex.def)             Requested size: 369.88582pt x 171.92952pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 410--422
 
  []
 
-[15]
+[15<./photos/layer.JPG>]
 Underfull \hbox (badness 10000) in paragraph at lines 423--424
 
  []
@@ -1416,15 +1525,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 425--438
 LaTeX Warning: Empty bibliography on input line 468.
 
 [17]
-File: ./photos/agenda.jpg Graphic file (type bmp)
-<./photos/agenda.jpg>
+<./photos/agenda.jpg, id=68, 856.19875pt x 496.85625pt>
+File: ./photos/agenda.jpg Graphic file (type jpg)
+<use ./photos/agenda.jpg>
+Package luatex.def Info: ./photos/agenda.jpg  used on input line 485.
+(luatex.def)             Requested size: 369.88582pt x 214.64476pt.
 
-Overfull \hbox (481.7078pt too wide) in paragraph at lines 493--549
+Overfull \hbox (481.708pt too wide) in paragraph at lines 493--549
  [][] 
  []
 
-[18] [19]
-Overfull \vbox (89.29964pt too high) has occurred while \output is active []
+[18<./photos/agenda.jpg>] [19]
+Overfull \vbox (89.29965pt too high) has occurred while \output is active []
 
 
 [20]
@@ -1433,9 +1545,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 562--563
  []
 
 
-Overfull \hbox (0.29723pt too wide) in paragraph at lines 590--593
-\TU/lmr/m/n/10.95 To documentation plays decisive role in Software Engineering 
-Project. The first analysing
+Overfull \hbox (0.29724pt too wide) in paragraph at lines 590--593
+\TU/lmr/m/n/10.95 To doc-u-men-ta-tion plays de-ci-sive role in Soft-ware En-gi
+-neer-ing Project. The first analysing
  []
 
 
@@ -1609,16 +1721,33 @@ Package biblatex Warning: Please (re)run Biber on the file:
 (biblatex)                and rerun LaTeX afterwards.
 
 Package logreq Info: Writing requests to 'bea-report.run.xml'.
-\openout1 = `bea-report.run.xml'.
 
- ) 
-Here is how much of TeX's memory you used:
- 24370 strings out of 492912
- 492148 string characters out of 6134892
- 1148175 words of memory out of 5000000
- 28180 multiletter control sequences out of 15000+600000
- 553968 words of font info for 93 fonts, out of 8000000 for 9000
- 1348 hyphenation exceptions out of 8191
- 50i,9n,54p,9089b,3588s stack positions out of 5000i,500n,10000p,200000b,80000s
+\openout1 = bea-report.run.xml
+)
 
-Output written on bea-report.pdf (25 pages).
+Here is how much of LuaTeX's memory you used:
+ 25983 strings out of 494291
+ 100000,1373583 words of node,token memory allocated
+ 602 words of node memory still in use:
+   6 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 8 attribute, 74 glue_spec,
+ 8 attribute_list, 1 write nodes
+   avail lists: 1:3,2:1853,3:135,4:58,5:275,6:28,7:4401,8:2,9:678,10:11,11:321
+ 29508 multiletter control sequences out of 65536+600000
+ 106 fonts using 11818391 bytes
+ 50i,9n,71p,9088b,2223s stack positions out of 5000i,500n,10000p,200000b,100000s
+</opt/texlive/2019/texmf-dist/fonts/opentype/public/lm/lmroman10-italic.otf></op
+t/texlive/2019/texmf-dist/fonts/opentype/public/lm/lmromandemi10-oblique.otf></o
+pt/texlive/2019/texmf-dist/fonts/opentype/public/lm/lmromandemi10-regular.otf></
+opt/texlive/2019/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf></opt
+/texlive/2019/texmf-dist/fonts/opentype/public/lm/lmmono12-regular.otf></opt/tex
+live/2019/texmf-dist/fonts/opentype/public/lm/lmromancaps10-regular.otf></opt/te
+xlive/2019/texmf-dist/fonts/opentype/public/lm/lmroman12-regular.otf></opt/texli
+ve/2019/texmf-dist/fonts/opentype/public/lm/lmroman12-italic.otf></opt/texlive/2
+019/texmf-dist/fonts/opentype/public/lm/lmsans10-bold.otf>
+Output written on bea-report.pdf (25 pages, 573387 bytes).
+
+PDF statistics: 152 PDF objects out of 1000 (max. 8388607)
+ 91 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 131072)
+ 1 words of extra memory for PDF output out of 10000 (max. 100000000)
+
