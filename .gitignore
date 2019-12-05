@@ -18,7 +18,7 @@
 *.jar
 *.rar
 *.tar
-### *.zip are provided as solutions
+*.zip are provided as solutions
 
 # Logs and databases #
 ######################
@@ -53,15 +53,23 @@ Thumbs.db
 *.toc
 *.nav
 *.vrb
+*.bcf
+*.synctex.gz
 auto
 stale_outputs_checked
 _region_.tex
+*run.xml
 
 # IntelliJ
 ##########
 
 *.iml
 .idea
+
+# Maven
+#######
+
+target
 
 # Other
 #######
