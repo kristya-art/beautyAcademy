@@ -109,7 +109,8 @@ public class AuthController {
 		//userRepository.save(user);
 		userService.addUser(user);
 
-		return new ResponseEntity<>(new ResponseMessage("User registered successfully!"), HttpStatus.OK);
+		return new ResponseEntity<>(new ResponseMessage("User registered successfully, please check your account to confirm your" +
+				"registration!"), HttpStatus.OK);
 
 
 	}

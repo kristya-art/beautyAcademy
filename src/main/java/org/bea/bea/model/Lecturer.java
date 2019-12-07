@@ -9,8 +9,8 @@ import java.util.HashSet;
 @Entity
 public class Lecturer extends User{
 
-    @ManyToMany
-    public Collection<Course> courses = new HashSet<>();
+//    @ManyToMany
+//    public Collection<Course> courses = new HashSet<>();
 
     public Lecturer(){super();}
 
@@ -18,11 +18,11 @@ public class Lecturer extends User{
         super(name,username,email,password);
     }
 
-    public void addCourse(Course course) {
-        courses.add(course);
-    }
-
-    public void removeCourse(Course course) {
-        courses.remove(course);
-    }
+//    public void addCourse(Course course) {
+//        courses.add(course);
+//    }
+//
+//    public void removeCourse(Course course) {
+//        courses.remove(course);
+//    }
 }

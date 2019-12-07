@@ -8,8 +8,8 @@ import java.util.HashSet;
 @Entity
 public class Participant extends User{
 
-    @ManyToMany()
-    private Collection<Course> courses = new HashSet<>();
+  //  @ManyToMany()
+  //  private Collection<Course> courses = new HashSet<>();
 
 
     public Participant() {
@@ -17,19 +17,15 @@ public class Participant extends User{
 
     public Participant(String name, String username, String email, String password) {
         super(name, username, email, password);
-        this.courses = courses;
+   //     this.courses = courses;
     }
 
-    public Participant(String name, String username, String email, String password, Collection<Course> courses) {
-        super(name, username, email, password);
-        this.courses = courses;
-    }
 
-    public void removeCourse(Course course) {
-        courses.remove(course);
-    }
 
-    public void addCourse(Course course) {
-        courses.add(course);
+//    public void removeCourse(Course course) {
+//        courses.remove(course);
+//    }
+//
+//    public void addCourse(Course course) {
+//        courses.add(course);
     }
-}

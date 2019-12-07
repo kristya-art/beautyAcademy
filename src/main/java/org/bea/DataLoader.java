@@ -1,12 +1,12 @@
 package org.bea;
 
-import org.bea.bea.model.Participant;
-import org.bea.bea.model.Role;
-import org.bea.bea.model.RoleName;
-import org.bea.bea.model.User;
+import org.bea.bea.controller.CourseController;
+import org.bea.bea.model.*;
 import org.bea.bea.repository.RoleRepository;
 import org.bea.bea.repository.UserRepository;
 
+import org.bea.bea.service.CourseService;
+import org.bea.bea.service.TopicService;
 import org.bea.bea.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.ApplicationArguments;
@@ -24,12 +24,22 @@ import static org.bea.bea.model.RoleName.ROLE_ADMIN;
 public class DataLoader implements ApplicationRunner {
 
     @Autowired
+    private CourseController courseController;
+
+    @Autowired
     private RoleRepository roleRepository;
 
+    @Autowired
     private final UserRepository userRepo;
 
     @Autowired
     private  UserService userService;
+
+    @Autowired
+    private CourseService courseService;
+
+    @Autowired
+    private TopicService topicService;
 
     @Autowired
     public DataLoader(UserRepository userRepo) {
@@ -55,6 +65,19 @@ public class DataLoader implements ApplicationRunner {
        steve.setRoles(roles);
 
        userService.saveUser(steve);
+
+
+       Course course = new Course("4536","Beauty", "beauty",45);
+       courseService.saveCourse(course);
+
+       Topic topic = new Topic("topic","description",course);
+       topicService.saveTopic(topic);
+       course.addTopic(topic);
+
+       //courseController.saveCourse(course);
+        courseController.addTopic(course,topic);
+
+       System.out.println(course.getTopics());
 
 
     }

@@ -24,7 +24,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.2}Software development methology}{8}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.2.1}Agile development, Scrum.}{9}% 
+\contentsline {subsubsection}{\numberline {2.2.1}Agile development, Scrum.}{8}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.3}Feasibility}{10}% 
 \defcounter {refsection}{0}\relax 
@@ -44,11 +44,11 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {2.5.1}System Sequence Diagrams}{13}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.6}Implementation}{14}% 
+\contentsline {subsection}{\numberline {2.6}Implementation}{13}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {2.6.1}Why Spring Boot And Angular ?}{15}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.7}Integration and System testing}{17}% 
+\contentsline {subsection}{\numberline {2.7}Integration and System testing}{16}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3}Conclusion and future work}{17}% 
 \defcounter {refsection}{0}\relax 

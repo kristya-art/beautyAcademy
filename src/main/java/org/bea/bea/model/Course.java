@@ -1,5 +1,6 @@
 package org.bea.bea.model;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import org.hibernate.annotations.NotFound;
 import org.hibernate.annotations.NotFoundAction;
 
@@ -20,46 +21,30 @@ public class Course {
     private String description;
     private int points;
 
-    @OneToMany()
+    @JsonIgnore
+    @OneToMany(mappedBy = "course",targetEntity = Topic.class)
     private Collection<Topic> topics;
 
 //    @ManyToMany(mappedBy = "courses", cascade = CascadeType.ALL)
 //    private Collection<Participant> participants;
 
-    @OneToOne()
-    @NotFound(action= NotFoundAction.IGNORE)
-    private Exam exam;
 
-    @ManyToMany(mappedBy = "courses", cascade = CascadeType.ALL)
-    private Collection<Lecturer> lecturers;
 
-    @ManyToMany(mappedBy = "courses", cascade = CascadeType.ALL)
-    private Collection<Participant> participants;
+
 
     public Course(){}
 
-    public Course(String code, String title, String description, int points,  Exam exam) {
+    public Course(String code, String title, String description, int points) {
         this.code = code;
         this.title = title;
         this.description = description;
         this.points = points;
-        this.exam = exam;
-        lecturers=new HashSet<>();
+
         topics=new HashSet<>();
 
     }
 
-    public Course(String code, String title, String description, int points,Collection<Participant> participants,  Exam exam) {
-        this.code = code;
-        this.title = title;
-        this.description = description;
-        this.points = points;
-        this.exam = exam;
-        lecturers=new HashSet<>();
-        topics=new HashSet<>();
-        participants=new HashSet<>();
 
-    }
 
 
     public Long getId() {
@@ -106,7 +91,7 @@ public class Course {
         return topics;
     }
 
-    public void addtTopic(Topic topic) {
+    public void addTopic(Topic topic) {
         topics.add(topic);
     }
 
@@ -114,43 +99,10 @@ public class Course {
         topics.remove(topic);
     }
 
-    public Exam getExam() {
-        return exam;
-    }
 
-    public void setExam(Exam exam) {
-        this.exam = exam;
-    }
 
-    public Collection<Lecturer> getLecturers() {
-        return lecturers;
-    }
 
-    public void addLecturer(Lecturer lecturer) {
-        lecturers.add(lecturer);
-        lecturer.addCourse(this);
 
-    }
 
-    public void removeLecturer(Lecturer lecturer){
-        lecturers.remove(lecturer);
-        lecturer.removeCourse(this);
-    }
 
-    public Collection<Participant> getParticipants() {
-        return participants;
-    }
-
-    public void addParticipants(Collection<Participant> participants) {
-        this.participants = participants;
-    }
-
-    public void addParticipant(Participant participant){
-        participants.add(participant);
-        participant.addCourse(this);
-    }
-    public void removeParticipant(Participant participant){
-        participants.remove(participant);
-        participant.removeCourse(this);
-    }
 }

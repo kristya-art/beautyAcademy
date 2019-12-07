@@ -1,6 +1,10 @@
 package org.bea.bea.model;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 import javax.persistence.*;
+import java.util.Collection;
+import java.util.HashSet;
 
 @Entity
 public class Topic {
@@ -13,8 +17,12 @@ public class Topic {
     private String title;
     private String description;
 
-    @ManyToOne
+    @ManyToOne(targetEntity=Course.class)
     private Course course;
+
+    @JsonIgnore
+    @OneToMany(mappedBy = "topic",targetEntity = Lesson.class)
+    Collection<Lesson> lessons = new HashSet<>();
 
     public Topic() {
     }
