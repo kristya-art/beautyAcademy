@@ -1,3 +1,4 @@
+
 %%\documentclass{article}
 \documentclass{scrartcl}
 
@@ -164,35 +165,8 @@ software life cycle .A life cycle model represents all the activities required t
 product transit through its lifecycle phases .It also captures the order in which these activities are
 to be taken .\\
 
-\textbf{\textit{ Life Cycle Models}} \\[1cm]
-\begin{figure}[h]
-\centering
-\includegraphics[width = 60mm]{lc.JPG}
-\caption{This is a Life Cycle Model}
-\label{Life Cucle Models}
-\end{figure}
 
-There are various life cycle models to improve the software processes. And we have used the WATERFALL MODEL.\\
-This model contains\textbf{\textit{  6 phases:}}\\
-o \textbf{\textit{ Feasibility study}}
-The feasibility study activity involves the analysis of the problem and
-collection of the relevant information relating to the product. The main aim
-of the feasibility study is to determine whether it would be financially and
-technically feasible to develop the product.\\
-o \textbf{\textit{Requirement analysis }} and specification
-The goal of this phase is to understand the exact requirements of the
-customer and to document them properly.\\
-o\textbf{\textit{ Design }}
-The goal of this phase is to transform the requirement specification into a
-structure that is suitable for implementation in some programming language.\\
-o \textbf{\textit{Implementation }} and unit testing\\
-During this phase the design is implemented. Initially small modules are
-tested in isolation from rest of the software product.\\
-o \textbf{\textit{ Integration and system testing}}\\
-In this all the modules are integrated and then tested altogether.\\
-o \textbf{\textit{Operation and maintenance. }} 
-Release of software inaugurates the operation and life cycle phase of the
-operation.\\
+
 \subsubsection{ Agile development, Scrum.} 
 Scrum was in the center of developing process.
 As scrum projects make progress in a series of “sprints”, we have divided the whole process into
@@ -224,6 +198,30 @@ Prioritized Product Backlog\\
 requirements\\
 Release planning (if product is to be delivered in releases):\\
 	•	Select and prioritize items of Product Backlog for the next Release Backlog\\
+	
+	
+
+\begin{table}[h]
+\begin{center}
+\begin{tabular}{| p{7cm}| p{7cm} |}
+Our developments steps \\
+\hline
+\textbf{Phase} & \textbf{Processes} \\
+\hline
+Initiate                    &             In this phase we've created project vision, priorized Product Backlog adn conduct release planning \\ \hline
+Analysis                    &             Functionalities (user stories, use cases),Domain model.In this phase we have made different analysises, First we have made User stories, then we have found the concept classes and made a domain model.\\ \hline
+Architecture of the application                   &           \\ \hline
+Design                   &        In this phase we have created  System sequence diagrams,Sequence diagrams,Design class diagrams. These diagrams are very important to make implementation. \\ \hline
+Implementation                   &           For Implementation we have choose the Spring Framework for backend and Angular Framework for frontend.\\ \hline
+Testing                   &            For test our application we have used : Unit test,  \\ \hline
+III                    &              113\\ \hline
+JJJ                    &              234\\ \hline
+KKK                    &              345\\ \hline
+\end{tabular}
+\end{center}
+\caption{Caption2}
+\label{table2}
+\end{table}
 
 \subsection{Feasibility}
 \subsubsection{Technical Feasibility}
@@ -300,43 +298,43 @@ Association belongs to between Question and Answers denotes the fact that each A
 \subsubsection{Product Backlog}
 The product backlog is a list of user stories which is used to implement the product vision. It is sorted according to the priority of the user stories according to the product owner. The priority of these stories will be modified during the process of the project.\\
 
-\begin{table}[ht]
-    \centering
-    \begin{tabular}{c@{\qquad}lll}
-        \toprule
-           & id & Story name & Story description  \\
-        \midrule
-        
+
+  \begin{table}[h]
+\begin{center}
+\begin{tabular}{| p{2.5cm}| p{4cm} | p{9cm} |}
+\hline
+\textbf{id} & \textbf{Story name} & \textbf{Story description}\\
+\hline      
 	
-	&1.0 & Log in & As a user, I want to be able to login into the system with my credential (username, password).
+	1.0 & Log in & As a user, I want to be able to login into the system with my credential (username, password).
  Success: The user is logged in and can use the functionality of the system.
  Failure: An error message is displayed: “Wrong username or password, please try again!”. \\ \hline
-	&2.0 & List courses & As a Participant I want to list courses I'm entitled to subscribe such that I can perform a subscription. \\ \hline
-	&3.0 & View information & As a Participant, I want to see the information about the courses. \\ \hline
-	&4.0 & List results & As a Participant, I want to see my marks of the already finished courses and topics. \\ \hline
-	&5.0 & View schedule & As a Participant or a Lecturer I want to be able to get a schedule showing the time and place of available exams. \\ \hline
-	&6.0 & Exam reservation & As a Participant, I want to be able to select an exam (there are different data on an exam).
+	2.0 & List courses & As a Participant I want to list courses I'm entitled to subscribe such that I can perform a subscription. \\ \hline
+	3.0 & View information & As a Participant, I want to see the information about the courses. \\ \hline
+	4.0 & List results & As a Participant, I want to see my marks of the already finished courses and topics. \\ \hline
+	5.0 & View schedule & As a Participant or a Lecturer I want to be able to get a schedule showing the time and place of available exams. \\ \hline
+	6.0 & Exam reservation & As a Participant, I want to be able to select an exam (there are different data on an exam).
  Success: A participant has selected exam.
  Failure: An error message is displayed “This date is already reserved, please take another date for your final exam". \\ \hline
-	&7.0 & Cancelation of exam & As a Participant, I want to be able to cancel the exam registration.
+	7.0 & Cancelation of exam & As a Participant, I want to be able to cancel the exam registration.
  Success: A message “You have successfully deleted your exam registration”
  Failure: An error message "The period of availability of deleting registration is expired, please take a contact to the administration". \\ \hline
-	&8.0 & Personal information & As a Participant or a lecturer I want to see my page with my personal information .
+	8.0 & Personal information & As a Participant or a lecturer I want to see my page with my personal information .
  Success: The participant can see his page with all the information it has.
  Failure: We are sorry, this page is on reconstruction , you can access it after 12 hours. \\ \hline
-	&9.0 & Manage course & As a System Administrator, I want to be able to change the information on a course .
+	9.0 & Manage course & As a System Administrator, I want to be able to change the information on a course .
  Success: An Administrator can manage the data of courses, participants, exams.
  Failure: \\ \hline
-	&10.0 & List participants and corresponding courses & As a lecturer, I want to see a list of participants with courses that they have .
+	10.0 & List participants and corresponding courses & As a lecturer, I want to see a list of participants with courses that they have .
  Success: A Lecturer can see the list with all the data he needs.
  Failure: \\ \hline
 
 
         
-        \midrule
-    \end{tabular}
-    \caption{Product Backlog}
-    \label{tab:typo}
+        \end{tabular}
+\end{center}
+\caption{Product Backlog}
+\label{table2}
 \end{table}
 
 \subsection{Design}
@@ -438,10 +436,25 @@ It brings a lot of utility code that we can reuse, for example users navigation.
 
 
 \subsection{Integration and System testing}
-For testing  our application we have use different tests:
-• JUNIT is used as the main testing tool that automates the testing process.
-• Checklist to check if we have all function we need in UI.
-• Postman to test crud operation in controller
+For testing  our application we have used different tests:\\
+• JUNIT we have used as the main testing tool that automates the testing.\\ process.\\
+• Checklist to check if we have all functions we need in UI.\\
+• Postman to test crud operation in controller\\
+• Database Testing. Database is one critical component of our application. Testing activies are include:\\
+ - Test of any errors while executing code\\
+ - Data Integrity is maintained while creating, updating or deleting data in data base.\\
+ - Test data retrieved from our database is shown accurately in our web application.\\
+• Compatibility testing.\\
+ - We have use compatibility tests to ensure that our application displays correctly across different devices. This include -\\
+ - Browser Compatibility Test: Here we have checked how our application is displayed in different browsers.\\
+   The rendering of web elements like buttons, text fields etc. changes with change in Operating System.\\
+• Security testing: \\
+   Test unauthorized access to secure pages should not be permitted.\\
+• Usability testing:\\
+  - We have made usability test with a small group of students. We have made several szenarios and we have checked how smart our UI logic, and w if there are all necessary tools to use our application.\\
+
+
+
 \section{Conclusion and future work}
 /**
  In the conclusion of the project, you first summarize the most important results of your project in an understandable way. The main thing here is to filter out the essential content from the previous chapters and get to the point in a compact, clear and concise way.
@@ -692,23 +705,24 @@ For next time be able to make a demo of what we have.
 
 Lesson learned:\\
 Be able to define clear the features I want to realise in this project.\\
-Next meeting: \textcolor{red}{27.11.19, 14:30} \\
+Next meeting: {27.11.19, 14:30} \\
 
 
 
 
-\textbf{\textit{Report from }}
+\textbf{\textit{Report from 27.11.19}}
 Plan:\\
 \begin{itemize}
-	\item	
+	\item	Add version to each technology .
 
-	\item	
+	\item	Describe in report how to use this application(how to compile(localhost: ...).
+	\item Make good description of layer bild.
 
 \end{itemize}
 
-Lesson learned:\\
+Lesson learned:\\ Learned more about writing professional documents. New tipps about system sequence diagram.
 
-Next meeting: \\
+Next meeting: \textcolor{red}{11.12.19, 14:30}
 
 
 \textbf{\textit{Report from }}
