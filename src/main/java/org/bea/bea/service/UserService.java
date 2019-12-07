@@ -11,13 +11,16 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 import org.springframework.util.StringUtils;
 
-import java.util.HashSet;
-import java.util.List;
-import java.util.Set;
-import java.util.UUID;
+import java.util.*;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 @Service
 public class UserService implements UserDetailsService {
+
+    private static Logger log = LoggerFactory.getLogger(UserService.class);
+
 
 
 
@@ -106,6 +109,14 @@ public class UserService implements UserDetailsService {
     public List<User> listUsers(){return userRepo.findAll();}
 
     public void deleteUser(User user){userRepo.delete(user);}
+
+    public User findUser(Long id) throws UserNotFoundException {
+        log.info("Finding user with id {}",id);
+        User user = userRepo.findById(id).orElseThrow(UserNotFoundException::new);
+        return user;
+
+
+    }
 
 
 }
