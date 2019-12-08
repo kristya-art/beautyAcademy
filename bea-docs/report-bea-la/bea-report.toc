@@ -22,7 +22,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {2.1.7}User Summary}{8}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2}Software development methology}{8}% 
+\contentsline {subsection}{\numberline {2.2}Software development methodology}{8}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {2.2.1}Agile development, Scrum.}{8}% 
 \defcounter {refsection}{0}\relax 
@@ -40,28 +40,30 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {2.4.2}Product Backlog}{13}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.5}Design}{13}% 
+\contentsline {subsection}{\numberline {2.5}Design}{15}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.5.1}System Sequence Diagrams}{13}% 
+\contentsline {subsubsection}{\numberline {2.5.1}System Sequence Diagrams}{15}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.6}Implementation}{13}% 
+\contentsline {subsubsection}{\numberline {2.5.2}Interface viewpoint}{16}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.6.1}Why Spring Boot And Angular ?}{15}% 
+\contentsline {subsection}{\numberline {2.6}Implementation}{20}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.7}Integration and System testing}{16}% 
+\contentsline {subsubsection}{\numberline {2.6.1}Why Spring Boot And Angular ?}{21}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3}Conclusion and future work}{17}% 
+\contentsline {subsection}{\numberline {2.7}Integration and System testing}{23}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.0.1}Summary}{17}% 
+\contentsline {section}{\numberline {3}Conclusion and future work}{23}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.0.2}Interpretation}{17}% 
+\contentsline {subsubsection}{\numberline {3.0.1}Summary}{24}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.0.3}Outlook}{17}% 
+\contentsline {subsubsection}{\numberline {3.0.2}Interpretation}{24}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4}Project planning}{18}% 
+\contentsline {subsubsection}{\numberline {3.0.3}Outlook}{24}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1}Meetings calendar}{18}% 
+\contentsline {section}{\numberline {4}Project planning}{25}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2}Spring Backlog}{20}% 
+\contentsline {subsection}{\numberline {4.1}Meetings calendar}{25}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.2.1}Protocol}{21}% 
+\contentsline {subsection}{\numberline {4.2}Spring Backlog}{27}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.2.1}Protocol}{28}% 
