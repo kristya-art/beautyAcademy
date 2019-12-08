@@ -21,7 +21,7 @@ public class Topic {
     private Course course;
 
     @JsonIgnore
-    @OneToMany(mappedBy = "topic",targetEntity = Lesson.class)
+    @OneToMany(mappedBy = "topic",targetEntity = Lesson.class,cascade = CascadeType.ALL)
     Collection<Lesson> lessons = new HashSet<>();
 
     public Topic() {
@@ -31,6 +31,7 @@ public class Topic {
         this.title = title;
         this.description = description;
         this.course = course;
+        course.addTopic(this);
     }
 
     public String getTitle() {

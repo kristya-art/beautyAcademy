@@ -67,15 +67,15 @@ public class DataLoader implements ApplicationRunner {
        userService.saveUser(steve);
 
 
-       Course course = new Course("4536","Beauty", "beauty",45);
+       Course course = new Course("4536","Beauty-course", "beauty",45);
        courseService.saveCourse(course);
 
-       Topic topic = new Topic("topic","description",course);
-       topicService.saveTopic(topic);
+       Topic topic = new Topic("Body-beauty","description",course);
+      // topicService.saveTopic(topic);
        course.addTopic(topic);
+       courseService.saveCourse(course);
 
-       //courseController.saveCourse(course);
-        courseController.addTopic(course,topic);
+       // courseController.addTopic(course,topic);
 
        System.out.println(course.getTopics());
 

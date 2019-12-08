@@ -19,11 +19,11 @@
       <Current>1</Current>
       <Visible>1</Visible>
       <Relations>sequence|table|79669|79671|1
+sequence|table|79734|79736|2
 sequence|table|79680|79682|1
 sequence|table|79696|79698|1
 sequence|table|79704|79706|1
 sequence|table|79718|79720|1
-sequence|table|79734|79736|2
 </Relations>
     </database>
     <database id="4" parent="1" name="beauty">

@@ -3,6 +3,7 @@ package org.bea.bea.controller;
 import org.bea.bea.model.Course;
 import org.bea.bea.model.Topic;
 import org.bea.bea.model.User;
+import org.bea.bea.service.CourseNotFoundException;
 import org.bea.bea.service.CourseService;
 import org.bea.bea.service.TopicService;
 import org.bea.bea.service.UserService;
@@ -40,4 +41,9 @@ public class CourseController {
     }
     @GetMapping("/courses")
     public List<Course> allCourses(){ return  courseService.listCourses();}
+
+    @GetMapping("{id}")
+    public Course findCourse(@PathVariable Long id) throws CourseNotFoundException {
+        return courseService.findCourse(id);
+    }
 }
