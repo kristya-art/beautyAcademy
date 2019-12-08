@@ -7,6 +7,7 @@ import { HomeComponent } from "../home/home.component";
 import { UserComponent } from '../user/user.component';
 import { LecturerComponent } from '../lecturer/lecturer.component';
 import { AdminComponent } from '../admin/admin.component';
+import {UserListComponent} from "../user-list/user-list.component";
 
 const routes: Routes = [
   {
@@ -35,10 +36,21 @@ const routes: Routes = [
     component: RegisterComponent
   },
   {
+    path: 'user-list',
+    component: UserListComponent
+  },
+  // {
+  //   path: 'course-list',
+  //   component: CourseComponent
+  //
+  // },
+
+  {
     path: '',
     redirectTo: 'home',
     pathMatch: 'full'
   }
+
 ];
 
 

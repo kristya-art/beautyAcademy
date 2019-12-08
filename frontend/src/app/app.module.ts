@@ -17,6 +17,12 @@ import { LecturerComponent } from './lecturer/lecturer.component';
 import { AdminComponent } from './admin/admin.component';
 
 import {ɵHttpInterceptingHandler} from "@angular/common/http";
+import { UserListComponent } from './user-list/user-list.component';
+import {MatButtonModule} from "@angular/material";
+import {MatCardModule} from "@angular/material/typings/esm5/card";
+import {MatInputModule} from "@angular/material/typings/input";
+import {MatListModule} from "@angular/material/typings/list";
+import {MatToolbarModule} from "@angular/material/typings/toolbar";
 
 @NgModule({
   declarations: [
@@ -26,7 +32,8 @@ import {ɵHttpInterceptingHandler} from "@angular/common/http";
     HomeComponent,
     UserComponent,
     LecturerComponent,
-    AdminComponent
+    AdminComponent,
+    UserListComponent
   ],
   imports: [
     BrowserModule,
@@ -34,6 +41,7 @@ import {ɵHttpInterceptingHandler} from "@angular/common/http";
     FormsModule,
     HttpClientModule,
     BrowserAnimationsModule
+
   ],
   providers: [ɵHttpInterceptingHandler],
   bootstrap: [AppComponent]

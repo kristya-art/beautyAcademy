@@ -10,6 +10,7 @@ export class UserService {
   private userUrl = 'http://localhost:8080/api/test/user';
   private lecturerUrl = 'http://localhost:8080/api/test/lecturer';
   private adminUrl = 'http://localhost:8080/api/test/admin';
+  private usersUrl = 'http://localhost:8080/users/list';
 
   constructor(private http: HttpClient) { }
 
@@ -23,5 +24,9 @@ export class UserService {
 
   getAdminBoard(): Observable<string> {
     return this.http.get(this.adminUrl, {responseType: 'text'});
+  }
+
+  getAll():Observable<any> {
+    return this.http.get(this.usersUrl,{responseType: 'json'});
   }
 }
