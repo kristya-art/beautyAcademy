@@ -6,6 +6,7 @@ import javax.persistence.*;
 import java.util.Collection;
 import java.util.Date;
 import java.util.HashSet;
+import java.util.Set;
 
 @Entity
 public class Subscription {
@@ -16,21 +17,28 @@ public class Subscription {
     private Long id;
 
     @DateTimeFormat(pattern = "dd/mm/yyyy")
-    Date date;
+    private Date date;
 
-    @OneToMany(cascade=CascadeType.ALL)
-    private Collection<Course> courses;
+    private Date last_date;
 
-    @OneToMany(cascade=CascadeType.ALL)
+    @JoinColumn(name="courses_id")
+    @ManyToOne()
+     private Course course;
+
+    @JoinColumn(name="participant_id")
+    @ManyToMany()
     private Collection<Participant> participants;
 
     public Subscription() {
     }
 
-    public Subscription(Date date) {
+    public Subscription(Collection<Participant> participants,Course course, Date date, Date last_date) {
         this.date = date;
-        courses=new HashSet<>();
+        this.last_date=last_date;
+        this.course=course;
         participants=new HashSet<>();
+        this.addParticipants(participants);
+
     }
 
     public Long getId() {
@@ -49,20 +57,21 @@ public class Subscription {
         this.date = date;
     }
 
-    public Collection<Course> getCourses() {
-        return courses;
+    public Date getLast_date() {
+        return last_date;
     }
 
-    public void addCourses(Collection<Course> courses) {
-        this.courses = courses;
+    public void setLast_date(Date last_date) {
+        this.last_date = last_date;
     }
 
-    public void addCourse(Course course){
-        courses.add(course);
+
+    public Course getCourse() {
+        return course;
     }
 
-    public void removeCourse(Course course){
-        courses.remove(course);
+    public void setCourse(Course course) {
+        this.course = course;
     }
 
     public Collection<Participant> getParticipants() {
@@ -78,4 +87,6 @@ public class Subscription {
     public void removeParticipant(Participant participant){
         participants.remove(participant);
     }
+
+
 }
