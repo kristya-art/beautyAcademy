@@ -18,13 +18,13 @@
       <IntrospectionStateNumber>20023</IntrospectionStateNumber>
       <Current>1</Current>
       <Visible>1</Visible>
-      <Relations>sequence|table|82852|82854|2
-sequence|table|82793|82795|1
+      <Relations>sequence|table|82793|82795|1
 sequence|table|82801|82803|1
 sequence|table|82782|82784|1
 sequence|table|82820|82822|1
 sequence|table|82828|82830|1
 sequence|table|82836|82838|1
+sequence|table|82852|82854|2
 </Relations>
     </database>
     <database id="4" parent="1" name="beauty">

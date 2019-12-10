@@ -8,6 +8,8 @@ import { UserComponent } from '../user/user.component';
 import { LecturerComponent } from '../lecturer/lecturer.component';
 import { AdminComponent } from '../admin/admin.component';
 import {UserListComponent} from "../user-list/user-list.component";
+import {CourseComponent} from "../course/course.component";
+import {SubscriptionComponent} from "../subscription/subscription.component";
 
 const routes: Routes = [
   {
@@ -17,6 +19,15 @@ const routes: Routes = [
   {
     path: 'user',
     component: UserComponent
+  },
+  {
+    path: 'course',
+    component: CourseComponent
+
+  },
+  {
+    path: 'subscription',
+    component: SubscriptionComponent
   },
   {
     path: 'lecturer',

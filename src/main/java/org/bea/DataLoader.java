@@ -104,7 +104,15 @@ public class DataLoader implements ApplicationRunner {
         System.out.println(subscription.getParticipants());
         System.out.println(collection);
 
+        System.out.println(subscription.getCourse());
 
+
+        Participant kat = new Participant("kat", "kat","kat@gmail.com","katkat");
+
+        kat.addCourse(course);
+        userService.saveUser(kat);
+
+        System.out.println(kat.getCourses());
 
 
     }

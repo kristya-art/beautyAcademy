@@ -23,6 +23,9 @@ import {MatCardModule} from "@angular/material/typings/esm5/card";
 import {MatInputModule} from "@angular/material/typings/input";
 import {MatListModule} from "@angular/material/typings/list";
 import {MatToolbarModule} from "@angular/material/typings/toolbar";
+import { SubscriptionComponent } from './subscription/subscription.component';
+import { SearchDeleteComponent } from './search-delete/search-delete.component';
+import { CourseComponent } from './course/course.component';
 
 @NgModule({
   declarations: [
@@ -33,7 +36,10 @@ import {MatToolbarModule} from "@angular/material/typings/toolbar";
     UserComponent,
     LecturerComponent,
     AdminComponent,
-    UserListComponent
+    UserListComponent,
+    SubscriptionComponent,
+    SearchDeleteComponent,
+    CourseComponent
   ],
   imports: [
     BrowserModule,
