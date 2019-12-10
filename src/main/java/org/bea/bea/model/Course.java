@@ -22,7 +22,7 @@ public class Course {
     private int points;
 
     @JsonIgnore
-    @OneToMany(mappedBy = "course",targetEntity = Topic.class)
+    @OneToMany(mappedBy = "course",targetEntity = Topic.class,cascade = CascadeType.ALL)
     private Collection<Topic> topics;
 
 //    @ManyToMany(mappedBy = "courses", cascade = CascadeType.ALL)
