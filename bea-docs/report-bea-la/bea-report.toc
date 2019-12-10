@@ -48,22 +48,24 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.6}Implementation}{20}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.6.1}Why Spring Boot And Angular ?}{21}% 
+\contentsline {subsubsection}{\numberline {2.6.1}Why Spring Boot And Angular ?}{24}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.7}Integration and System testing}{23}% 
+\contentsline {subsubsection}{\numberline {2.6.2}Description of the deployment procedure.}{25}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3}Conclusion and future work}{23}% 
+\contentsline {subsection}{\numberline {2.7}Integration and System testing}{25}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.0.1}Summary}{24}% 
+\contentsline {section}{\numberline {3}Conclusion and future work}{26}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.0.2}Interpretation}{24}% 
+\contentsline {subsubsection}{\numberline {3.0.1}Summary}{26}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.0.3}Outlook}{24}% 
+\contentsline {subsubsection}{\numberline {3.0.2}Interpretation}{26}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4}Project planning}{25}% 
+\contentsline {subsubsection}{\numberline {3.0.3}Outlook}{27}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1}Meetings calendar}{25}% 
+\contentsline {section}{\numberline {4}Project planning}{27}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2}Spring Backlog}{27}% 
+\contentsline {subsection}{\numberline {4.1}Meetings calendar}{27}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.2.1}Protocol}{28}% 
+\contentsline {subsection}{\numberline {4.2}Spring Backlog}{29}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.2.1}Protocol}{30}% 
