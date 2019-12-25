@@ -2,7 +2,7 @@
 %%\documentclass{article}
 \documentclass{scrartcl}
 
-
+\usepackage{cmap}
 \usepackage{booktabs}
 \usepackage{colortbl}
 \usepackage{multirow}
@@ -301,7 +301,17 @@ Association belongs to between Question and Answers denotes the fact that each A
 The product backlog is a list of user stories which is used to implement the product vision. It is sorted according to the priority of the user stories according to the product owner. The priority of these stories will be modified during the process of the project.\\
 
 
-  \begin{table}[H]
+ 
+\textbf{BUILD Backend WITH SPRING BOOT}\\
+Before starting with spring boot, it was clear for me about spring boot that spring boot does not provides any extra features on functionality on top of spring framework. Rather, it provides unlimited defaults configurations and useful conventions to create a stand-lone, production grade web applications in no time.\\
+Spring Boot is the starting point for building all Spring-based applications. Spring Boot is designed to get you up and running as quickly as possible, with minimal upfront configuration of Spring.\\
+ -Get started in seconds using Spring Initializer\\
+-Build anything: REST API, WebSocket, web, streaming, tasks, and more\\
+-Simplified security\\
+-Rich support for SQL and NoSQL\\
+-Embedded runtime support: Tomcat, Jetty, and Undertow\\
+-Developer productivity tools such as Live Reload and Auto Restart\\
+-Curated dependencies that ju \begin{table}[H]
 \begin{center}
 \begin{tabular}{| p{2.5cm}| p{4cm} | p{9cm} |}
 \hline
@@ -419,14 +429,39 @@ This page is sub page of the courses.
 
 
 \subsection{Implementation}
+\textbf{\textit{First steps}}\\
+First of all we want to describe databank that we going to use.\\
+\textbf{PostgreSQL} is a free and open-soursce relational database management system emphasing extensibility and technical standarts compliance. It is designed to handle a range of workloads, from single machines to data warehouses or Web services with many concurrent users. It is the default database for macOS Server, and is also available for Linux, FreeBSD, OpenBSD, and Windows.[4].\\
 
-\textbf{\textit{Backend - Srpring-boot }}
+ We going to use \textbf{Maven} as tool to build our project. The layers have to be independently deployable components, with  their own vesions, depending between them and making up a whole application. This description fits with \textbf{Maven modules}.\\
+ First, we need a maven project with packaging type “pom”. Then, we add each layer as a module to this maven project. Once we’ve this done, we can add the dependencies between layers.\\
+ Then we need some Spring dependencies to make our project works.\\
+ These are the Spring dependencies required in each layer:\\
+\textbf{-boot}: spring-core, spring-beans, spring-context, spring-boot, spring-boot-autoconfigure     	and spring-boot-starter-undertow.
+\textbf{presentation}: spring-webmvc and spring-beans.\\
+\textbf{application}: spring-context.\\
+
+Here we want to describe the concern of each layer.
+\textbf{\textit{Backend }}
+
 
 \begin{itemize}
-	\item Integration/ Data layer (entity models and repository)	
+\item Integration/ Data layer (entity models and repository)
+\textbf{Domain}
+In this layer we save:
+These are the \textbf{entities} which represents the domain. This is the heart of our application, so the domain layer has to be isolated and it can't depend on another layer of the application.\\
+\textbf{Repository}
+@Repository is a Spring annotation that indicates that the decorated class is a repository. A repository is a mechanism for encapsulating storage, retrieval, and search behavior which emulates a collection of objects. It is a specialization of the @Component annotation allowing for implementation classes to be autodetected through classpath scanning.	
 	
-	\item	Application/ Service layer (contains logic)
-	\item  Web layer (RESTful controllers)
+\item	Application/ Service layer \\
+Service layer or business layer, based on the User connamd and the data captured from the user. It takes a domain-specific decision, like what to do with the data, which table to look, how to manipulate the data which comes from the database, so it can be presented in UI.\\
+The services are the most important pieces of this layer, they orchestrate the domain objects to fulfil a use case. Another important thing is done inside these services are the translation from raw data to domain model.\\
+\item  Web layer or presentation layer\\
+This layer interact with the end user, shows data to them, take user input, take command from them, etc.
+
+\item Boot \\
+Boot layer is required one in our application with Spring. This layer depends on every other layers previously mentioned and store the MainApplication class which starts the Spring Boot application. Because it depends on the other layers, Spring dependency injection mechanism can inject the annotated components of the others layers. It’s important to know that only the components in the same package (or subpackages) of the MainApplication class are scanned.The generated jar of this Maven module will be the executable one, the others modules are libraries in which this module depends on.\\
+
 
 \end{itemize}
 
@@ -451,7 +486,46 @@ Securable services\\
 A spectrum of stateless to stateful services\\
 
 
-\textbf{\textit{Frontend – Angular}}
+\textbf{\textit{Frontend – Angular }}
+The basic building blocks of an Angular application are NgModules, which provide a compilation context for components. NgModules collect related code into functional sets; an Angular app is defined by a set of NgModules. Our app has  root module that enables bootstrapping.\\
+
+ - Components define views, which are sets of screen elements that Angular can choose among and modify according to your program logic and data.\\
+
+ - Components use services, which provide specific functionality not directly related to views. Service providers can be injected into components as dependencies, making your code modular, reusable, and efficient.\\
+
+Both components and services are simply classes, with decorators that mark their type and provide metadata that tells Angular how to use them.\\
+
+ - The metadata for a component class associates it with a template that defines a view. A template combines ordinary HTML with Angular directives and binding markup that allow Angular to modify the HTML before rendering it for display.\\
+
+ - The metadata for a service class provides the information Angular needs to make it available to components through dependency injection (DI).\\
+
+An app's components define many views, arranged hierarchically. Angular provides the Router service to help us define navigation paths among views. The router provides sophisticated in-browser navigational capabilities.\\
+
+\textbf{Modules} \\
+Angular NgModules differ from and complement JavaScript (ES2015) modules. An NgModule declares a compilation context for a set of components that is dedicated to an application domain, a workflow, or a closely related set of capabilities. An NgModule associate its components with related code, such as services, to form functional units.\\
+
+Every Angular app has a root module, conventionally named AppModule, which provides the bootstrap mechanism that launches the application. An app typically contains many functional modules.\\
+
+
+\textbf{Components}\\
+Our application has many components and the root component that connects a component hierarchy with the page document object model (DOM). Each component defines a class that contains application data and logic, and is associated with an HTML template that defines a view to be displayed in a target environment.\\
+
+The @Component() decorator identifies the class immediately below it as a component, and provides the template and related component-specific metadata.\\
+
+\textbf{Templates}\\
+A template combines HTML with Angular markup that can modify HTML elements before they are displayed. Template directives provide program logic, and binding markup connects your application data and the DOM. \\
+
+\textbf{Services and dependency injection}\\
+For data or logic that isn't associated with a specific view, and that you want to share across components, we have created. A service class is preceded by the @Injectable() decorator. The decorator provides the metadata that allows other providers to be injected as dependencies into our class.\\
+\\
+Dependency injection (DI) lets us keep our component classes lean and efficient. They don't fetch data from the server, validate user input, or log directly to the console; they delegate such tasks to services.\\
+
+\textbf{Routing}\\
+The Angular Router NgModule provides a service that lets us define a navigation path among the different application states and view hierarchies in your app. It is modeled on the familiar browser navigation conventions.\\
+The router maps URL-like paths to views instead of pages. When a user performs an action, such as clicking a link, that would load a new page in the browser, the router intercepts the browser's behavior, and shows or hides view hierarchies.\\
+
+
+
 
 \begin{itemize}
 	\item	Angular MVC Framework by Google
@@ -470,17 +544,7 @@ A spectrum of stateless to stateful services\\
 \end{figure}
 
 \subsubsection{Why Spring Boot And Angular ?}
-
-\textbf{BUILD Backend WITH SPRING BOOT}\\
-Before starting with spring boot, it was clear for me about spring boot that spring boot does not provides any extra features on functionality on top of spring framework. Rather, it provides unlimited defaults configurations and useful conventions to create a stand-lone, production grade web applications in no time.\\
-Spring Boot is the starting point for building all Spring-based applications. Spring Boot is designed to get you up and running as quickly as possible, with minimal upfront configuration of Spring.\\
- -Get started in seconds using Spring Initializer\\
--Build anything: REST API, WebSocket, web, streaming, tasks, and more\\
--Simplified security\\
--Rich support for SQL and NoSQL\\
--Embedded runtime support: Tomcat, Jetty, and Undertow\\
--Developer productivity tools such as Live Reload and Auto Restart\\
--Curated dependencies that just work\\
+st work\\
 -Production-ready features such as tracing, metrics, and health status\\
 -Works in your favourite IDE: Spring Tool Suite, IntelliJ IDEA, and NetBeans\\
 
@@ -499,6 +563,19 @@ Angular has a lot of pros\\
 -data binding in AngularJS is very easy.\\
 I like in Angular that it gives our application a clean structure, that is easy to understand and easy to maintain.\\
 It brings a lot of utility code that we can reuse, for example users navigation. Angular applications are more testable.\\
+
+\subsubsection{Description of the deployment procedure.}
+\textbf{Configuring PosgreSQL}
+ To configure Spring Boot to use PostgreSQL as our data source. we can do that simply by adding PostgreSQL database url, username, and password in the \textbf{src/main/resources/application.properties} file \\
+ 
+%todo put photo of application.properties file and maybe file location
+
+ 
+ 
+ 
+We used angular CLI to generate angular project and modified it to have functionality such as list user and add user. We used spring boot to expose REST API for the crud operation and integrated spring data to communicate with posgresql database. We made use of ng serv to serv the angular project on localhost:4200 and it is consuming APIs exposed on localhost:8080. 
+
+%todo put two photos here ( spring boot run example, angular run example)
 
 
 \subsection{Integration and System testing}
@@ -553,6 +630,7 @@ For testing  our application we have used different tests:\\
 \bibitem{ABCDE} Prof.Dr. Olivier Biberstein, Prof.Dr Eric Dubuis \emph{software Engineering and Design},
 \bibitem{ABCDE}Spring.io/guides \emph{•},2019
 \bibitem{ABCDE} \emph{•},
+\bibitem{ABCDE} PostgreSQL \emph{wikipedia}
 \end{thebibliography}
 
 
