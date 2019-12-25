@@ -5,11 +5,12 @@ import org.springframework.format.annotation.DateTimeFormat;
 
 import javax.persistence.*;
 import javax.xml.crypto.Data;
+
 import java.sql.Time;
 import java.util.Date;
 
-@Entity
-public class Exam {
+//@Entity
+public abstract class Exam {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -21,7 +22,9 @@ public class Exam {
     private Long points;
 
     @DateTimeFormat(pattern = "dd/mm/yyyy")
-    Date date;
+    private Date date;
+
+    private Time time;
 
 
 
@@ -29,10 +32,10 @@ public class Exam {
     public Exam() {
     }
 
-    public Exam(boolean isFinal, Long points, Date date) {
-        this.isFinal = isFinal;
+    public Exam( Long points, Date date,Time time) {
         this.points = points;
         this.date = date;
+        this.time = time;
 
     }
 
@@ -44,13 +47,6 @@ public class Exam {
         this.id = id;
     }
 
-    public boolean isFinal() {
-        return isFinal;
-    }
-
-    public void setFinal(boolean aFinal) {
-        isFinal = aFinal;
-    }
 
     public Long getPoints() {
         return points;

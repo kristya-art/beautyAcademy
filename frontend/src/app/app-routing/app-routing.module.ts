@@ -50,6 +50,10 @@ const routes: Routes = [
     path: 'user-list',
     component: UserListComponent
   },
+  {
+    path: 'subscription',
+    component: SubscriptionComponent
+  },
   // {
   //   path: 'course-list',
   //   component: CourseComponent

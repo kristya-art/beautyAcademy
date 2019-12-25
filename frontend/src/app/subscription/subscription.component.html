@@ -1,1 +1,12 @@
-<p>subscription works!</p>
+<h2>Subscription</h2>
+<div>{{subscriptions}}</div>
+
+<div *ngFor = "let subscription of subscriptions">
+  {{subscription.courses}}
+  {{subscription.id}}
+  {{subscription.date}}
+
+
+</div>
+
+<button (click)="save()">save</button>
