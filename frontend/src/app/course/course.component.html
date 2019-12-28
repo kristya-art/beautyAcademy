@@ -1,8 +1,26 @@
 <h2>Catalog of courses</h2>
 
-<div *ngFor="let course of courses">
-  {{course.code}}
-  {{course.title}}
-  {{course.description}}
-  {{course.points}}
+<!--<div *ngFor="let course of courses">-->
+  <!--{{course.code}}-->
+  <!--{{course.title}}-->
+  <!--{{course.description}}-->
+  <!--{{course.points}}-->
+<!--</div>-->
+<div>
+  <table border = "1">
+    <tr>
+    <th>Code</th>
+    <th>Title</th>
+    <th>Description</th>
+    <th>Points</th>
+      <th>Actions</th>
+    </tr>
+    <tr *ngFor="let course of courses">
+      <td>{{course.code}}</td>
+      <td>{{course.title}}</td>
+      <td>{{course.description}}</td>
+      <td>{{course.points}}</td>
+      <td>Edit | Delete</td>
+    </tr>
+  </table>
 </div>
