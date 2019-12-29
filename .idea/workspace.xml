@@ -2,19 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7249c7d0-1691-4f21-b395-e17d3ecfd392" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/app/course/course.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/course/course.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/app/course/course.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/course/course.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/app/course/course.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/course/course.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/app/search-delete/search-delete.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/search-delete/search-delete.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/app/search-delete/search-delete.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/search-delete/search-delete.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/app/services/course.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/services/course.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/app/subscription/subscription.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/subscription/subscription.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/app/user-list/user-list.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/user-list/user-list.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/bea/bea/controller/CourseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/bea/bea/controller/CourseController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/bea/bea/controller/SubscriptionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/bea/bea/controller/SubscriptionController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/bea/bea/model/Subscription.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/bea/bea/model/Subscription.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/bea/bea/service/CourseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/bea/bea/service/CourseService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/bea/DataLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/bea/DataLoader.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/client/dist/" />
     <ignored path="$PROJECT_DIR$/client/tmp/" />
@@ -141,7 +129,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/frontend/src/app/course/course.component.ts">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="67">
@@ -149,6 +137,15 @@
               <folding>
                 <element signature="e#0#50#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/bea/DataLoader.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="106" column="8" lean-forward="true" selection-start-line="106" selection-start-column="8" selection-end-line="106" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -226,7 +223,6 @@
         <option value="$PROJECT_DIR$/src/main/java/org/bea/bea/service/SubscriptionNotFoundException.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/bea/bea/service/SubscriptionService.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/bea/bea/model/Participant.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/bea/DataLoader.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/bea/bea/service/ParticipantService.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/bea/bea/service/ParticipantNotFoundException.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/bea/bea/security/WebSecurityConfig.java" />
@@ -254,6 +250,7 @@
         <option value="$PROJECT_DIR$/src/main/java/org/bea/bea/controller/CourseController.java" />
         <option value="$PROJECT_DIR$/frontend/src/app/services/course.service.ts" />
         <option value="$PROJECT_DIR$/frontend/src/app/course/course.component.ts" />
+        <option value="$PROJECT_DIR$/src/main/java/org/bea/DataLoader.java" />
       </list>
     </option>
   </component>
@@ -280,7 +277,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-10" />
     <option name="width" value="1302" />
     <option name="height" value="1532" />
@@ -400,7 +397,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1577636919989" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1577640656079" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="editor.config.ad.shown" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$/Documents/MATLAB/M4.m" />
@@ -606,7 +603,7 @@
       <workItem from="1577309969234" duration="6493000" />
       <workItem from="1577563103035" duration="15302000" />
       <workItem from="1577626292863" duration="625000" />
-      <workItem from="1577632436816" duration="4672000" />
+      <workItem from="1577632436816" duration="5630000" />
     </task>
     <servers />
   </component>
@@ -643,7 +640,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="219130000" />
+    <option name="totallyTimeSpent" value="220088000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -655,9 +652,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="-6" width="1293" height="773" extended-state="7" />
+    <frame x="-6" y="-6" width="1293" height="773" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.34008098" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21862349" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -681,7 +679,7 @@
       <window_info anchor="bottom" id="Database Changes" order="13" />
       <window_info anchor="bottom" id="Version Control" order="14" />
       <window_info anchor="bottom" id="TypeScript" order="15" weight="0.32970452" />
-      <window_info active="true" anchor="bottom" id="Run Dashboard" order="16" sideWeight="0.49959514" visible="true" weight="0.70917577" />
+      <window_info anchor="bottom" id="Run Dashboard" order="16" sideWeight="0.49959514" visible="true" weight="0.33903578" />
       <window_info anchor="bottom" id="Database Console" order="17" weight="0.44339624" />
       <window_info anchor="bottom" id="Inspection Results" order="18" weight="0.33333334" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -748,13 +746,6 @@
     </option>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/bea/bea/model/Lecturer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/bea/bea/model/Topic.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -1160,6 +1151,13 @@
           <folding>
             <element signature="e#0#50#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/bea/DataLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="106" column="8" lean-forward="true" selection-start-line="106" selection-start-column="8" selection-end-line="106" selection-end-column="8" />
         </state>
       </provider>
     </entry>
