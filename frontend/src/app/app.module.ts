@@ -26,6 +26,7 @@ import {MatToolbarModule} from "@angular/material/typings/toolbar";
 import { SubscriptionComponent } from './subscription/subscription.component';
 import { SearchDeleteComponent } from './search-delete/search-delete.component';
 import { CourseComponent } from './course/course.component';
+import { KursiComponent } from './kursi/kursi.component';
 
 @NgModule({
   declarations: [
@@ -39,7 +40,8 @@ import { CourseComponent } from './course/course.component';
     UserListComponent,
     SubscriptionComponent,
     SearchDeleteComponent,
-    CourseComponent
+    CourseComponent,
+    KursiComponent
   ],
   imports: [
     BrowserModule,

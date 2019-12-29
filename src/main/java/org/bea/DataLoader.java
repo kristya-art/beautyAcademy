@@ -104,7 +104,7 @@ public class DataLoader implements ApplicationRunner {
         Topic t6 = new Topic("future-topic6","this topic everything about ...., ..",course3);
 
         courseService.saveCourse(course3);
-        
+
 
 
         //***************subscription load data ********

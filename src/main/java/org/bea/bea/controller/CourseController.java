@@ -4,10 +4,7 @@ import org.bea.bea.model.Course;
 import org.bea.bea.model.Topic;
 import org.bea.bea.model.User;
 import org.bea.bea.repository.CourseRepository;
-import org.bea.bea.service.CourseNotFoundException;
-import org.bea.bea.service.CourseService;
-import org.bea.bea.service.TopicService;
-import org.bea.bea.service.UserService;
+import org.bea.bea.service.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
@@ -25,6 +22,8 @@ public class CourseController {
     private CourseService courseService;
     @Autowired
     private CourseRepository repository;
+    @Autowired
+    private SubscriptionService subscriptionService;
 
     @PostMapping("/save")
     public void saveCourse(@RequestBody Course course){
