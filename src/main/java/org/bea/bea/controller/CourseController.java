@@ -3,6 +3,7 @@ package org.bea.bea.controller;
 import org.bea.bea.model.Course;
 import org.bea.bea.model.Topic;
 import org.bea.bea.model.User;
+import org.bea.bea.repository.CourseRepository;
 import org.bea.bea.service.CourseNotFoundException;
 import org.bea.bea.service.CourseService;
 import org.bea.bea.service.TopicService;
@@ -22,6 +23,8 @@ public class CourseController {
     private TopicService topicService;
     @Autowired
     private CourseService courseService;
+    @Autowired
+    private CourseRepository repository;
 
     @PostMapping("/save")
     public void saveCourse(@RequestBody Course course){
@@ -31,9 +34,13 @@ public class CourseController {
     @PostMapping("/list")
     public List<Course> listCourses(){return courseService.listCourses();}
 
-    @PostMapping("/delete")
-    public void deleteCourse(@RequestBody Course course){courseService.deleteCourse(course);}
+//    @PostMapping("/delete")
+//    public void deleteCourse(@RequestBody Course course){courseService.deleteCourse(course);}
 
+    @DeleteMapping("/cancel/{id}")
+    public void cancelCourse(@PathVariable Long id)throws CourseNotFoundException {
+     courseService.deleteCourse(id);
+    }
     @PostMapping("/addTopic")
     public void addTopic(Course course, Topic topic) {
         course.addTopic(topic);

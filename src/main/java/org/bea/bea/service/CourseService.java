@@ -30,10 +30,16 @@ public class CourseService {
         return courseRepository.save(course);
     }
 
-    public void deleteCourse(Course course) {
-        courseRepository.delete(course);
-    }
+//    public void deleteCourse(Course course) {
+//        courseRepository.delete(course);
+//    }
 
+    public void deleteCourse(Long id)throws CourseNotFoundException{
+        Course course = courseRepository.findById(id).orElseThrow(CourseNotFoundException::new);
+        courseRepository.delete(course);
+
+
+    }
     public Course findCourse(Long id) throws CourseNotFoundException{
         log.info("Finding course with id {}", id);
         Course course = courseRepository.findById(id).orElseThrow(CourseNotFoundException::new);

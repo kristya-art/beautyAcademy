@@ -1,12 +1,32 @@
 <h2>User List</h2>
+<div>
+  <table border = "1">
+    <tr>
+      <th>Name</th>
+      <th>Username</th>
+      <th>Email</th>
+      <th>role</th>
+      <th>Password</th>
+      <th>Actions</th>
+    </tr>
 
-<div *ngFor="let user of users">
-  {{user.name}}
-  {{user.username}}
-  {{user.password}}
-  {{user.role}}
-  {{user.email}}
+    <tr *ngFor="let user of users">
+      <td>{{user.name}}</td>
+      <td>{{user.username}}</td>
+      <td>{{user.email}}</td>
+      <td>{{user.role}}</td>
+      <td>{{user.password}}</td>
+      <td>Edit | Delete</td>
+    </tr>
+  </table>
 </div>
+<!--<div *ngFor="let user of users">-->
+  <!--{{user.name}}-->
+  <!--{{user.username}}-->
+  <!--{{user.password}}-->
+  <!--{{user.role}}-->
+  <!--{{user.email}}-->
+<!--</div>-->
 
 <!--<mat-card>-->
 

@@ -21,7 +21,7 @@ public class SubscriptionController {
     private CourseService courseService;
 
     @Autowired
-    private UserService usertService;
+    private UserService userService;
 
     @PostMapping("/save")
     public void saveSubscription(@RequestBody Subscription subscription){

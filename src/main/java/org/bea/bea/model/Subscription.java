@@ -19,6 +19,7 @@ public class Subscription {
     @DateTimeFormat(pattern = "dd/mm/yyyy")
     private Date date;
 
+    @DateTimeFormat(pattern = "dd/mm/yyyy")
     private Date last_date;
 
     @JoinColumn(name="courses_id")

@@ -1,8 +1,9 @@
 export class Course{
   constructor(
+      id:number,
       code:string,
       title:string,
-      descritption:string,
+      description:string,
       points:number
   ){}
 }

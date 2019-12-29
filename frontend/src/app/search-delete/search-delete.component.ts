@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {CourseService} from "../services/course.service";
 
 @Component({
   selector: 'app-search-delete',
@@ -6,10 +7,13 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./search-delete.component.css']
 })
 export class SearchDeleteComponent implements OnInit {
+  courses:any;
+  constructor(private service:CourseService) { }
 
-  constructor() { }
 
   ngOnInit() {
+    let resp = this.service.getAll();
+    resp.subscribe((data)=>this.courses=data);
   }
 
 }
