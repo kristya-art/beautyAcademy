@@ -1,7 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 
-import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
-import { CustomMaterialModule } from './core/material.module';
+
 
 import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing/app-routing.module';
@@ -18,15 +17,13 @@ import { AdminComponent } from './admin/admin.component';
 
 import {ɵHttpInterceptingHandler} from "@angular/common/http";
 import { UserListComponent } from './user-list/user-list.component';
-import {MatButtonModule} from "@angular/material";
-import {MatCardModule} from "@angular/material/typings/esm5/card";
-import {MatInputModule} from "@angular/material/typings/input";
-import {MatListModule} from "@angular/material/typings/list";
-import {MatToolbarModule} from "@angular/material/typings/toolbar";
+
 import { SubscriptionComponent } from './subscription/subscription.component';
 import { SearchDeleteComponent } from './search-delete/search-delete.component';
 import { CourseComponent } from './course/course.component';
 import { KursiComponent } from './kursi/kursi.component';
+import { KursComponent } from './kursi/kurs/kurs.component';
+import { KursListComponent } from './kursi/kurs-list/kurs-list.component';
 
 @NgModule({
   declarations: [
@@ -41,14 +38,15 @@ import { KursiComponent } from './kursi/kursi.component';
     SubscriptionComponent,
     SearchDeleteComponent,
     CourseComponent,
-    KursiComponent
+    KursiComponent,
+    KursComponent,
+    KursListComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    HttpClientModule,
-    BrowserAnimationsModule
+    HttpClientModule
 
   ],
   providers: [ɵHttpInterceptingHandler],

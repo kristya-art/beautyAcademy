@@ -26,6 +26,9 @@
       <li class ="nav-item">
         <a class="nav-link" routerLink="course">Catalog of courses</a>
       </li>
+      <li *ngIf="authority === 'admin'|| authority === 'lecturer'" class ="nav-item">
+        <a class="nav-link" routerLink="kursi">Courses</a>
+      </li>
       <li *ngIf="!authority" class = "nav-item">
         <a class="nav-link" routerLink="auth/login">Login</a>
       </li>

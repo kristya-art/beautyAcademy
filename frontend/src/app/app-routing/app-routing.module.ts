@@ -10,6 +10,7 @@ import { AdminComponent } from '../admin/admin.component';
 import {UserListComponent} from "../user-list/user-list.component";
 import {CourseComponent} from "../course/course.component";
 import {SubscriptionComponent} from "../subscription/subscription.component";
+import {KursiComponent} from "../kursi/kursi.component";
 
 const routes: Routes = [
   {
@@ -53,6 +54,10 @@ const routes: Routes = [
   {
     path: 'subscription',
     component: SubscriptionComponent
+  },
+  {
+    path: 'kursi',
+    component: KursiComponent
   },
   // {
   //   path: 'course-list',
