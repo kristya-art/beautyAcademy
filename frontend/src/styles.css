@@ -21,19 +21,19 @@
   /*color: #333;*/
   /*font-family: Cambria, Georgia;*/
 /*}*/
-/*a {*/
-  /*cursor: pointer;*/
-  /*cursor: hand;*/
-/*}*/
-/*button {*/
-  /*font-family: Arial;*/
-  /*background-color: #eee;*/
-  /*border: none;*/
-  /*padding: 5px 10px;*/
-  /*border-radius: 4px;*/
-  /*cursor: pointer;*/
-  /*cursor: hand;*/
-/*}*/
+a {
+  cursor: pointer;
+  cursor: hand;
+}
+button {
+  font-family: Arial;
+  background-color: #eee;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  cursor: hand;
+}
 /*button:hover {*/
   /*background-color: #cfd8dc;*/
 /*}*/
@@ -70,7 +70,16 @@
 /*}*/
 
 
+form.kurs-form{
+  background-color: #f9f2f4;
+  border-radius: 4px;
+  padding: 10px;
+}
 
+div.validation-error{
+  color:pink;
+  text-align: center;
+ }
 
 
 

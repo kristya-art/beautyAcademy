@@ -58,4 +58,9 @@ public class CourseService {
         Course course2 = courseRepository.findById(id).orElseThrow(CourseNotFoundException::new);
         return course2;
     }
+
+    public Course updateCourse(Course course)throws CourseNotFoundException{
+          return courseRepository.save(course);
+
+    }
 }

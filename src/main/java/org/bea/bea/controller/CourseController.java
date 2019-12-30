@@ -6,10 +6,14 @@ import org.bea.bea.model.User;
 import org.bea.bea.repository.CourseRepository;
 import org.bea.bea.service.*;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
 
+import javax.validation.Valid;
 import java.util.List;
+import java.util.Optional;
+
 @CrossOrigin(origins = "http://localhost:4200")
 @RestController
 
@@ -40,6 +44,15 @@ public class CourseController {
     public void cancelCourse(@PathVariable Long id)throws CourseNotFoundException {
      courseService.deleteCourse(id);
     }
+//    @PostMapping("/save")
+//    public void addCourse(Course course){
+//        courseService.saveCourse(course);
+//    }
+
+    @PostMapping("/create")
+    public Course createCourse(@Valid @RequestBody Course course){
+        return courseService.saveCourse(course);
+    }
     @PostMapping("/addTopic")
     public void addTopic(Course course, Topic topic) {
         course.addTopic(topic);
@@ -53,4 +66,15 @@ public class CourseController {
     public Course findCourse(@PathVariable Long id) throws CourseNotFoundException {
         return courseService.findCourse(id);
     }
-}
+
+    @PutMapping("/update/{id}")
+    public Course updateCourse(@RequestBody Course course,@PathVariable Long id)throws  CourseNotFoundException{
+        course = courseService.findCourse(id);
+      return courseService.updateCourse(course);
+
+
+    }
+
+
+    }
+
