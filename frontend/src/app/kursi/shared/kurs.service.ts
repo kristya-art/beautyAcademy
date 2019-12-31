@@ -31,6 +31,9 @@ export class KursService {
   updateKurs(id: number, value: any): Observable<Object> {
     return this.http.put("http://localhost:8080/courses/update/" + id,value);
   }
+  // updateKurs(id: number , kurs:Kurs): Observable<Object> {
+  //   return this.http.put("http://localhost:8080/courses/update/" + id,kurs);
+  // }
 
  createKurs(kurs:Object):Observable<Object> {
     return this.http.post("http://localhost:8080/courses/create/",kurs);

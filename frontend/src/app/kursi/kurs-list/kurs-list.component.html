@@ -1,1 +1,55 @@
-<p>kurs-list works!</p>
+<!--<div class="panel panel-primary">-->
+  <!--<div class="panel-heading">-->
+    <!--<h2>kurs List</h2>-->
+  <!--</div>-->
+  <!--<div class="panel-body">-->
+    <!--<table class="table table-striped">-->
+      <!--<thead>-->
+      <!--<tr>-->
+        <!--<th>Code</th>-->
+        <!--<th>Title</th>-->
+        <!--<th>Description</th>-->
+        <!--<th>Points</th>-->
+        <!--<th>Actions</th>-->
+      <!--</tr>-->
+      <!--</thead>-->
+      <!--<tbody>-->
+      <!--<tr *ngFor="let kurs of kursi | async">-->
+        <!--<td>{{kurs.code}}</td>-->
+        <!--<td>{{kurs.title}}</td>-->
+        <!--<td>{{kurs.description}}</td>-->
+        <!--<td>{{kurs.points}}</td>-->
+        <!--<td><button (click)="deleteKurs(kurs.id)" class="btn btn-danger">Delete</button>-->
+         <!--// <button (click)="employeeDetails(employee.id)" class="btn btn-info" style="margin-left: 10px">Details</button>-->
+        <!--</td>-->
+      <!--</tr>-->
+      <!--</tbody>-->
+    <!--</table>-->
+  <!--</div>-->
+<!--</div>-->
+<!--<h2>Catalog of kurss</h2>-->
+
+
+<div>
+<table border = "1">
+  <tr>
+    <th>id</th>
+    <th>Code</th>
+    <th>Title</th>
+    <th>Description</th>
+    <th>Points</th>
+    <th>Actions</th>
+  </tr>
+  <tr *ngFor="let kurs of kursi">
+    <td>{{kurs.id}}</td>
+    <td>{{kurs.code}}</td>
+    <td>{{kurs.title}}</td>
+    <td>{{kurs.description}}</td>
+    <td>{{kurs.points}}</td>
+    <td>Edit | Delete</td>
+    <td class="text-center"><button class="btn btn-danger btn-xs" (click)="deletekurs(kurs.id)"><span class="glyphicon-remove"></span> Delete</button></td>
+    <input  placeholder="points" [value]="kurs.points" [(ngModel)]="kurs.points" (keyup.enter)="update(kurs.id)">
+
+  </tr>
+</table>
+</div>

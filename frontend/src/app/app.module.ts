@@ -23,6 +23,10 @@ import { CourseComponent } from './course/course.component';
 import { KursiComponent } from './kursi/kursi.component';
 import { KursComponent } from './kursi/kurs/kurs.component';
 import { KursListComponent } from './kursi/kurs-list/kurs-list.component';
+import { MycourseListComponent } from './mycourse-list/mycourse-list.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import {MatButtonModule, MatCardModule, MatToolbarModule} from "@angular/material";
+import {MatListModule} from "@angular/material";
 
 @NgModule({
   declarations: [
@@ -39,13 +43,20 @@ import { KursListComponent } from './kursi/kurs-list/kurs-list.component';
     CourseComponent,
     KursiComponent,
     KursComponent,
-    KursListComponent
+    KursListComponent,
+    MycourseListComponent,
+
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    HttpClientModule
+    HttpClientModule,
+    BrowserAnimationsModule,
+    MatButtonModule,
+    MatCardModule,
+    MatToolbarModule,
+    MatListModule
 
   ],
   providers: [ɵHttpInterceptingHandler],

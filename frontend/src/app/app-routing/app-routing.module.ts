@@ -11,6 +11,8 @@ import {UserListComponent} from "../user-list/user-list.component";
 import {CourseComponent} from "../course/course.component";
 import {SubscriptionComponent} from "../subscription/subscription.component";
 import {KursiComponent} from "../kursi/kursi.component";
+import {MycourseService} from "../shared/mycourse/mycourse.service";
+import {MycourseListComponent} from "../mycourse-list/mycourse-list.component";
 
 const routes: Routes = [
   {
@@ -58,6 +60,10 @@ const routes: Routes = [
   {
     path: 'kursi',
     component: KursiComponent
+  },
+  {
+    path: 'mycourse-list',
+    component: MycourseListComponent
   },
   // {
   //   path: 'course-list',

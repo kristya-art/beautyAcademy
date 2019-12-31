@@ -1,0 +1,10 @@
+<mat-card>
+  <mat-card-title>Course List</mat-card-title>
+  <mat-card-content>
+    <mat-list>
+      <mat-list-item *ngFor="let mycourse of mycourses">
+        <h3 mat-line>{{mycourse.title}}</h3>
+      </mat-list-item>
+    </mat-list>
+  </mat-card-content>
+</mat-card>
