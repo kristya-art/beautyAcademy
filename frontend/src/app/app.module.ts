@@ -25,8 +25,9 @@ import { KursComponent } from './kursi/kurs/kurs.component';
 import { KursListComponent } from './kursi/kurs-list/kurs-list.component';
 import { MycourseListComponent } from './mycourse-list/mycourse-list.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import {MatButtonModule, MatCardModule, MatToolbarModule} from "@angular/material";
+import {MatButtonModule, MatCardModule, MatFormField, MatFormFieldModule, MatToolbarModule} from "@angular/material";
 import {MatListModule} from "@angular/material";
+import { MycourseEditComponent } from './mycourse-list/mycourse-edit/mycourse-edit.component';
 
 @NgModule({
   declarations: [
@@ -45,6 +46,8 @@ import {MatListModule} from "@angular/material";
     KursComponent,
     KursListComponent,
     MycourseListComponent,
+    MycourseEditComponent,
+
 
   ],
   imports: [
@@ -56,8 +59,14 @@ import {MatListModule} from "@angular/material";
     MatButtonModule,
     MatCardModule,
     MatToolbarModule,
-    MatListModule
+    MatListModule,
+    MatFormFieldModule,
 
+
+
+  ],
+  exports:[
+    MatFormFieldModule,
   ],
   providers: [ɵHttpInterceptingHandler],
   bootstrap: [AppComponent]

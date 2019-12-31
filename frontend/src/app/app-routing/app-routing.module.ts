@@ -13,6 +13,7 @@ import {SubscriptionComponent} from "../subscription/subscription.component";
 import {KursiComponent} from "../kursi/kursi.component";
 import {MycourseService} from "../shared/mycourse/mycourse.service";
 import {MycourseListComponent} from "../mycourse-list/mycourse-list.component";
+import {MycourseEditComponent} from "../mycourse-list/mycourse-edit/mycourse-edit.component";
 
 const routes: Routes = [
   {
@@ -71,6 +72,19 @@ const routes: Routes = [
   //
   // },
 
+  {path: '',redirectTo: '/mycourse-list',pathMatch:'full'},
+  {
+    path : 'mycourse-list',
+    component: MycourseListComponent
+  },
+  // {
+  //   path : "mycourse-add",
+  //   component: MycourseAddComponent
+  // },
+  {
+    path: "mycourse-edit",
+    component:MycourseEditComponent
+  },
   {
     path: '',
     redirectTo: 'home',
