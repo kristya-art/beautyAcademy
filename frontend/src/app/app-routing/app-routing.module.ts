@@ -62,10 +62,7 @@ const routes: Routes = [
     path: 'kursi',
     component: KursiComponent
   },
-  {
-    path: 'mycourse-list',
-    component: MycourseListComponent
-  },
+
   // {
   //   path: 'course-list',
   //   component: CourseComponent
@@ -82,7 +79,7 @@ const routes: Routes = [
   //   component: MycourseAddComponent
   // },
   {
-    path: "mycourse-edit",
+    path: 'mycourse-edit/:id',
     component:MycourseEditComponent
   },
   {

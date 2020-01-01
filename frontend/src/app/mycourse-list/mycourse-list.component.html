@@ -4,7 +4,7 @@
     <mat-list>
       <mat-list-item *ngFor="let mycourse of mycourses">
         <h3 mat-line>{{mycourse.title}}</h3>
-        <a mat-button [routerLink]="['mycourse-edit',mycourse.id]">{{mycourse.title}}</a>
+        <a mat-button [routerLink]="['/mycourse-edit',mycourse.id]">{{mycourse.title}}</a>
       </mat-list-item>
     </mat-list>
   </mat-card-content>
