@@ -9,6 +9,7 @@ import {resolveSanitizationFn} from "@angular/compiler/src/render3/view/template
 export class MycourseService {
   private courseUrl = 'http://localhost:8080/courses/list';
   private baseUrl = 'http://localhost:8080/courses/';
+  private saveUrl = 'http://localhost:8080/courses/save';
 
   constructor(private http: HttpClient) { }
 
@@ -23,7 +24,7 @@ export class MycourseService {
     if(mycourse.href){
       result = this.http.put(mycourse.href, mycourse);
     }else {
-      result = this.http.post(this.courseUrl,mycourse);
+      result = this.http.post(this.saveUrl,mycourse);
     }
     return result;
   }
