@@ -25,7 +25,14 @@ import { KursComponent } from './kursi/kurs/kurs.component';
 import { KursListComponent } from './kursi/kurs-list/kurs-list.component';
 import { MycourseListComponent } from './mycourse-list/mycourse-list.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import {MatButtonModule, MatCardModule, MatFormField, MatFormFieldModule, MatToolbarModule} from "@angular/material";
+import {
+  MatButtonModule,
+  MatCardModule,
+  MatFormField,
+  MatFormFieldModule,
+  MatInputModule,
+  MatToolbarModule
+} from "@angular/material";
 import {MatListModule} from "@angular/material";
 import { MycourseEditComponent } from './mycourse-list/mycourse-edit/mycourse-edit.component';
 
@@ -61,12 +68,14 @@ import { MycourseEditComponent } from './mycourse-list/mycourse-edit/mycourse-ed
     MatToolbarModule,
     MatListModule,
     MatFormFieldModule,
+    MatInputModule
 
 
 
   ],
   exports:[
     MatFormFieldModule,
+    MatInputModule
   ],
   providers: [ɵHttpInterceptingHandler],
   bootstrap: [AppComponent]
