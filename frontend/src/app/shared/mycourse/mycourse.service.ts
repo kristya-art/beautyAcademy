@@ -1,7 +1,6 @@
 import { Injectable } from '@angular/core';
 import {HttpClient} from "@angular/common/http";
 import {Observable} from "rxjs";
-import {resolveSanitizationFn} from "@angular/compiler/src/render3/view/template";
 
 @Injectable({
   providedIn: 'root'
@@ -28,7 +27,10 @@ export class MycourseService {
     }
     return result;
   }
-  remove(href: string) {
-    return this.http.delete(href);
+  // remove(href: string) {
+  //   return this.http.delete(href);
+  // }
+  remove(id){
+    return this.http.delete("http://localhost:8080/courses/cancel/"+id);
   }
 }

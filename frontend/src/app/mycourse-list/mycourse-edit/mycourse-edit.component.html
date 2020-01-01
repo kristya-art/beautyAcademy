@@ -12,9 +12,13 @@
   <mat-card-actions>
   <button mat-raised-button color="primary" type="submit"
           [disabled]="!mycourseForm.valid">Save</button>
-  <button mat-raised-button color="secondary" (click)="remove(mycourse.href)"
-          *ngIf="mycourse.href" type="button">Delete</button>
-  <a mat-button routerLink="/mycourse-list">Cancel</a>
+  <!--<button mat-raised-button color="secondary" (click)="remove(mycourse.href)"-->
+          <!--*ngIf="mycourse.href" type="button">Delete</button>-->
+    <button mat-raised-button color="secondary" (click)="remove(mycourse.id)"
+             type="button">Delete</button>
+    <td class="text-center"><button class="btn btn-danger btn-xs" (click)="deleteCourse(course.id)"><span class="glyphicon-remove"></span> Delete</button></td>
+
+    <a mat-button routerLink="/mycourse-list">Cancel</a>
   </mat-card-actions>
     <mat-card-footer>
 

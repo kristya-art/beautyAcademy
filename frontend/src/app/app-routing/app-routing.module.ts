@@ -74,10 +74,10 @@ const routes: Routes = [
     path : 'mycourse-list',
     component: MycourseListComponent
   },
-  // {
-  //   path : "mycourse-add",
-  //   component: MycourseAddComponent
-  // },
+  {
+    path : "mycourse-add",
+    component: MycourseEditComponent
+  },
   {
     path: 'mycourse-edit/:id',
     component:MycourseEditComponent
