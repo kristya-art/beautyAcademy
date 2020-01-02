@@ -7,6 +7,7 @@ import org.hibernate.annotations.NotFoundAction;
 import javax.persistence.*;
 import java.util.Collection;
 import java.util.HashSet;
+import java.util.List;
 
 @Entity
 public class Course {
@@ -101,7 +102,9 @@ public class Course {
     }
 
 
-
+   public void setTopics(Collection<Topic> list){
+        this.topics=list;
+   }
 
 
 

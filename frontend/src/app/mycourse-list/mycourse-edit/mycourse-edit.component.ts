@@ -12,7 +12,6 @@ import {NgForm} from "@angular/forms";
 export class MycourseEditComponent implements OnInit {
 
   mycourse: any = {};
-
   sub :Subscription;
   constructor(private route: ActivatedRoute,
               private router: Router,
@@ -26,7 +25,8 @@ export class MycourseEditComponent implements OnInit {
         this.mycourseService.get(id).subscribe((mycourse:any)=>{
           if(mycourse){
             this.mycourse = mycourse;
-            this.mycourse.href=mycourse._links.self.href;
+            this.mycourse.href = mycourse._links.self.href;
+            this.mycourseService.get(mycourse.id).subscribe(url => mycourse.Url = url);
 
           }else{
             console.log(`Course with id '${id}' not found, returning to list`);
@@ -53,4 +53,12 @@ remove(href) {
     this.mycourseService.remove(href).subscribe(result=>
     {this.gotoList();},
     error => console.error(error))}
+
+  update(form: NgForm){
+    this.mycourseService.update(form).subscribe(result=>{
+      this.gotoList();
+    },error => console.error(error));
+  }
+
 }
+

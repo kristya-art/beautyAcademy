@@ -28,6 +28,8 @@ public class CourseController {
     private CourseRepository repository;
     @Autowired
     private SubscriptionService subscriptionService;
+    @Autowired
+    private CourseRepository courseRepository;
 
     @PostMapping("/save")
     public void saveCourse(@RequestBody Course course){
@@ -67,12 +69,31 @@ public class CourseController {
         return courseService.findCourse(id);
     }
 
+//    @PutMapping("/update/{id}")
+//    public Course updateCourse(@RequestBody Course course,@PathVariable Long id)throws  CourseNotFoundException{
+//        course = courseService.findCourse(id);
+//      return courseService.updateCourse(course);
+//
+//
+//    }
+
+
     @PutMapping("/update/{id}")
-    public Course updateCourse(@RequestBody Course course,@PathVariable Long id)throws  CourseNotFoundException{
-        course = courseService.findCourse(id);
-      return courseService.updateCourse(course);
+    Course update(@RequestBody Course newCourse, @PathVariable Long id) {
 
-
+        return repository.findById(id)
+                 .map(course -> {
+            course.setCode(newCourse.getCode());
+            course.setTitle(newCourse.getTitle());
+            course.setDescription(newCourse.getDescription());
+            course.setPoints(newCourse.getPoints());
+            course.setTopics(newCourse.getTopics());
+            return  courseRepository.save(course);
+                })
+                .orElseGet(() -> {
+                    newCourse.setId(id);
+                    return courseRepository.save(newCourse);
+                });
     }
 
 

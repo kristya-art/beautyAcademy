@@ -9,6 +9,7 @@ export class MycourseService {
   private courseUrl = 'http://localhost:8080/courses/list';
   private baseUrl = 'http://localhost:8080/courses/';
   private saveUrl = 'http://localhost:8080/courses/save';
+  private updateUrl = 'http://localhost:8080/courses/update/';
 
   constructor(private http: HttpClient) { }
 
@@ -27,6 +28,19 @@ export class MycourseService {
     }
     return result;
   }
+
+  // update(course,id): Observable<any> {
+  //   return this.http.put(this.updateUrl+ id,course);
+  //
+  // }
+
+  // update(): Observable<any> {
+  //   let resultat: Observable<any>;
+  //   resultat = this.http.put(this.updateUrl+mycourse.id,mycourse);
+  //   return resultat;
+  // }
+
+
   // remove(href: string) {
   //   return this.http.delete(href);
   // }
