@@ -29,10 +29,10 @@ export class MycourseService {
     return result;
   }
 
-  // update(course,id): Observable<any> {
-  //   return this.http.put(this.updateUrl+ id,course);
-  //
-  // }
+  update(mycourse,id): Observable<any> {
+    return this.http.put('http://localhost:8080/courses/update/'+ id,mycourse);
+
+  }
 
   // update(): Observable<any> {
   //   let resultat: Observable<any>;

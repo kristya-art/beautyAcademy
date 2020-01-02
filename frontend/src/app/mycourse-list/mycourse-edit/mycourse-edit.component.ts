@@ -54,8 +54,8 @@ remove(href) {
     {this.gotoList();},
     error => console.error(error))}
 
-  update(form: NgForm){
-    this.mycourseService.update(form).subscribe(result=>{
+  update(mycourse,href){
+    this.mycourseService.update(mycourse,href).subscribe(result=>{
       this.gotoList();
     },error => console.error(error));
   }

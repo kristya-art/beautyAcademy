@@ -15,7 +15,7 @@
 
 
 
-    <button mat-raised-button color="primary" (click)="update(mycourseForm.value)"
+    <button mat-raised-button color="primary" (click)="update(mycourse,mycourse.id)"
             *ngIf="mycourse.id" [disabled]="!mycourseForm.valid" type="button">Update</button>
 
     <button mat-raised-button color="secondary" (click)="remove(mycourse.id)"
