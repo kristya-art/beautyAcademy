@@ -1,12 +1,30 @@
 <mat-card>
   <form #mycourseForm="ngForm" (ngSubmit)="save(mycourseForm.value)">
   <mat-card-title>{{mycourse.title ? 'Edit' : 'Add'}}</mat-card-title>
-  <mat-card-content>
+
+    <mat-card-content>
     <input type = "hidden" name="href" [(ngModel)]="mycourse.href">
     <mat-form-field>
-      <input matInput placeholder="Course title"  [(ngModel)]="mycourse.title"
+      <input matInput placeholder="course title"  [(ngModel)]="mycourse.title"
              required name="title" #title>
     </mat-form-field>
+      <mat-form-field>
+        <input matInput placeholder="course code"  [(ngModel)]="mycourse.code"
+               required name="code" #code>
+      </mat-form-field>
+      <!--<mat-form-field>-->
+        <!--<input matInput placeholder="course descripion"  [(ngModel)]="mycourse.description"-->
+               <!--required name="description" #description>-->
+      <!--</mat-form-field>-->
+
+      <mat-form-field>
+        <input matInput placeholder="course points"  [(ngModel)]="mycourse.points"
+               required name="points" #points>
+      </mat-form-field>
+      <mat-form-field>
+        <textarea matInput placeholder="course description" [(ngModel)]="mycourse.description"
+                  required name="description" #description></textarea>
+      </mat-form-field>
   </mat-card-content>
 
   <mat-card-actions>
