@@ -33,12 +33,13 @@ public class Subscription {
     public Subscription() {
     }
 
-    public Subscription(Collection<Participant> participants,Course course, Date date, Date last_date) {
+    public Subscription(Course course, Date date, Date last_date) {
         this.date = date;
         this.last_date=last_date;
         this.course=course;
         participants=new HashSet<>();
         this.addParticipants(participants);
+
 
     }
 

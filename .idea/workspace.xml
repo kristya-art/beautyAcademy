@@ -2,8 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7249c7d0-1691-4f21-b395-e17d3ecfd392" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/bea/bea/controller/ParticipantController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/app/mycourse-list/mycourse-edit/mycourse-edit.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/mycourse-list/mycourse-edit/mycourse-edit.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/user-list/user-list.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/user-list/user-list.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/bea/DataLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/bea/DataLoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/bea/bea/model/Participant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/bea/bea/model/Participant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/bea/bea/model/Subscription.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/bea/bea/model/Subscription.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/bea/bea/service/ParticipantService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/bea/bea/service/ParticipantService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/bea/DataLoader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/bea/DataLoader.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/client/dist/" />
     <ignored path="$PROJECT_DIR$/client/tmp/" />
@@ -69,43 +76,17 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5254669">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/frontend/src/app/mycourse-list/mycourse-edit/mycourse-edit.component.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="289">
-                  <caret line="17" column="27" lean-forward="true" selection-start-line="14" selection-start-column="10" selection-end-line="17" selection-end-column="27" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/frontend/src/app/kursi/kurs/kurs.component.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state>
-                  <caret column="65" selection-start-column="65" selection-end-column="65" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/frontend/src/app/kursi/kurs/kurs.component.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="85">
-                  <caret line="5" selection-start-line="4" selection-end-line="5" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/frontend/src/app/user-list/user-list.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -129,25 +110,28 @@
       <find>project</find>
       <find>save</find>
       <find>User</find>
-      <find>Course</find>
       <find>erro</find>
       <find>error</find>
       <find>empl</find>
       <find>mater</find>
       <find>mat</find>
       <find>cour</find>
-      <find>course</find>
       <find>sub</find>
       <find>kurs</find>
       <find>a</find>
       <find>rem</find>
+      <find>mycourse</find>
+      <find>course</find>
+      <find>Course</find>
     </findStrings>
     <replaceStrings>
       <replace>findByName</replace>
       <replace>Subscription</replace>
-      <replace>Participant</replace>
       <replace>kurs</replace>
       <replace>mycours</replace>
+      <replace>subscription</replace>
+      <replace>participant</replace>
+      <replace>Participant</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -156,10 +140,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/org/bea/bea/service/SubscriptionNotFoundException.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/bea/bea/service/SubscriptionService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/bea/bea/model/Participant.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/bea/bea/service/ParticipantService.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/bea/bea/service/ParticipantNotFoundException.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/bea/bea/security/WebSecurityConfig.java" />
         <option value="$PROJECT_DIR$/frontend/src/app/subscription/subscription.component.ts" />
@@ -172,15 +153,10 @@
         <option value="$PROJECT_DIR$/src/main/java/org/bea/bea/model/IntermediateExam.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/bea/bea/model/Quiz.java" />
         <option value="$PROJECT_DIR$/frontend/src/app/course.ts" />
-        <option value="$PROJECT_DIR$/frontend/src/app/user-list/user-list.component.html" />
-        <option value="$PROJECT_DIR$/src/main/java/org/bea/bea/model/Subscription.java" />
-        <option value="$PROJECT_DIR$/frontend/src/app/subscription/subscription.component.html" />
         <option value="$PROJECT_DIR$/frontend/src/app/course/course.ts" />
         <option value="$PROJECT_DIR$/frontend/src/app/search-delete/search-delete.component.ts" />
         <option value="$PROJECT_DIR$/frontend/src/app/search-delete/search-delete.component.html" />
         <option value="$PROJECT_DIR$/src/main/java/org/bea/bea/controller/SubscriptionController.java" />
-        <option value="$PROJECT_DIR$/frontend/src/app/course/course.component.ts" />
-        <option value="$PROJECT_DIR$/src/main/java/org/bea/DataLoader.java" />
         <option value="$PROJECT_DIR$/src/test/java/org/bea/ServiceTests/CourseServiceTest.java" />
         <option value="$PROJECT_DIR$/frontend/package.json" />
         <option value="$PROJECT_DIR$/frontend/src/app/kursi/kursi.component.html" />
@@ -189,7 +165,6 @@
         <option value="$PROJECT_DIR$/frontend/src/app/kursi/kursi.component.ts" />
         <option value="$PROJECT_DIR$/src/main/java/org/bea/bea/service/CourseService.java" />
         <option value="$PROJECT_DIR$/frontend/src/app/kursi/shared/kurs.service.ts" />
-        <option value="$PROJECT_DIR$/frontend/src/app/course/course.component.html" />
         <option value="$PROJECT_DIR$/frontend/src/app/kursi/kurs-list/kurs-list.component.html" />
         <option value="$PROJECT_DIR$/frontend/src/app/kursi/kurs-list/kurs-list.component.ts" />
         <option value="$PROJECT_DIR$/frontend/src/app/kursi/shared/kurs.model.ts" />
@@ -197,7 +172,6 @@
         <option value="$PROJECT_DIR$/frontend/src/app/kursi/kurs/kurs.component.html" />
         <option value="$PROJECT_DIR$/frontend/src/app/mycourse-list/mycourse-list.component.ts" />
         <option value="$PROJECT_DIR$/frontend/src/app/app.component.html" />
-        <option value="$PROJECT_DIR$/frontend/src/app/services/course.service.ts" />
         <option value="$PROJECT_DIR$/frontend/src/app/app.module.ts" />
         <option value="$PROJECT_DIR$/frontend/src/app/mycourse-list/mycourse-list.component.html" />
         <option value="$PROJECT_DIR$/frontend/src/app/app-routing/app-routing.module.ts" />
@@ -207,6 +181,16 @@
         <option value="$PROJECT_DIR$/frontend/src/app/mycourse-list/mycourse-edit/mycourse-edit.component.ts" />
         <option value="$PROJECT_DIR$/frontend/src/app/shared/mycourse/mycourse.service.ts" />
         <option value="$PROJECT_DIR$/frontend/src/app/mycourse-list/mycourse-edit/mycourse-edit.component.html" />
+        <option value="$PROJECT_DIR$/frontend/src/app/subscription/subscription.component.html" />
+        <option value="$PROJECT_DIR$/src/main/java/org/bea/bea/model/Subscription.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/bea/DataLoader.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/bea/bea/service/ParticipantService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/bea/bea/model/Participant.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/bea/bea/controller/ParticipantController.java" />
+        <option value="$PROJECT_DIR$/frontend/src/app/course/course.component.ts" />
+        <option value="$PROJECT_DIR$/frontend/src/app/services/course.service.ts" />
+        <option value="$PROJECT_DIR$/frontend/src/app/course/course.component.html" />
+        <option value="$PROJECT_DIR$/frontend/src/app/user-list/user-list.component.html" />
       </list>
     </option>
   </component>
@@ -233,9 +217,9 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-10" />
-    <option name="width" value="1532" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1270" />
+    <option name="width" value="1302" />
     <option name="height" value="1532" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -277,66 +261,7 @@
               <item name="frontend" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="app-routing" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="beauty-academy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="beauty-academy" type="462c0819:PsiDirectoryNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="course" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="beauty-academy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="beauty-academy" type="462c0819:PsiDirectoryNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="kursi" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="beauty-academy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="beauty-academy" type="462c0819:PsiDirectoryNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="kursi" type="462c0819:PsiDirectoryNode" />
-              <item name="kurs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="beauty-academy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="beauty-academy" type="462c0819:PsiDirectoryNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="mycourse-list" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="beauty-academy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="beauty-academy" type="462c0819:PsiDirectoryNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="mycourse-list" type="462c0819:PsiDirectoryNode" />
-              <item name="mycourse-edit" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="beauty-academy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="beauty-academy" type="462c0819:PsiDirectoryNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="shared" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="beauty-academy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="beauty-academy" type="462c0819:PsiDirectoryNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="shared" type="462c0819:PsiDirectoryNode" />
-              <item name="mycourse" type="462c0819:PsiDirectoryNode" />
+              <item name="user-list" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="beauty-academy" type="b2602c69:ProjectViewProjectNode" />
@@ -382,39 +307,6 @@
               <item name="org" type="462c0819:PsiDirectoryNode" />
               <item name="bea" type="462c0819:PsiDirectoryNode" />
               <item name="bea" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="beauty-academy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="beauty-academy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="bea" type="462c0819:PsiDirectoryNode" />
-              <item name="bea" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="beauty-academy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="beauty-academy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="bea" type="462c0819:PsiDirectoryNode" />
-              <item name="bea" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="beauty-academy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="beauty-academy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="bea" type="462c0819:PsiDirectoryNode" />
-              <item name="bea" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -431,7 +323,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1578014520612" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1578020278724" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="editor.config.ad.shown" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$/Documents/MATLAB/M4.m" />
@@ -641,7 +533,7 @@
       <workItem from="1577632436816" duration="30636000" />
       <workItem from="1577725587404" duration="25312000" />
       <workItem from="1577879133760" duration="20464000" />
-      <workItem from="1578012580224" duration="2037000" />
+      <workItem from="1578012580224" duration="8055000" />
     </task>
     <servers />
   </component>
@@ -678,7 +570,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="292907000" />
+    <option name="totallyTimeSpent" value="298925000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -690,10 +582,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="-6" width="1293" height="773" extended-state="7" />
+    <frame x="-6" y="-6" width="1293" height="773" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.046153847" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2145749" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -709,15 +601,15 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32861635" />
       <window_info anchor="bottom" id="Spring" order="7" weight="0.051321927" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.11975116" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.3919129" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50040483" side_tool="true" weight="0.0466563" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.26127526" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.25816485" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.32970452" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
       <window_info anchor="bottom" id="Version Control" order="14" />
       <window_info anchor="bottom" id="TypeScript" order="15" weight="0.32970452" />
-      <window_info anchor="bottom" id="Run Dashboard" order="16" sideWeight="0.49959514" weight="0.33281493" />
+      <window_info anchor="bottom" id="Run Dashboard" order="16" sideWeight="0.49959514" weight="0.5163297" />
       <window_info anchor="bottom" id="Database Console" order="17" weight="0.44339624" />
       <window_info anchor="bottom" id="Inspection Results" order="18" weight="0.33333334" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -727,7 +619,7 @@
       <window_info anchor="right" id="PlantUML" order="4" />
       <window_info anchor="right" id="Palette" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Database" order="7" weight="0.13360325" />
+      <window_info anchor="right" id="Database" order="7" visible="true" weight="0.068016194" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
       <window_info anchor="right" id="Jms Messenger" order="10" />
@@ -784,124 +676,6 @@
     </option>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/bea/bea/security/WebSecurityConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="59" column="57" lean-forward="true" selection-start-line="59" selection-start-column="57" selection-end-line="59" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/app/search-delete/search-delete.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="46" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
-          <folding>
-            <element signature="e#0#50#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/bea/DataLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="111" selection-start-line="110" selection-end-line="111" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/bea/bea/model/Subscription.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-102">
-          <caret line="21" column="43" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/org/bea/ServiceTests/UserServiceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="14" column="57" selection-start-line="14" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/org/bea/ServiceTests/CourseServiceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="57" column="8" selection-start-line="57" selection-start-column="8" selection-end-line="57" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/app/matedit.module.ts" />
-    <entry file="file://$PROJECT_DIR$/frontend/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="49">
-          <caret line="12" column="2" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="17" column="7" lean-forward="true" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/node_modules/@angular/core/core.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="798" column="4" selection-start-line="798" selection-start-column="4" selection-end-line="798" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="73" column="28" lean-forward="true" selection-start-line="73" selection-start-column="28" selection-end-line="73" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/app/kursi/kursi.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="10" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
-          <folding>
-            <element signature="e#0#50#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/app/kursi/kurs-list/kurs-list.component.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/app/kursi/kursi.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="40" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://51167ed0-41cd-429c-9592-d446c4f5fdd6/database/bea/schema/public/table/users">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/app/course/course.component.spec.ts" />
-    <entry file="file://$PROJECT_DIR$/frontend/src/app/course/course.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="28" column="3" selection-start-line="28" selection-start-column="2" selection-end-line="28" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#50#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/frontend/src/app/kursi/kurs-list/kurs-list.component.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -921,27 +695,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/bea/bea/controller/SubscriptionController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="16" column="14" lean-forward="true" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/bea/bea/service/TopicService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/bea/bea/service/SubscriptionService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1046,13 +803,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/app/course/course.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="449">
-          <caret line="32" column="10" lean-forward="true" selection-start-line="32" selection-start-column="10" selection-end-line="32" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/frontend/src/app/app-routing/app-routing.module.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="167">
@@ -1060,13 +810,6 @@
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/app/course/course.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
@@ -1086,64 +829,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/app/services/course.service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="27" lean-forward="true" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/frontend/src/app/kursi/kurs-list/kurs-list.component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="33" column="20" lean-forward="true" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/bea/bea/service/CourseService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="61" column="49" selection-start-line="61" selection-start-column="49" selection-end-line="61" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://51167ed0-41cd-429c-9592-d446c4f5fdd6/database/bea/schema/public/table/course">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/app/mycourse-list/mycourse-list.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/app/shared/mycourse/mycourse.service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="32" column="26" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/bea/bea/controller/CourseController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="91" column="18" selection-start-line="91" selection-start-column="18" selection-end-line="91" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1167,17 +856,247 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/app/kursi/kurs/kurs.component.html">
-      <provider selected="true" editor-type-id="text-editor">
+    <entry file="das://51167ed0-41cd-429c-9592-d446c4f5fdd6/database/bea/schema/public/table/topic">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
-          <caret column="65" selection-start-column="65" selection-end-column="65" />
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/frontend/src/app/mycourse-list/mycourse-edit/mycourse-edit.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="27" lean-forward="true" selection-start-line="14" selection-start-column="10" selection-end-line="17" selection-end-column="27" />
+        <state relative-caret-position="272">
+          <caret line="16" column="24" lean-forward="true" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/bea/bea/service/SubscriptionService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://51167ed0-41cd-429c-9592-d446c4f5fdd6/database/bea/schema/public/table/users_courses">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+          <column-attributes>
+            <column name="ctid" enabled="false" />
+          </column-attributes>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://51167ed0-41cd-429c-9592-d446c4f5fdd6/database/bea/schema/public/table/users">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://51167ed0-41cd-429c-9592-d446c4f5fdd6/database/bea/schema/public/table/course_topics">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+          <column-attributes>
+            <column name="ctid" enabled="false" />
+          </column-attributes>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://51167ed0-41cd-429c-9592-d446c4f5fdd6/database/bea/schema/public/table/subscription_courses">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+          <column-attributes>
+            <column name="ctid" enabled="false" />
+          </column-attributes>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://51167ed0-41cd-429c-9592-d446c4f5fdd6/database/bea/schema/public/table/subscription_participants">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+          <column-attributes>
+            <column name="ctid" enabled="false" />
+          </column-attributes>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://51167ed0-41cd-429c-9592-d446c4f5fdd6/database/bea/schema/public/table/subscription">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://51167ed0-41cd-429c-9592-d446c4f5fdd6/database/bea/schema/public/table/course">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/app/subscription/subscription.component.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/bea/bea/controller/SubscriptionController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="7" selection-start-line="11" selection-end-line="12" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/bea/DataLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="115" column="53" selection-start-line="115" selection-start-column="53" selection-end-line="115" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/bea/bea/controller/ParticipantController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="907">
+          <caret line="93" selection-start-line="93" selection-end-line="93" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/bea/bea/model/Subscription.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="40" column="43" selection-start-line="40" selection-start-column="43" selection-end-line="40" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/bea/bea/service/ParticipantService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="42" column="62" selection-start-line="42" selection-start-column="62" selection-end-line="42" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#704#705#0" expanded="true" />
+            <element signature="e#758#759#0" expanded="true" />
+            <element signature="e#825#826#0" expanded="true" />
+            <element signature="e#887#888#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/bea/bea/service/CourseService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="51" column="40" selection-start-line="42" selection-start-column="2" selection-end-line="51" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/bea/bea/controller/CourseController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1479">
+          <caret line="91" column="18" selection-end-line="101" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/bea/bea/model/Participant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="50" column="37" selection-start-line="50" selection-start-column="37" selection-end-line="50" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/app/kursi/kurs/kurs.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="4" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/app/kursi/kursi.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="6" lean-forward="true" selection-end-line="8" selection-end-column="6" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/app/services/course.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/app/course/course.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/app/shared/mycourse/mycourse.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="30" lean-forward="true" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/app/mycourse-list/mycourse-list.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/app/course/course.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/app/course/course.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/app/services/subscription.service.spec.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/app/user-list/user-list.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>

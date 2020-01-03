@@ -113,7 +113,7 @@ public class DataLoader implements ApplicationRunner {
         Date date = new Date(2019/11/3);
         Date date2 = new Date(2019/11/17);
         collection.add(mike);
-        Subscription subscription = new Subscription(collection,course,date,date2);
+        Subscription subscription = new Subscription(course,date,date2);
 
        subscription.addParticipants(collection);
         subscriptionRepository.save(subscription);
