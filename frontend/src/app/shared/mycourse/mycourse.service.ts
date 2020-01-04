@@ -33,18 +33,12 @@ export class MycourseService {
     return this.http.put('http://localhost:8080/courses/update/'+ id,mycourse);
 
   }
-
-  // update(): Observable<any> {
-  //   let resultat: Observable<any>;
-  //   resultat = this.http.put(this.updateUrl+mycourse.id,mycourse);
-  //   return resultat;
-  // }
-
-
-  // remove(href: string) {
-  //   return this.http.delete(href);
-  // }
   remove(id){
     return this.http.delete("http://localhost:8080/courses/cancel/"+id);
   }
+
+  // search(mycourses,keyword):Observable<any>{
+  //
+  // }
+
 }

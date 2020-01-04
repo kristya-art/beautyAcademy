@@ -14,21 +14,27 @@ import {KursiComponent} from "../kursi/kursi.component";
 import {MycourseService} from "../shared/mycourse/mycourse.service";
 import {MycourseListComponent} from "../mycourse-list/mycourse-list.component";
 import {MycourseEditComponent} from "../mycourse-list/mycourse-edit/mycourse-edit.component";
+import {CatalogComponent} from "../catalog/catalog.component";
 
 const routes: Routes = [
+
   {
     path: 'home',
     component: HomeComponent
   } ,
   {
+    path: 'catalog',
+    component: CatalogComponent
+  },
+  {
     path: 'user',
     component: UserComponent
   },
-  {
-    path: 'course',
-    component: CourseComponent
-
-  },
+  // {
+  //   path: 'course',
+  //   component: CourseComponent
+  //
+  // },
   {
     path: 'subscription',
     component: SubscriptionComponent
@@ -58,10 +64,10 @@ const routes: Routes = [
     path: 'subscription',
     component: SubscriptionComponent
   },
-  {
-    path: 'kursi',
-    component: KursiComponent
-  },
+  // {
+  //   path: 'kursi',
+  //   component: KursiComponent
+  // },
 
   // {
   //   path: 'course-list',

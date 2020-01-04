@@ -12,6 +12,8 @@ import {NgForm} from "@angular/forms";
 export class MycourseEditComponent implements OnInit {
 
   mycourse: any = {};
+  keywords:string;
+
   sub :Subscription;
   constructor(private route: ActivatedRoute,
               private router: Router,

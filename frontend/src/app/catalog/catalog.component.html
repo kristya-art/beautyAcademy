@@ -1,0 +1,26 @@
+<mat-card>
+  <mat-card-title>Catalog of courses</mat-card-title>
+
+  <div class="search-course">
+    <input class="form-control" type="text" name="search" [ngModel]="keywords" autocomplete="off"
+           placeholder="&#61442; Start searching for a course">
+  </div>
+  <!--<input matInput placeholder = "search" [ngModel]="keywords"-->
+         <!--required name="keywords" #keywords>-->
+  <mat-card-content>
+
+
+
+    <mat-list-item *ngFor="let mycourse of mycourses">
+      <a mat-button [routerLink]="['/mycourse-details',mycourse.id]">{{mycourse.title}}</a>
+    </mat-list-item>
+  </mat-card-content>
+</mat-card>
+
+<!--<tr *ngFor="let mycourse of mycourses | filter:keywords">-->
+  <!--<td>{{mycourse.id}}</td>-->
+  <!--<td>{{mycourse.code}}</td>-->
+  <!--<td>{{mycourse.title}}</td>-->
+<!--</tr>-->
+
+

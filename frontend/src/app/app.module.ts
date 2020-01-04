@@ -35,6 +35,7 @@ import {
 } from "@angular/material";
 import {MatListModule} from "@angular/material";
 import { MycourseEditComponent } from './mycourse-list/mycourse-edit/mycourse-edit.component';
+import { CatalogComponent } from './catalog/catalog.component';
 
 @NgModule({
   declarations: [
@@ -54,6 +55,7 @@ import { MycourseEditComponent } from './mycourse-list/mycourse-edit/mycourse-ed
     KursListComponent,
     MycourseListComponent,
     MycourseEditComponent,
+    CatalogComponent,
 
 
   ],
@@ -68,7 +70,10 @@ import { MycourseEditComponent } from './mycourse-list/mycourse-edit/mycourse-ed
     MatToolbarModule,
     MatListModule,
     MatFormFieldModule,
-    MatInputModule
+    MatInputModule,
+
+
+
 
 
 
