@@ -30,19 +30,19 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {2.2.1}Agile development, Scrum.}{7}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3}Feasibility}{9}% 
+\contentsline {subsection}{\numberline {2.3}Feasibility}{8}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.3.1}Technical Feasibility}{9}% 
+\contentsline {subsubsection}{\numberline {2.3.1}Technical Feasibility}{8}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {2.3.2}Financial Feasibility}{9}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {2.3.3}Resource and Time Feasibility}{9}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.4}Analysis}{10}% 
+\contentsline {subsection}{\numberline {2.4}Analysis}{9}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.4.1}Domain model}{10}% 
+\contentsline {subsubsection}{\numberline {2.4.1}Domain model}{9}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.4.2}Product Backlog}{12}% 
+\contentsline {subsubsection}{\numberline {2.4.2}Product Backlog and user stories}{12}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.5}Design}{14}% 
 \defcounter {refsection}{0}\relax 
@@ -70,6 +70,6 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.1}Meetings calendar}{26}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2}Spring Backlog}{28}% 
+\contentsline {subsection}{\numberline {4.2}Spring Backlog}{27}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.2.1}Protocol}{29}% 
+\contentsline {subsubsection}{\numberline {4.2.1}Protocol}{27}% 

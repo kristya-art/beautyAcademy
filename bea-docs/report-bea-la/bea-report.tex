@@ -222,9 +222,9 @@ Architecture of the application                   &           \\ \hline
 Design                   &        In this phase we have created  System sequence diagrams,Sequence diagrams,Design class diagrams. These diagrams are very important to make implementation. \\ \hline
 Implementation                   &           For Implementation we have choose the Spring Framework for backend and Angular Framework for frontend.\\ \hline
 Testing                   &            For test our application we have used : Unit test,  \\ \hline
-III                    &              113\\ \hline
-JJJ                    &              234\\ \hline
-KKK                    &              345\\ \hline
+%III                    &              113\\ \hline
+%JJJ                    &              234\\ \hline
+%KKK                    &              345\\ \hline
 \end{tabular}
 \end{center}
 \caption{Caption2}
@@ -305,7 +305,7 @@ Association manages between the Lecturer and Course denotes the fact that each l
 Association belongs to between Quiz and Exam denotes the fact that each Quiz belongs to exactly one exam, hence multiplicity (1), and each exam can have zero or more quizzes, hence multiplicity(0..*). \\
 Association belongs to between Quiz and Question denotes the fact that each Question belongs to exactly one Quiz, hence multiplicity (1), and each Quiz can have zero or more questions, hence multiplicity(0..*). \\
 Association belongs to between Question and Answers denotes the fact that each Answer belongs to exactly one Question, hence multiplicity (1), and each exam can have one or more answer, hence multiplicity(1..*). \\
-\subsubsection{Product Backlog}
+\subsubsection{Product Backlog and user stories}
 The product backlog is a list of user stories which is used to implement the product vision. It is sorted according to the priority of the user stories according to the product owner. The priority of these stories will be modified during the process of the project.\\
 
 
@@ -321,6 +321,7 @@ Spring Boot is the starting point for building all Spring-based applications. Sp
 -Developer productivity tools such as Live Reload and Auto Restart\\
 -Curated dependencies that ju \begin{table}[H]
 \begin{center}
+\textbf{USER STORIES }\\[1cm]
 \begin{tabular}{| p{2.5cm}| p{4cm} | p{9cm} |}
 \hline
 \textbf{id} & \textbf{Story name} & \textbf{Story description}\\
@@ -666,70 +667,82 @@ Apart from the better scaling, microservices offer faster development cycles, dy
 \end{figure}
 
 \subsection{Spring Backlog}
-\begin{table}[H]
-    \centering
-    \begin{tabular}{c@{\qquad}lllll}
-   Sprint Backlog of Sprint 1\\
+%\begin{table}[h]
+%\begin{center}
+%\begin{tabular}{| p{7cm}| p{7cm} |}
+%Our developments steps \\
+%\hline
+%\textbf{Phase} & \textbf{Processes} \\
+%\hline
+
+\begin{table}[h]
+%    \centering
+%    \begin{tabular}{c@{\qquad}lllll}
+\begin{center}
+\begin{tabular}{| p{2.5cm}| p{4cm} | p{5cm} |p{2.5cm} | p{4cm}|}
+   Sprint Backlog of Sprint 1\\ \hline
     
-        \toprule
-           & id & Story name & Story description & Priority & Status\\
-        \midrule
-        & 0 & Domain model & Domain model & High & done \\ \hline
-        & 1 & Documentation  & Initial structure of main document & High & done \\ \hline
+%        \toprule
+
+          \textbf{id}  &  \textbf{Story name} &  \textbf{Story description} &  \textbf{Priority}  & \textbf{Status}\\ \hline
+%        \midrule
+         0 & Domain model & Domain model & High & done \\ \hline
+        1 & Documentation  & Initial structure of main document & High & done \\ \hline
         
-         &  2 &  User stories  & Write some user stories  & High & done. \\ \hline
-          & 3 &  Vision &  Start vision of project & High  & done. \\ \hline
-           & 4 & Infrastructure & Set up infrastructure- Gitlab & done & . \\ \hline
-            & 5 &  User stories & Define more user stories and enter them to the main document. & High & done. \\ \hline
-             & 6 & User stories & Extend user stories with "success" and "failure" & Medium & partial done. \\ \hline
-              & 7 & Infrastructure & Sprint Backlog. Make a document with sprint planning. Divide work in 14 weeks .  & High &  done. \\ \hline
-               & 8 & Documentation & Extend documentation with explanation about Angular and Spring. "What is it Spring, Angular …." & High & done. \\ \hline
-               & 9 & Documentation & Make clear vision document and put it to the main document & High & done . \\ \hline
+           2 &  User stories  & Write some user stories  & High & done. \\ \hline
+           3 &  Vision &  Start vision of project & High  & done. \\ \hline
+            4 & Infrastructure & Set up infrastructure- Gitlab & done & . \\ \hline
+             5 &  User stories & Define more user stories and enter them to the main document. & High & done. \\ \hline
+              6 & User stories & Extend user stories with "success" and "failure" & Medium & partial done. \\ \hline
+               7 & Infrastructure & Sprint Backlog. Make a document with sprint planning. Divide work in 14 weeks .  & High &  done. \\ \hline
+                8 & Documentation & Extend documentation with explanation about Angular and Spring. "What is it Spring, Angular …." & High & done. \\ \hline
+                9 & Documentation & Make clear vision document and put it to the main document & High & done . \\ \hline
                
                 Sprint Backlog of Sprint 2 \\
-                 & 10 & Postgres SQL & Add postgres SQL to the project, make connection & High & done. \\ \hline
-                  &  11& UML diagrams & System sequence diagram for login & High & done . \\ \hline
-                   & 12 &  User stories &  Implement login & High & done. \\ \hline
-                    & 13 &  &  &  & . \\ \hline
-                     &  &  &  &  & . \\ \hline
-                      &  &  &  &  & . \\ \hline
+                  10 & Postgres SQL & Add postgres SQL to the project, make connection & High & done. \\ \hline
+                    11& UML diagrams & System sequence diagram for login & High & done . \\ \hline
+                    12 &  User stories &  Implement login & High & done. \\ \hline
+                     13 &  &  &  & . \\ \hline
+                       &  &  &  & . \\ \hline
+                        &  &  &  & . \\ \hline
                     
                   Sprint Backlog of Sprint3 \\
-                   & 15 & UML diagrams & ssd for registration  & High & . \\ \hline
-                     & 16 & User stories & Registration & Hight & Partial have done \\ \hline
-                      & 17 & Front end & Start with frontend & High &   started. \\ \hline
-                       & 18 & Documentation & word-->latex & low & . \\ \hline
-                        & 19 & User stories & Add email confirmation to the registration & Medium & almost done. \\ \hline
-                         & 20 & User stories & Domain classes & High & . \\ \hline
-                          & 21 & User stories & Repositories and Service classes & High & . \\ \hline
-                           & 22 & User stories & Add ssd for new feature  & High & . \\ \hline
-                           & 23 & User stories &  Add Controller for new feature & High & . \\ \hline
-         & 24 & Front end  & Continue with Angular front end  & High & . \\ \hline
+                    15 & UML diagrams & ssd for registration  & High & . \\ \hline
+                      16 & User stories & Registration & Hight & Partial have done \\ \hline
+                       17 & Front end & Start with frontend & High &   started. \\ \hline
+                        18 & Documentation & word-->latex & low & . \\ \hline
+                         19 & User stories & Add email confirmation to the registration & Medium & almost done. \\ \hline
+                          20 & User stories & Domain classes & High & . \\ \hline
+                           21 & User stories & Repositories and Service classes & High & . \\ \hline
+                            22 & User stories & Add ssd for new feature  & High & . \\ \hline
+                            23 & User stories &  Add Controller for new feature & High & . \\ \hline
+          24 & Front end  & Continue with Angular front end  & High & . \\ \hline
 	
 	Spring Backlog of Sprint 4\\
-	 &  &  &  &  & . \\ \hline
-	  &  &  &  &  & . \\ \hline
-	   &  &  &  &  & . \\ \hline
-	    &  &  &  &  & . \\ \hline
-	     &  &  &  &  & . \\ \hline
-	      &  &  &  &  & . \\ \hline
-	       &  &  &  &  & . \\ \hline
-	        &  &  &  &  & . \\ \hline
-	         &  &  &  &  & . \\ \hline
-	          &  &  &  &  & . \\ \hline
-	           &  &  &  &  & . \\ \hline
-	            &  &  &  &  & . \\ \hline
-	             &  &  &  &  & . \\ \hline
+	  &  &  &  & . \\ \hline
+	    &  &  &  & . \\ \hline
+	     &  &  &  & . \\ \hline
+	      &  &  &  & . \\ \hline
+	       &  &  &  & . \\ \hline
+	        &  &  &  & . \\ \hline
+	         &  &  &  & . \\ \hline
+	         &  &  &  & . \\ \hline
+	           &  &  &  & . \\ \hline
+	            &  &  &  & . \\ \hline
+	             &  &  &  & . \\ \hline
+	              &  &  &  & . \\ \hline
+	               &  &  &  & . \\ \hline
 	
 	 
-        \midrule
+        
     \end{tabular}
+    \end{center}
     \caption{Sprint Backlog}
     \label{tab:typo}
 \end{table}
 
    
-   
+
    
     
    
@@ -887,21 +900,21 @@ Plan:\\
 
 Lesson learned:\\ Learned more about writing professional documents. New tips about system sequence diagram.
 
-Next meeting: \textcolor{red}{11.12.19, 14:30}
+Next meeting: {11.12.19, 14:30}
 
 
-\textbf{\textit{Report from }}
+\textbf{\textit{Report from 11.12.19, }}
 Plan:\\
 \begin{itemize}
-	\item	
+	\item	 Continue making report 
 	
-	\item	
+	\item	Continue with implementation
 
 \end{itemize}
 
 Lesson learned:\\
 
-Next meeting: \\
+Next meeting: \textcolor{red}{08.01.20, 14:30}
 
 
 \textbf{\textit{Report from }}
@@ -915,38 +928,7 @@ Plan:\\
 
 Lesson learned:\\
 
-Next meeting: \\
-
-
-
-\textbf{\textit{Report from }}
-Plan:\\
-\begin{itemize}
-	\item	
-
-	\item	
-
-\end{itemize}
-
-Lesson learned:\\
-
-Next meeting: \\
-
-
-
-\textbf{\textit{Report from }}
-Plan:\\
-\begin{itemize}
-	\item	 
-
-	\item	
-
-\end{itemize}
-
-Lesson learned:\\
-
-Next meeting: \\
-
+Next meeting: \\ {presentation}
 
 
 \end{document}
