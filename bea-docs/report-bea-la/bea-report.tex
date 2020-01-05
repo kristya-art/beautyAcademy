@@ -153,8 +153,22 @@ Optimize product descriptions for SEO too.who, what, where, when, why and how be
   	\end{itemize}
   	
   	
-  	\subsubsection{User Summary}
-  	
+  	\subsubsection{Use Cases }
+  	For level access control, users are divided into four levels of access, namely , user, participant, lecturer and administrator. The three levels of access have different access control to BEA  as seen in use case diagram in Figure 1  and Figure 2
+  	\begin{figure}[H]
+\centering
+\includegraphics[width=150mm]{ucd_user.JPG}
+\caption{Use Case Diagram for user of BEA}
+\label{ucd_user}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=150mm]{ucd_admin_lecturer.JPG}
+\caption{Use Case Diagram for administrator and lecturer of BEA}
+\label{ucd_user}
+\end{figure}
+
   	\subsection{Software development methodology}
   	The establishment and use of sound engineering principles in order to obtain economically
 developed software that is reliable and works efficiently on real machines is called software engineering.\\
@@ -387,7 +401,7 @@ After downloading application, and running first time, user will be directed to 
 
 \textbf{\textit{Design elements.}}
 \textbf{\textit{Catalog page.}}
-After click of catalog of courses in the bar meny user will be redirected to Course page.
+After click of catalog of courses in the bar menu user will be redirected to Course page.
 
 \begin{figure}[H]
 \centering
@@ -575,18 +589,32 @@ It brings a lot of utility code that we can reuse, for example users navigation.
 
 \subsubsection{Description of the deployment procedure.}
 \textbf{Configuring PosgreSQL}
- To configure Spring Boot to use PostgreSQL as our data source. we can do that simply by adding PostgreSQL database url, username, and password in the \textbf{src/main/resources/application.properties} file \\
+ To configure Spring Boot to use PostgreSQL as our data source, we can do that simply by adding PostgreSQL database url, username, and password in the \textbf{src/main/resources/application.properties} file \\
  
 %todo put photo of application.properties file and maybe file location
 
  
  
  
-We used angular CLI to generate angular project and modified it to have functionality such as list user and add user. We used spring boot to expose REST API for the crud operation and integrated spring data to communicate with posgresql database. We made use of ng serv to serv the angular project on localhost:4200 and it is consuming APIs exposed on localhost:8080. 
+We used angular CLI to generate angular project and modified it to have functionality such as list user and add user. We used spring boot to expose REST API for the crud operation and integrated spring data to communicate with posgresql database. We made use of ng serve to serve the angular project on localhost:4200 and it is consuming APIs exposed on localhost:8080. 
 
 %todo put two photos here ( spring boot run example, angular run example)
 
+\begin{figure}[H]
+\centering
+\includegraphics[width=150mm]{run_backend.JPG}
+\caption{This figure shows how to run backend of this project}
+\label{blabla}
+\end{figure}
 
+\begin{figure}[H]
+\centering
+\includegraphics[width=150mm]{run_frontend.JPG}
+\caption{This figure shows how to run frontend of this project}
+\label{blabla}
+\end{figure}
+
+These two figures show how to run this project. First you have to run backend and then frontend. After this you have to open browser on localhost:4200.
 \subsection{Integration and System testing}
 For testing  our application we have used different tests:\\
 • JUNIT we have used as the main testing tool that automates the testing.\\ process.\\
