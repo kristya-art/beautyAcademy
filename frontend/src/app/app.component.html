@@ -17,13 +17,23 @@
         <a class="nav-link" routerLink="admin">Lecturer Board</a>
       </li>
       <li *ngIf="authority === 'admin'" class = "nav-item">
+        <a class="nav-link" routerLink="subscription">Subscription list</a>
+
+      </li>
+      <li *ngIf="authority === 'admin'" class = "nav-item">
         <a class="nav-link" routerLink="user-list">User List</a>
       </li>
       <li class ="nav-item">
-        <a class="nav-link" routerLink="course">Catalog of courses</a>
+        <a class="nav-link" routerLink="catalog">Catalog of courses</a>
+      </li>
+      <li *ngIf="authority === 'admin'|| authority === 'lecturer'" class ="nav-item">
+        <a class="nav-link" routerLink="kursi">Courses</a>
       </li>
       <li *ngIf="!authority" class = "nav-item">
         <a class="nav-link" routerLink="auth/login">Login</a>
+      </li>
+      <li *ngIf="authority === 'admin'|| authority === 'lecturer'" class ="nav-item">
+        <a class="nav-link" routerLink="mycourse-list">Courses</a>
       </li>
 
 

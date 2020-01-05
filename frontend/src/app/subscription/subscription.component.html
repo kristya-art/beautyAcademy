@@ -1,1 +1,33 @@
-<p>subscription works!</p>
+<h2>Subscription</h2>
+<div>{{subscriptions}}</div>
+
+<div *ngFor = "let subscription of subscriptions">
+  {{subscription.courses}}
+  {{subscription.id}}
+
+  {{subscription.date}}
+  {{subscription.last}}
+
+
+</div>
+
+<button (click)="save()">save</button>
+<!--<div>-->
+<!--<table border = "1">-->
+  <!--<tr>-->
+    <!--<th>Course</th>-->
+    <!--<th>Participant</th>-->
+    <!--<th>Subscribe-date</th>-->
+    <!--<th>Last-date</th>-->
+    <!--<th>Actions</th>-->
+  <!--</tr>-->
+
+  <!--<tr *ngFor="let subscription of subscriptions">-->
+    <!--<td></td>-->
+    <!--<td></td>-->
+    <!--<td></td>-->
+    <!--<td></td>-->
+    <!--<td>Edit | Delete</td>-->
+  <!--</tr>-->
+<!--</table>-->
+<!--</div>  -->

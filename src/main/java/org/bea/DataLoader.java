@@ -61,6 +61,8 @@ public class DataLoader implements ApplicationRunner {
         roleRepository.save(role2);
         roleRepository.save(role3);
 
+        //****************user load data************
+
         User steve = new User("steve","steve","steve@gmal.com","stevesteve");
         Set<Role> roles = new HashSet<>();
         Role role = new Role(ROLE_ADMIN);
@@ -73,6 +75,7 @@ public class DataLoader implements ApplicationRunner {
         mike.addRole(new Role(ROLE_USER));
         userService.saveUser(mike);
 
+        //************************course load data ***********
 
        Course course = new Course("4536","Beauty-course", "beauty",45);
        courseService.saveCourse(course);
@@ -87,17 +90,30 @@ public class DataLoader implements ApplicationRunner {
 
        Collection<Topic> topics =new HashSet<>();
        Topic t=new Topic("Moda 2020", "this topic is about how to choose the right clothes for different type of person",course2);
-        Topic t2 =new Topic("Body care", "this topic is about how to be fit and beautifu, and how to motivate other to do it",course2);
+        Topic t2 =new Topic("Body care", "this topic is about how to be fit and beautiful, and how to motivate other to do it",course2);
         Topic t3 = new Topic("Make-up artist","this topic everything about make-up, ..",course2);
 
         courseService.saveCourse(course2);
 
+        Course course3 = new Course("8991", "future course", "this is future course" +
+                "To make this course you have to ...", 60 );
+
+        Collection<Topic> topics3 =new HashSet<>();
+        Topic t4=new Topic("future-topic4", "this topic is about ...",course3);
+        Topic t5 =new Topic("future-topic5", "this topic is about ...",course3);
+        Topic t6 = new Topic("future-topic6","this topic everything about ...., ..",course3);
+
+        courseService.saveCourse(course3);
+
+
+
+        //***************subscription load data ********
         Collection<Participant> collection = new HashSet<>();
 
         Date date = new Date(2019/11/3);
         Date date2 = new Date(2019/11/17);
         collection.add(mike);
-        Subscription subscription = new Subscription(collection,course,date,date2);
+        Subscription subscription = new Subscription(course,date,date2);
 
        subscription.addParticipants(collection);
         subscriptionRepository.save(subscription);

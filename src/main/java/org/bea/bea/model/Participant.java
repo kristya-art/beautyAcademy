@@ -48,7 +48,7 @@ public class Participant extends User {
         courses.add(course);
     }
 
-    public void addCourses(Set<Course> courses){
+    public void addCourses(Collection<Course> courses){
         this.courses=courses;
     }
 
