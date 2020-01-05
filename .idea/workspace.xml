@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="7249c7d0-1691-4f21-b395-e17d3ecfd392" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/frontend/src/app/catalog/ListFilterPipe.pipe.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -11,6 +12,9 @@
     <ignored path="$PROJECT_DIR$/client/dist/" />
     <ignored path="$PROJECT_DIR$/client/tmp/" />
     <ignored path="$PROJECT_DIR$/target/" />
+=======
+    <list default="true" id="7249c7d0-1691-4f21-b395-e17d3ecfd392" name="Default Changelist" comment="" />
+>>>>>>> ab3cc898d74564c33f9c1aa018fa2e834fb45881
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,6 +75,7 @@
     </expand>
     <select />
   </component>
+<<<<<<< HEAD
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
@@ -135,6 +140,8 @@
       </file>
     </leaf>
   </component>
+=======
+>>>>>>> ab3cc898d74564c33f9c1aa018fa2e834fb45881
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -184,6 +191,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+<<<<<<< HEAD
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -241,6 +249,8 @@
       </list>
     </option>
   </component>
+=======
+>>>>>>> ab3cc898d74564c33f9c1aa018fa2e834fb45881
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -269,9 +279,11 @@
     <option name="width" value="1538" />
     <option name="height" value="1532" />
   </component>
+  <component name="ProjectId" id="1VxIAGcgue7PlitQE5yeXKjvDRK" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
+<<<<<<< HEAD
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -327,6 +339,8 @@
       </pane>
     </panes>
   </component>
+=======
+>>>>>>> ab3cc898d74564c33f9c1aa018fa2e834fb45881
   <component name="PropertiesComponent">
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
@@ -384,7 +398,7 @@
     </option>
     <option name="contentProportion" value="0.15575808" />
   </component>
-  <component name="RunManager" selected="Spring Boot.Application">
+  <component name="RunManager">
     <configuration name="CourseServiceTest.crudCourse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="beauty-academy" />
       <extension name="coverage">
@@ -461,15 +475,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Spring Boot.Application" />
-        <item itemvalue="JUnit.CourseServiceTest.deleteCourse" />
-        <item itemvalue="JUnit.CourseServiceTest.crudCourse" />
-        <item itemvalue="JUnit.UserServiceTest.persistTest" />
-        <item itemvalue="JUnit.UserServiceTest" />
-      </list>
-    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="allServicesViewState">
+      <serviceView>
+        <treeState>
+          <expand />
+          <select />
+        </treeState>
+      </serviceView>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -582,6 +597,7 @@
       <configuration name="CourseServiceTest.deleteCourse" configurationId="JUnit" />
     </history-entry>
   </component>
+<<<<<<< HEAD
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="310141000" />
   </component>
@@ -679,6 +695,8 @@
       <window_info anchor="right" id="Bean Validation" order="11" />
     </layout-to-restore>
   </component>
+=======
+>>>>>>> ab3cc898d74564c33f9c1aa018fa2e834fb45881
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
     <option name="exactExcludedFiles">
@@ -687,6 +705,7 @@
       </list>
     </option>
   </component>
+<<<<<<< HEAD
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/frontend/src/app/kursi/shared/kurs.service.ts">
       <provider selected="true" editor-type-id="text-editor">
@@ -1111,6 +1130,18 @@
         </state>
       </provider>
     </entry>
+=======
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+>>>>>>> ab3cc898d74564c33f9c1aa018fa2e834fb45881
   </component>
   <component name="masterDetails">
     <states>
