@@ -1,6 +1,10 @@
 <mat-card>
   <mat-card-title>Catalog of courses</mat-card-title>
-
+  <!--<mat-form-field floatLabel=never >-->
+    <!--<input matInput class="searching-customer" type="text"  placeholder="Search"-->
+           <!--[ngModel]="searchModel"-->
+           <!--(ngModelChange)="updateSearchModel($event)">-->
+  <!--</mat-form-field>-->
   <div class="search-course">
     <input class="form-control" type="text" name="search" [ngModel]="keywords" autocomplete="off"
            placeholder="&#61442; Start searching for a course">
@@ -17,10 +21,5 @@
   </mat-card-content>
 </mat-card>
 
-<!--<tr *ngFor="let mycourse of mycourses | filter:keywords">-->
-  <!--<td>{{mycourse.id}}</td>-->
-  <!--<td>{{mycourse.code}}</td>-->
-  <!--<td>{{mycourse.title}}</td>-->
-<!--</tr>-->
 
 

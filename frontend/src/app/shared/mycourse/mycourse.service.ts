@@ -1,6 +1,8 @@
 import { Injectable } from '@angular/core';
 import {HttpClient} from "@angular/common/http";
 import {Observable} from "rxjs";
+import {beforeEach} from "selenium-webdriver/testing";
+import {toArray} from "rxjs/operators";
 
 @Injectable({
   providedIn: 'root'
@@ -11,6 +13,7 @@ export class MycourseService {
   private saveUrl = 'http://localhost:8080/courses/save';
   private updateUrl = 'http://localhost:8080/courses/update/';
 
+  keyword:string;
   constructor(private http: HttpClient) { }
 
   getAll():Observable<any>{
@@ -37,8 +40,16 @@ export class MycourseService {
     return this.http.delete("http://localhost:8080/courses/cancel/"+id);
   }
 
-  // search(mycourses,keyword):Observable<any>{
+  // search(keyword):Observable<any>{
+  //   let word:string;
   //
-  // }
+  //   let word_array:Observable<any>;
+  //   word_array=this.getAll();
+  //   let filtered_array: [];
+  //     let n:number;
+  //
+  //   }
+
+
 
 }

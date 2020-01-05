@@ -1,5 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, EventEmitter, Input, OnInit, Output} from '@angular/core';
 import {MycourseService} from "../shared/mycourse/mycourse.service";
+import {toArray} from "rxjs/operators";
 
 @Component({
   selector: 'app-catalog',
@@ -9,6 +10,10 @@ import {MycourseService} from "../shared/mycourse/mycourse.service";
 export class CatalogComponent implements OnInit {
   mycourses: Array<any>;
   keywords;
+  searchedList:any;
+  list:any;
+
+
   constructor(private myCourseService: MycourseService) { }
 
   ngOnInit() {
@@ -17,9 +22,6 @@ export class CatalogComponent implements OnInit {
     })
 
   }
-  search() {
 
-  }
-  filter(){}
 
 }
