@@ -6,66 +6,70 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2}Main section}{3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1}Vision}{5}% 
+\contentsline {subsection}{\numberline {2.1}Vision}{3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.1.1}Introduction}{5}% 
+\contentsline {subsubsection}{\numberline {2.1.1}Introduction}{3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.1.2}Problem Statement}{6}% 
+\contentsline {subsubsection}{\numberline {2.1.2}Future system}{4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.1.3}Stakeholder Summary}{6}% 
+\contentsline {subsubsection}{\numberline {2.1.3}Problem Statement}{5}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.1.4}Product Overview}{6}% 
+\contentsline {subsubsection}{\numberline {2.1.4}Stakeholder Summary}{5}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.1.5}Summary of System Features}{7}% 
+\contentsline {subsubsection}{\numberline {2.1.5}Objective of the project}{5}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.1.6}Summary of Future Features}{7}% 
+\contentsline {subsubsection}{\numberline {2.1.6}Product Overview}{5}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.1.7}User Summary}{8}% 
+\contentsline {subsubsection}{\numberline {2.1.7}Summary of System Features}{6}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2}Software development methodology}{8}% 
+\contentsline {subsubsection}{\numberline {2.1.8}Summary of Future Features}{6}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.2.1}Agile development, Scrum.}{8}% 
+\contentsline {subsubsection}{\numberline {2.1.9}User Summary}{7}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3}Feasibility}{10}% 
+\contentsline {subsection}{\numberline {2.2}Software development methodology}{7}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.3.1}Technical Feasibility}{10}% 
+\contentsline {subsubsection}{\numberline {2.2.1}Agile development, Scrum.}{7}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.3.2}Financial Feasibility}{10}% 
+\contentsline {subsection}{\numberline {2.3}Feasibility}{9}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.3.3}Resource and Time Feasibility}{10}% 
+\contentsline {subsubsection}{\numberline {2.3.1}Technical Feasibility}{9}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.4}Analysis}{11}% 
+\contentsline {subsubsection}{\numberline {2.3.2}Financial Feasibility}{9}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.4.1}Domain model}{11}% 
+\contentsline {subsubsection}{\numberline {2.3.3}Resource and Time Feasibility}{9}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.4.2}Product Backlog}{13}% 
+\contentsline {subsection}{\numberline {2.4}Analysis}{10}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.5}Design}{15}% 
+\contentsline {subsubsection}{\numberline {2.4.1}Domain model}{10}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.5.1}System Sequence Diagrams}{15}% 
+\contentsline {subsubsection}{\numberline {2.4.2}Product Backlog}{12}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.5.2}Interface viewpoint}{16}% 
+\contentsline {subsection}{\numberline {2.5}Design}{14}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.6}Implementation}{20}% 
+\contentsline {subsubsection}{\numberline {2.5.1}System Sequence Diagrams}{14}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.6.1}Why Spring Boot And Angular ?}{24}% 
+\contentsline {subsubsection}{\numberline {2.5.2}Interface viewpoint}{15}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.6.2}Description of the deployment procedure.}{25}% 
+\contentsline {subsection}{\numberline {2.6}Implementation}{19}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.7}Integration and System testing}{25}% 
+\contentsline {subsubsection}{\numberline {2.6.1}Why Spring Boot And Angular ?}{23}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3}Conclusion and future work}{26}% 
+\contentsline {subsubsection}{\numberline {2.6.2}Description of the deployment procedure.}{24}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.0.1}Summary}{26}% 
+\contentsline {subsection}{\numberline {2.7}Integration and System testing}{24}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.0.2}Interpretation}{26}% 
+\contentsline {section}{\numberline {3}Conclusion and future work}{25}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.0.3}Outlook}{27}% 
+\contentsline {subsubsection}{\numberline {3.0.1}Summary}{25}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4}Project planning}{27}% 
+\contentsline {subsubsection}{\numberline {3.0.2}Interpretation}{25}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1}Meetings calendar}{27}% 
+\contentsline {subsubsection}{\numberline {3.0.3}Outlook}{26}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2}Spring Backlog}{29}% 
+\contentsline {section}{\numberline {4}Project planning}{26}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.2.1}Protocol}{30}% 
+\contentsline {subsection}{\numberline {4.1}Meetings calendar}{26}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.2}Spring Backlog}{28}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.2.1}Protocol}{29}% 
