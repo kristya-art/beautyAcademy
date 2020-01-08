@@ -75,7 +75,7 @@ const routes: Routes = [
   //
   // },
 
-  {path: '',redirectTo: '/mycourse-list',pathMatch:'full'},
+  // {path: '',redirectTo: '/mycourse-list',pathMatch:'full'},
   {
     path : 'mycourse-list',
     component: MycourseListComponent
