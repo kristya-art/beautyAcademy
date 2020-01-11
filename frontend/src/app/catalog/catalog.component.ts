@@ -1,6 +1,7 @@
 import {Component, EventEmitter, Input, OnInit, Output} from '@angular/core';
 import {MycourseService} from "../shared/mycourse/mycourse.service";
 import {toArray} from "rxjs/operators";
+import {MyCourse} from "../shared/mycourse/mycourse";
 
 @Component({
   selector: 'app-catalog',
@@ -9,9 +10,12 @@ import {toArray} from "rxjs/operators";
 })
 export class CatalogComponent implements OnInit {
   mycourses: Array<any>;
-  keywords;
+  keywords : string;
   searchedList:any;
   list:any;
+  selectedCourse: MyCourse;
+  words: Array<any>;
+  // mycourse: MyCourse;
 
 
   constructor(private myCourseService: MycourseService) { }
@@ -22,6 +26,11 @@ export class CatalogComponent implements OnInit {
     })
 
   }
+  onSelect(mycourse: MyCourse):void {
+    this.selectedCourse =mycourse;
+  }
+
+
 
 
 }

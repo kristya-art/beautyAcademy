@@ -1,4 +1,4 @@
-export class Myourse{
+export class MyCourse{
   constructor(
       id:number,
       code:string,

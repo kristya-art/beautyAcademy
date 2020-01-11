@@ -6,20 +6,41 @@
            <!--(ngModelChange)="updateSearchModel($event)">-->
   <!--</mat-form-field>-->
   <div class="search-course">
-    <input class="form-control" type="text" name="search" [ngModel]="keywords" autocomplete="off"
+    <input class="form-control" type="text" name="search" [(ngModel)]="keywords" autocomplete="off"
            placeholder="&#61442; Start searching for a course">
-  </div>
-  <!--<input matInput placeholder = "search" [ngModel]="keywords"-->
-         <!--required name="keywords" #keywords>-->
+    </div>
+
+    <!--<ul>-->
+      <!---->
+      <!--<li ng-repeat=" mycourse in mycourses | filter:keywords">-->
+        <!--{{mycourse.title}}-->
+      <!--</li>-->
+    <!--</ul>-->
+  <!--</div>-->
+
   <mat-card-content>
 
 
 
-    <mat-list-item *ngFor="let mycourse of mycourses">
-      <a mat-button [routerLink]="['/mycourse-details',mycourse.id]">{{mycourse.title}}</a>
+    <mat-list-item *ngFor="let mycourse of mycourses  ">
+
+
+      <a mat-button [routerLink]="['/mycourse-details',mycourse.id]">{{mycourse.title}} | details</a>
+
     </mat-list-item>
+    <button (click)="selectedCourse=null">Back</button>
   </mat-card-content>
+
 </mat-card>
 
+<!--<table>-->
+
+  <!--<tbody>-->
+  <!--<tr *ngFor="let mycourse of mycourses |filter:keywords">-->
+    <!--<td>{{mycourse.title}}</td>-->
+  <!--</tr>-->
+
+  <!--</tbody>-->
+<!--</table>-->
 
 
