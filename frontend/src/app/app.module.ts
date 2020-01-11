@@ -36,6 +36,7 @@ import {
 import {MatListModule} from "@angular/material";
 import { MycourseEditComponent } from './mycourse-list/mycourse-edit/mycourse-edit.component';
 import { CatalogComponent } from './catalog/catalog.component';
+import { CourseDetailsComponent } from './catalog/course-details/course-details.component';
 
 @NgModule({
   declarations: [
@@ -56,6 +57,7 @@ import { CatalogComponent } from './catalog/catalog.component';
     MycourseListComponent,
     MycourseEditComponent,
     CatalogComponent,
+    CourseDetailsComponent,
 
 
   ],

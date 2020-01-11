@@ -10,37 +10,35 @@
            placeholder="&#61442; Start searching for a course">
     </div>
 
-    <!--<ul>-->
-      <!---->
-      <!--<li ng-repeat=" mycourse in mycourses | filter:keywords">-->
-        <!--{{mycourse.title}}-->
-      <!--</li>-->
-    <!--</ul>-->
-  <!--</div>-->
+
 
   <mat-card-content>
-
-
-
     <mat-list-item *ngFor="let mycourse of mycourses  ">
-
-
-      <a mat-button [routerLink]="['/mycourse-details',mycourse.id]">{{mycourse.title}} | details</a>
-
+      <a mat-button [routerLink]="['/course-details',mycourse.id]">{{mycourse.title}} | details</a>
     </mat-list-item>
     <button (click)="selectedCourse=null">Back</button>
   </mat-card-content>
-
 </mat-card>
+<div>
+<app-course-details [mycourse]="selectedCourse"></app-course-details>
 
-<!--<table>-->
+</div>
 
-  <!--<tbody>-->
-  <!--<tr *ngFor="let mycourse of mycourses |filter:keywords">-->
-    <!--<td>{{mycourse.title}}</td>-->
-  <!--</tr>-->
+<!-- the code below let us to see details of the course we have selected-->
+  <li *ngFor="let mycourse of mycourses"
 
-  <!--</tbody>-->
-<!--</table>-->
+[class.selected]="mycourse === selectedCourse"
+    (click)="onSelect(mycourse)">
+    <span class="badge">{{mycourse.id}}</span>
+    {{mycourse.title}}
+  </li>
+
+
+<div *ngIf="selectedCourse">
+  <h2>{{selectedCourse.title}} Details</h2>
+  <div><span>description: </span></div>{{selectedCourse.description}}</div>
+<div *ngIf="!selectedCourse">
+  <button (click)="selectedCourse=null">Back</button>
+</div>
 
 
