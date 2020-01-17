@@ -40,7 +40,7 @@
 \textsc{"Academy of the handsome men and beautiful woman(BEA)" web application}}
 \date{\today}   %% or \date{01 november 2019}
 \author{\textit{author: }Kristina \textsc{Shiryagina} (\texttt{kristina.shiryagina@bfh.ch}) \\
- \textit{supervisor: } Prof.Dr Olivier  \textsc{Biberstein}  (\texttt{cccc.cccc@bfh.ch})\\
+ \textit{supervisor: } Prof.Dr Olivier  \textsc{Biberstein}  (\texttt{olivier.biberstein@bfh.ch})\\
  }
 \maketitle	
 	
@@ -81,9 +81,9 @@ With the rapid change in all types of working environments, there is a constant 
 \subsubsection{Future system}
 
 As the head of information system for Online academy we are tasked with developing a part of new Online Management System for E-learning. As the idea of online education is getting more popular day by day. \\
-The proposed software product (Online Beauty academy) is an online education system. The system will be used for online-education, to download lectures, conducting online quizzes, course registration, exam reservation, managing results. The system must be right protected.\\
-This product let persons who have interest to study beauty , who want to make them self more beautiful to do it.Our product includes different online courses. There are  beauty-course , beauty-instructor course and other future courses.
- Each course will have topics and lessons for each topic. The context of lessons are text, video-tutorials, etc. 
+The proposed software product (Online Beauty academy) is an online education system. The system will be used for online-education, to study online-courses, to view and download differnt lectures, conducting online quizzes, course registration, exam reservation, managing results. The system must be right protected.\\
+This product let persons who have interest to study beauty , who want to make them self more beautiful to do it. It will ofer also other different online courses. There are  beauty-course , beauty-instructor course and other future courses.
+ Each course will have topics and lessons for each topic. The context of lessons are text, video-tutorials, etc. \\
  There is possibility to get a certificate of each course.
  For this participant  shall do exams. 
 
@@ -113,8 +113,12 @@ Online management system is effective, reduce time and cost in courses and exam 
   	\end{itemize}
   	
   	\subsubsection{Objective of the project}
-  	E-Learning represents an innovative shift in the field of learning, providing rapid access to specific knowledge and information. It offers online instruction that can be delivered anytime and anywhere through a wide range of electronic learning solutions such as Web-based course ware, online discussion groups, live virtual classes, video and audio streaming, Web chat, online simulations, and virtual mentoring. E-Learning enables organizations to transcend distance and other organizational gaps by providing a cohesive virtual learning environment. Developing and deploying effective E-Learning programs may require products and services supplied by a variety of vendors, leaving one to connect the dots. One way to start is to define the goals of the desired learning solution. 
-
+  	The main goal of this project is to make part of this big system. It will include use cases for user, participant , lecturer and administrator. 
+  Now I want to describe the main goals that i have planned to do during this semester. \\The first goal is to make user possible to register himself in this application. The system has to be able to recognize  different roles of user. The system have to be well secure , for this purpose i will use the security staffs that offers spring boot framework. Then user can easily log in in the system and see all available courses in course catalogue. \\
+  For administrator it is necessary to implement managing tools, so that administrator can manipulate courses, like add a new course, delete, update, etc. I will implement also the administrator tools for manipulate all users.\\
+  The other goal is to make possible user to register for course that he likes . And one more goal is to make possible participant to order an exam. 
+  
+  
   	\subsubsection{Product Overview}
   	/**Think of questions a customer might ask
 Always include the details: dimensions, size, materials, etc.
@@ -636,12 +640,20 @@ It brings a lot of utility code that we can reuse, for example users navigation.
 
 \subsubsection{Description of the deployment procedure.}
 \textbf{Configuring PosgreSQL}
- To configure Spring Boot to use PostgreSQL as our data source, we can do that simply by adding PostgreSQL database url, username, and password in the \textbf{src/main/resources/application.properties} file \\
+First you have to make steps that are described here \url{ https://www.postgresql.org/}\\ You have to create a new data base , create name for it.
+ Then you can configure Spring Boot to use PostgreSQL as our data source, you can do that simply by adding PostgreSQL database url, username, and password in the \textbf{src/main/resources/application.properties} file \\
  
 %todo put photo of application.properties file and maybe file location
 
+
+ \begin{figure}[H]
+\centering
+\includegraphics[width=150mm]{application-properties}
+\caption{This figure shows how to configure a property file}
+\label{blabla}
+\end{figure}
  
- 
+ Figure 17 shows the application.properties file, that you have to change by putting you username , password for posgresQL.\\
  
 We used angular CLI to generate angular project and modified it to have functionality such as list user and add user. We used spring boot to expose REST API for the crud operation and integrated spring data to communicate with posgresql database. We made use of ng serve to serve the angular project on localhost:4200 and it is consuming APIs exposed on localhost:8080. 
 
@@ -692,19 +704,29 @@ For testing  our application we have used different tests:\\
 \subsubsection{Summary}
 /* Summary of the main results of your work/thesis*/
 After a deep research I found that, there is a lot of information concerning the topic of developing a E-learning management system. To develop even a part of this system is not only difficult task but also requires a lot of knowledge in  software and database design and some programming languages and frameworks like Spring Boot and Angular. \\
-I can say that we have achieved our plan  , but not completely. We have created the necessary database based on system analysis and implementation. We have made the system that works, the connection with database ,connection between frontend and backend. And we have realised the features like:\\
+I can say that we have achieved my plan  , but not completely. I have created the necessary database based on system analysis and implementation. I  have made the system that works, the connection with database ,connection between frontend and backend. And I have realised the features like:\\
 -login\\
 -registration\\
 -display of course information\\
 -managing course information\\
 -managing user information \\
 The feature as course subscription is achieved in backend , but not yet in frontend and the feature like exam registration is achieved just partially .\\
+
+To summarise everything I want to say I'm satisfied. It was big work , very interesting and very different : from analysing to implementation and testing.
+
  
 
 \subsubsection{Interpretation }
 /Interpretation of my results
 
 /**. In the theoretical part of your project, you should research and present the current state of research in detail in order to draw the right conclusions from the conclusion of your project. Even if your question could not be answered satisfactorily, you should present it honestly. Check what you could and could not achieve, what you would do differently in retrospect and which methods have proven to be useful.*/
+The first thing I want to underline here that the project management have to be done better as I've done this time. I have made big Objective for this project without research how much time i need to improve it.\\
+At first I had to spend  more time for analysis what it is really possible to do in this time. For this project I wanted to use the last technologies. So I had to calculate more time, because one of technologies was new for me. \\
+This project i have made from null to actual state , so it was very important the software engineering steps to do well, using enough time.\\
+In other hand making big Objective i have achieve also gut results. The biggest part of project is achieved.
+
+The conclusion I have made , that to start a project from null i have to calculate much more time as when i have already a concrete assignment.
+ 
 
 \subsubsection{Outlook}
 /** outlook of my project and future research recommendation*/

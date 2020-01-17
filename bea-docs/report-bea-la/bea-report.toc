@@ -56,20 +56,20 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {2.6.2}Description of the deployment procedure.}{29}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.7}Integration and System testing}{32}% 
+\contentsline {subsection}{\numberline {2.7}Integration and System testing}{33}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3}Conclusion and future work}{32}% 
+\contentsline {section}{\numberline {3}Conclusion and future work}{33}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.0.1}Summary}{32}% 
+\contentsline {subsubsection}{\numberline {3.0.1}Summary}{33}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.0.2}Interpretation}{33}% 
+\contentsline {subsubsection}{\numberline {3.0.2}Interpretation}{34}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.0.3}Outlook}{33}% 
+\contentsline {subsubsection}{\numberline {3.0.3}Outlook}{34}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4}Project planning}{34}% 
+\contentsline {section}{\numberline {4}Project planning}{35}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1}Meetings calendar}{34}% 
+\contentsline {subsection}{\numberline {4.1}Meetings calendar}{35}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2}Spring Backlog}{34}% 
+\contentsline {subsection}{\numberline {4.2}Spring Backlog}{35}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.2.1}Protocol}{34}% 
+\contentsline {subsubsection}{\numberline {4.2.1}Protocol}{35}% 
