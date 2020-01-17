@@ -2,6 +2,7 @@ import {Component, EventEmitter, Input, OnInit, Output} from '@angular/core';
 import {MycourseService} from "../shared/mycourse/mycourse.service";
 import {toArray} from "rxjs/operators";
 import {MyCourse} from "../shared/mycourse/mycourse";
+import {element} from "protractor";
 
 @Component({
   selector: 'app-catalog',
@@ -14,9 +15,8 @@ export class CatalogComponent implements OnInit {
   searchedList:any;
   list:any;
   selectedCourse: MyCourse;
-  words: Array<any>;
-  // mycourse: MyCourse;
-
+  words: Array<String>;
+  pageName: string = "Catalog of courses";
 
   constructor(private myCourseService: MycourseService) { }
 
@@ -30,6 +30,26 @@ export class CatalogComponent implements OnInit {
     this.selectedCourse =mycourse;
   }
 
+ // searchCourse(keywords:string): MyCourse[]{
+ //
+ // }
+
+ // toArray(): MyCourse[] {
+ //   this.myCourseService.getAll()
+ //     .subscribe(res=>this.mycourses = res as Array<String>);
+ //
+ //   return this.list;
+ // }
+  filtering(keywords){
+    this.words = [];
+   for(let o of this.mycourses){
+     for(let m of o.getTitle())
+      if(m.includes(keywords)){
+        this.words.push(m);
+
+      }
+   }
+  }
 
 
 

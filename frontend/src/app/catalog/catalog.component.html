@@ -1,5 +1,6 @@
 <mat-card>
-  <mat-card-title>Catalog of courses</mat-card-title>
+  <mat-card-title>Catalog of courses </mat-card-title>
+
   <!--<mat-form-field floatLabel=never >-->
     <!--<input matInput class="searching-customer" type="text"  placeholder="Search"-->
            <!--[ngModel]="searchModel"-->
@@ -8,6 +9,7 @@
   <div class="search-course">
     <input class="form-control" type="text" name="search" [(ngModel)]="keywords" autocomplete="off"
            placeholder="&#61442; Start searching for a course">
+
     </div>
 
 
@@ -24,6 +26,7 @@
 
 </div>
 
+<!--<input name="pageName" [(ngModel)]="pageName">-->
 <!-- the code below let us to see details of the course we have selected-->
   <li *ngFor="let mycourse of mycourses"
 
@@ -37,8 +40,11 @@
 <div *ngIf="selectedCourse">
   <h2>{{selectedCourse.title}} Details</h2>
   <div><span>description: </span></div>{{selectedCourse.description}}</div>
-<div *ngIf="!selectedCourse">
-  <button (click)="selectedCourse=null">Back</button>
-</div>
+<!--<div *ngIf="!selectedCourse">-->
+  <!--<button (click)="selectedCourse=null">Back</button>-->
+<!--</div>-->
 
+
+<!--<app-course-details [mycourse]="selectedCourse" (back)="selectedCourse=null"></app-course-details>-->
+<app-course-details [mycourse]="selectedCourse"></app-course-details>
 

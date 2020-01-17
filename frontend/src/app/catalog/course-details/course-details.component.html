@@ -1,1 +1,8 @@
-<p>course-details works!</p>
+<p>course details</p>
+
+<!--<button (click)="back.emit()">Back</button>-->
+<li *ngFor="let mycourse of mycourses">
+  {{mycourse.description}}
+</li>
+
+<button (click)="back.emit('go back to catalog')">Back</button>

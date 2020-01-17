@@ -1,0 +1,37 @@
+ li {
+  cursor: pointer;
+  position: relative;
+  left: 0;
+  /*background-color: rgba(110, 108, 250, 0.08);*/
+  margin: .5em;
+  padding: .3em 0;
+  height: 1.6em;
+  border-radius: 4px;
+}
+ li:hover {
+  color: rgba(110, 108, 250, 0.11);
+  /*background-color: rgba(255, 230, 244, 0.43);*/
+  left: .1em;
+}
+li.selected {
+  background-color: rgba(128, 117, 220, 0.39);
+  color: white;
+}
+li.selected:hover {
+  background-color: rgba(217, 196, 255, 0.14);
+  color: white;
+}
+ /*.badge {*/
+  /*display: inline-block;*/
+  /*font-size: small;*/
+  /*color: white;*/
+  /*padding: 0.8em 0.7em 0 0.7em;*/
+  /*background-color: rgba(34, 32, 250, 0);*/
+  /*line-height: 1em;*/
+  /*position: relative;*/
+  /*left: -1px;*/
+  /*top: -4px;*/
+  /*height: 1.8em;*/
+  /*margin-right: .8em;*/
+  /*border-radius: 4px 0 0 4px;*/
+/*}*/

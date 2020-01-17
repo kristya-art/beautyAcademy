@@ -15,6 +15,7 @@ import {MycourseService} from "../shared/mycourse/mycourse.service";
 import {MycourseListComponent} from "../mycourse-list/mycourse-list.component";
 import {MycourseEditComponent} from "../mycourse-list/mycourse-edit/mycourse-edit.component";
 import {CatalogComponent} from "../catalog/catalog.component";
+import {CourseDetailsComponent} from "../catalog/course-details/course-details.component";
 
 const routes: Routes = [
 
@@ -25,6 +26,10 @@ const routes: Routes = [
   {
     path: 'catalog',
     component: CatalogComponent
+  },
+  {
+    path: 'course-details',
+    component: CourseDetailsComponent
   },
   {
     path: 'user',

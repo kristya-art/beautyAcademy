@@ -3,6 +3,7 @@ import {HttpClient} from "@angular/common/http";
 import {Observable} from "rxjs";
 import {beforeEach} from "selenium-webdriver/testing";
 import {toArray} from "rxjs/operators";
+import {MyCourse} from "./mycourse";
 
 @Injectable({
   providedIn: 'root'
@@ -14,6 +15,10 @@ export class MycourseService {
   private updateUrl = 'http://localhost:8080/courses/update/';
 
   keyword:string;
+  courses: MyCourse[];
+  mycourse: MyCourse;
+
+
   constructor(private http: HttpClient) { }
 
   getAll():Observable<any>{
@@ -50,6 +55,14 @@ export class MycourseService {
   //
   //   }
 
+    // titleSearch(keywords:string): MyCourse []{
+    // let courses = this.getAll();
+    // courses.filter(mycourse => this.isMatching(mycourse,keywords));
+    //
+    //
+    // return courses;
+    //
+    // }
 
 
 }
