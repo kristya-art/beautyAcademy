@@ -3,15 +3,23 @@
   <component name="ChangeListManager">
     <list default="true" id="7249c7d0-1691-4f21-b395-e17d3ecfd392" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/app/app-routing/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/app-routing/app-routing.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/app/catalog/catalog.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/catalog/catalog.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/app/catalog/catalog.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/catalog/catalog.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/app/catalog/catalog.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/catalog/catalog.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/app/catalog/course-details/course-details.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/catalog/course-details/course-details.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/app/catalog/course-details/course-details.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/app/catalog/course-details/course-details.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/catalog/course-details/course-details.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/app/shared/mycourse/mycourse.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/shared/mycourse/mycourse.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/app/shared/mycourse/mycourse.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/shared/mycourse/mycourse.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/beauty/Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/beauty/DataLoader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/beauty/bea1/config/MailConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/beauty/bea1/config/MvcConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/beauty/bea1/config/WebSecurityConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/beauty/bea1/controller/MainController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/beauty/bea1/controller/RegistrationController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/beauty/bea1/controller/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/beauty/bea1/domain/Message.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/beauty/bea1/domain/Role.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/beauty/bea1/domain/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/beauty/bea1/messages/ResponseMessage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/beauty/bea1/messages/request/LoginForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/beauty/bea1/repository/MessageRepo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/beauty/bea1/repository/UserRepo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/beauty/bea1/service/MailSender.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/beauty/bea1/service/UserService.java" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -75,11 +83,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/bea/bea/controller/UserController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/bea/Application.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/bea/bea/controller/CourseController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="409">
+              <caret line="54" column="64" lean-forward="true" selection-start-line="54" selection-start-column="31" selection-end-line="54" selection-end-column="64" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/bea/bea/service/CourseService.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/bea/bea/controller/AuthController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-85">
+              <caret line="51" selection-start-line="51" selection-end-line="51" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -149,6 +187,7 @@
         <option value="$PROJECT_DIR$/frontend/src/app/catalog/course-details/course-details.component.html" />
         <option value="$PROJECT_DIR$/frontend/src/app/catalog/catalog.component.html" />
         <option value="$PROJECT_DIR$/frontend/src/app/shared/mycourse/mycourse.service.ts" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
       </list>
     </option>
   </component>
@@ -176,8 +215,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-10" />
-    <option name="width" value="1302" />
+    <option name="x" value="1524" />
+    <option name="width" value="1048" />
     <option name="height" value="1532" />
   </component>
   <component name="ProjectId" id="1VxIAGcgue7PlitQE5yeXKjvDRK" />
@@ -219,7 +258,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="bea" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="beauty-academy" type="b2602c69:ProjectViewProjectNode" />
@@ -227,8 +266,28 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
               <item name="bea" type="462c0819:PsiDirectoryNode" />
+              <item name="bea" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="beauty-academy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="beauty-academy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="bea" type="462c0819:PsiDirectoryNode" />
+              <item name="bea" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="beauty-academy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="beauty-academy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="bea" type="462c0819:PsiDirectoryNode" />
+              <item name="bea" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -244,10 +303,10 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1578869195152" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1579295999415" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="editor.config.ad.shown" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Documents/MATLAB/M4.m" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../aca-Julian/academia-white" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -471,7 +530,7 @@
       <workItem from="1578833110759" duration="1045000" />
       <workItem from="1578859825600" duration="5515000" />
       <workItem from="1578930095624" duration="2241000" />
-      <workItem from="1579281264178" duration="1207000" />
+      <workItem from="1579281264178" duration="9468000" />
     </task>
     <servers />
   </component>
@@ -508,13 +567,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40252000" />
+    <option name="totallyTimeSpent" value="48513000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="-6" width="1293" height="773" extended-state="6" />
-    <editor active="true" />
+    <frame x="-6" y="-6" width="1293" height="773" extended-state="7" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24210526" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2834008" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -522,6 +580,7 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Thumbnails" visible="true" weight="0.0466563" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -531,14 +590,14 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Spring" order="7" weight="0.32970452" />
       <window_info anchor="bottom" id="TypeScript" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.1855346" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.16329704" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32970452" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" />
       <window_info anchor="bottom" id="Database Changes" order="14" />
       <window_info anchor="bottom" id="Version Control" order="15" />
-      <window_info anchor="bottom" id="Run Dashboard" order="16" weight="0.42138365" />
+      <window_info anchor="bottom" id="Run Dashboard" order="16" weight="0.41990668" />
       <window_info anchor="bottom" id="Database Console" order="17" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -696,16 +755,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/bea/bea/controller/AuthController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="867">
-          <caret line="51" selection-start-line="51" selection-end-line="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="das://51167ed0-41cd-429c-9592-d446c4f5fdd6/database/bea/schema/public/table/users">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
@@ -804,6 +853,135 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/org.bea.bea">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>org.bea.bea</OriginalElement>
+          <nodes>
+            <node x="" y="">org.bea.bea.model</node>
+            <node x="" y="">org.bea.bea.controller</node>
+            <node x="" y="">org.bea.bea.message</node>
+            <node x="" y="">org.bea.bea.security</node>
+            <node x="" y="">org.bea.bea.service</node>
+            <node x="" y="">org.bea.bea.config</node>
+            <node x="" y="">org.bea.bea.repository</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="150.0" y="127.5" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/org.bea.bea.model">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>org.bea.bea.model</OriginalElement>
+          <nodes>
+            <node x="" y="">org.bea.bea.model.Answer</node>
+            <node x="" y="">org.bea.bea.model.Participant</node>
+            <node x="" y="">org.bea.bea.model.User</node>
+            <node x="" y="">org.bea.bea.model.Question</node>
+            <node x="" y="">org.bea.bea.model.Grade</node>
+            <node x="" y="">org.bea.bea.model.Subscription</node>
+            <node x="" y="">org.bea.bea.model.AnsweredQuestion</node>
+            <node x="" y="">org.bea.bea.model.Lecturer</node>
+            <node x="" y="">org.bea.bea.model.Message</node>
+            <node x="" y="">org.bea.bea.model.FinalExam</node>
+            <node x="" y="">org.bea.bea.model.Course</node>
+            <node x="" y="">org.bea.bea.model.Lesson</node>
+            <node x="" y="">org.bea.bea.model.Evaluation</node>
+            <node x="" y="">org.bea.bea.model.Topic</node>
+            <node x="" y="">org.bea.bea.model.RoleName</node>
+            <node x="" y="">org.bea.bea.model.Exam</node>
+            <node x="" y="">org.bea.bea.model.IntermediateExam</node>
+            <node x="" y="">org.bea.bea.model.Quiz</node>
+            <node x="" y="">org.bea.bea.model.Role</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.9555555555555556" x="375.0348837209302" y="1436.5" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/bea/bea/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/bea/bea/controller/SubscriptionController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-85">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/bea/bea/controller/ParticipantController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-734">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/bea/bea/controller/TestRestAPIs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/bea/bea/controller/AuthController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-85">
+          <caret line="51" selection-start-line="51" selection-end-line="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/bea/bea/service/CourseNotFoundException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/bea/bea/service/CourseService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/bea/bea/controller/CourseController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="409">
+          <caret line="54" column="64" lean-forward="true" selection-start-line="54" selection-start-column="31" selection-end-line="54" selection-end-column="64" />
         </state>
       </provider>
     </entry>
