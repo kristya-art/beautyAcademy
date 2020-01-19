@@ -15,36 +15,48 @@
 
 
   <mat-card-content>
-    <mat-list-item *ngFor="let mycourse of mycourses  ">
-      <a mat-button [routerLink]="['/course-details',mycourse.id]">{{mycourse.title}} | details</a>
-    </mat-list-item>
+    <!--<mat-list-item *ngFor="let mycourse of mycourses  ">-->
+      <!--<a mat-button [routerLink]="['/course-details',mycourse.id]">{{mycourse.title}} | details</a>-->
+    <!--</mat-list-item>-->
+    <li *ngFor="let mycourse of mycourses"
+
+        [class.selected]="mycourse === selectedCourse"
+        (click)="onSelect(mycourse)">
+      <span class="badge">{{mycourse.id}}</span>
+      {{mycourse.title}}
+    </li>
+
+
+    <div *ngIf="selectedCourse">
+      <h2>{{selectedCourse.title}} Details</h2>
+      <div><span>description: </span></div>{{selectedCourse.description}}</div>
     <button (click)="selectedCourse=null">Back</button>
   </mat-card-content>
 </mat-card>
 <div>
-<app-course-details [mycourse]="selectedCourse"></app-course-details>
+<!--<app-course-details [mycourse]="selectedCourse"></app-course-details>-->
 
 </div>
 
 <!--<input name="pageName" [(ngModel)]="pageName">-->
 <!-- the code below let us to see details of the course we have selected-->
-  <li *ngFor="let mycourse of mycourses"
+  <!--<li *ngFor="let mycourse of mycourses"-->
 
-[class.selected]="mycourse === selectedCourse"
-    (click)="onSelect(mycourse)">
-    <span class="badge">{{mycourse.id}}</span>
-    {{mycourse.title}}
-  </li>
-
-
-<div *ngIf="selectedCourse">
-  <h2>{{selectedCourse.title}} Details</h2>
-  <div><span>description: </span></div>{{selectedCourse.description}}</div>
-<!--<div *ngIf="!selectedCourse">-->
-  <!--<button (click)="selectedCourse=null">Back</button>-->
-<!--</div>-->
+<!--[class.selected]="mycourse === selectedCourse"-->
+    <!--(click)="onSelect(mycourse)">-->
+    <!--<span class="badge">{{mycourse.id}}</span>-->
+    <!--{{mycourse.title}}-->
+  <!--</li>-->
 
 
-<!--<app-course-details [mycourse]="selectedCourse" (back)="selectedCourse=null"></app-course-details>-->
-<app-course-details [mycourse]="selectedCourse"></app-course-details>
+<!--<div *ngIf="selectedCourse">-->
+  <!--<h2>{{selectedCourse.title}} Details</h2>-->
+  <!--<div><span>description: </span></div>{{selectedCourse.description}}</div>-->
+<!--&lt;!&ndash;<div *ngIf="!selectedCourse">&ndash;&gt;-->
+  <!--&lt;!&ndash;<button (click)="selectedCourse=null">Back</button>&ndash;&gt;-->
+<!--&lt;!&ndash;</div>&ndash;&gt;-->
+
+
+<!--&lt;!&ndash;<app-course-details [mycourse]="selectedCourse" (back)="selectedCourse=null"></app-course-details>&ndash;&gt;-->
+<!--<app-course-details [mycourse]="selectedCourse"></app-course-details>-->
 

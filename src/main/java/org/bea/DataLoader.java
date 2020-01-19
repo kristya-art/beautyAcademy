@@ -77,7 +77,8 @@ public class DataLoader implements ApplicationRunner {
 
         //************************course load data ***********
 
-       Course course = new Course("4536","Beauty-course", "beauty",45);
+       Course course = new Course("4536","Beauty-course", "This is the basic course that is very important to make first of all," +
+               "you will be really beautiful person if you will complete it and make well all exams!",45);
        courseService.saveCourse(course);
 
        Topic topic = new Topic("Body-beauty","description",course);
@@ -85,7 +86,7 @@ public class DataLoader implements ApplicationRunner {
        courseService.saveCourse(course);
        // courseController.addTopic(course,topic);
 
-       Course course2 = new Course("8990", "Beauty-instructor", "this course is for you, who want to become a " +
+       Course course2 = new Course("8990", "Beauty-instructor", "This course is for you, who want to become a beautiful instructor " +
                "beauty instructor. To make this course you have to ...", 55 );
 
        Collection<Topic> topics =new HashSet<>();
@@ -95,7 +96,7 @@ public class DataLoader implements ApplicationRunner {
 
         courseService.saveCourse(course2);
 
-        Course course3 = new Course("8991", "future course", "this is future course" +
+        Course course3 = new Course("8991", "future course", "This is future course, it has several future topics ..." +
                 "To make this course you have to ...", 60 );
 
         Collection<Topic> topics3 =new HashSet<>();
