@@ -1,0 +1,17 @@
+
+
+                                              version 
+@angular/cli                             8.3.20
+@angular/material                 7.3.7
+typescript                               3.5.3
+
+java			java version "1.8.0_192"
+
+PostgreSQL 		11.2
+
+IntelliJ IDEA 2018.3.5
+
+spring-boot
+ git version 2.20.1.windows.1
+
+for connection
