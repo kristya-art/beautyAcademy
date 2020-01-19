@@ -18,10 +18,14 @@
 \usepackage{polyglossia}
 \setdefaultlanguage{english}
 
+%\usepackage[backend=biber]{biblatex}
 \usepackage[backend=biber, style=ieee]{biblatex}
+\addbibresource{beauty.bib}
 
 \usepackage{graphicx}
 \graphicspath{ {./photos/} }
+
+
 
 
 
@@ -224,7 +228,7 @@ Prioritized Product Backlog\\
 	•	Vision, high-level architecture, most important non-functional\\
 requirements\\
 Release planning (if the product is to be delivered in releases):\\
-	•	Select and prioritize items of Product Backlog for the next Release Backlog\\
+	•	Select and prioritize items of Product Backlog for the next Release Backlog \cite{sed}\\
 	
 	
 
@@ -321,7 +325,7 @@ Association enter between the Lecturer and Evaluation denotes the fact that each
 Association manages between the Lecturer and Course denotes the fact that each lecturer can manage zero or more courses, hence multiplicity (*), and each course can be managed by exactly one lecturer, hence multiplicity (1). \\
 Association belongs to between Quiz and Exam denotes the fact that each Quiz belongs to exactly one exam, hence multiplicity (1), and each exam can have zero or more quizzes, hence multiplicity(0..*). \\
 Association belongs to between Quiz and Question denotes the fact that each Question belongs to exactly one Quiz, hence multiplicity (1), and each Quiz can have zero or more questions, hence multiplicity(0..*). \\
-Association belongs to between Question and Answers denotes the fact that each Answer belongs to exactly one Question, hence multiplicity (1), and each exam can have one or more answer, hence multiplicity(1..*). \\
+Association belongs to between Question and Answers denotes the fact that each Answer belongs to exactly one Question, hence multiplicity (1), and each exam can have one or more answer, hence multiplicity(1..*). \cite{sed}\\
 \subsubsection{Product Backlog and user stories}
 The product backlog is a list of user stories which is used to implement the product vision. It is sorted according to the priority of the user stories according to the product owner. The priority of these stories will be modified during the process of the project.\\
 
@@ -496,7 +500,7 @@ This page is sub page of the courses.
 \subsection{Implementation}
 \textbf{\textit{First steps}}\\
 First of all we want to describe databank that we going to use.\\
-\textbf{PostgreSQL} is a free and open-soursce relational database management system emphasing extensibility and technical standarts compliance. It is designed to handle a range of workloads, from single machines to data warehouses or Web services with many concurrent users. It is the default database for macOS Server, and is also available for Linux, FreeBSD, OpenBSD, and Windows.[4].\\
+\textbf{PostgreSQL} is a free and open-soursce relational database management system emphasing extensibility and technical standarts compliance. It is designed to handle a range of workloads, from single machines to data warehouses or Web services with many concurrent users. It is the default database for macOS Server, and is also available for Linux, FreeBSD, OpenBSD, and Windows \cite{wiki-posgres}.\\
 
  We going to use \textbf{Maven} as tool to build our project. The layers have to be independently deployable components, with  their own vesions, depending between them and making up a whole application. This description fits with \textbf{Maven modules}.\\
  First, we need a maven project with packaging type “pom”. Then, we add each layer as a module to this maven project. Once we’ve this done, we can add the dependencies between layers.\\
@@ -622,7 +626,7 @@ Spring Boot is the starting point for building all Spring-based applications. Sp
 -Production-ready features such as tracing, metrics, and health status\\
 -Works in your favourite IDE: Spring Tool Suite, IntelliJ IDEA, and NetBeans\\
 
-Using these features it has really made building a production-grade Spring applications very easy and faster for developers. Also, no XML configurations required anymore with spring boot.\\
+Using these features it has really made building a production-grade Spring applications very easy and faster for developers. Also, no XML configurations required anymore with spring boot\cite{spring-docs}.\\
 
 \textbf{ANGULAR FOR FRONT-END} \\
 The technology for front-end is Angular.\\
@@ -636,7 +640,7 @@ Angular has a lot of pros\\
 -the app is easy to learn and get started.\\
 -data binding in AngularJS is very easy.\\
 I like in Angular that it gives our application a clean structure, that is easy to understand and easy to maintain.\\
-It brings a lot of utility code that we can reuse, for example, users navigation. Angular applications are more testable.\\
+It brings a lot of utility code that we can reuse, for example, users navigation. Angular applications are more testable \cite{5reason}.\\
 
 \subsubsection{Description of the deployment procedure.}
 \textbf{Configuring PosgreSQL}
@@ -705,7 +709,7 @@ For testing  our application we have used different tests:\\
 /* Summary of the main results of your work/thesis*/
 
 After a deep research, I found that there is a lot of information concerning the topic of developing an E-learning management system. To develop even a part of this system is not only a difficult task but also requires a lot of knowledge in software and database design and some programming languages and frameworks like Spring Boot and Angular. \\
-I can say that I have achieved my plan, but not completely. I have created the necessary database based on system analysis and implementation. I  have made the system that works, the connection with database, connection between frontend and backend. And I have realised the features like \\
+I can say that I have achieved my plan, but not completely. I have created the necessary database based on system analysis and implementation. I  have made the system that works, the connection with database, connection between frontend and backend. And I have realised the features like .\\ For this document I have used material from course Software Engineering and Design \cite{sed}, Spring Applications course \cite{sf} and tutorials from \cite{spring-tut} and several tutorials from youtube.
 -login\\
 -registration\\
 -display of course information\\
@@ -741,17 +745,9 @@ Apart from the better scaling, microservices offer faster development cycles, dy
 
 
 %% print the bibliography and add the section to the table of content
+
 \printbibliography[heading=bibintoc]
 
-%%How I learned my ABCs\citep{ABCDE}.
-
-\begin{thebibliography}{books}
-\bibitem{ABCDE}Walter Abish \emph{The Alphabetical Africa},1974
-\bibitem{ABCDE} Prof.Dr. Olivier Biberstein, Prof.Dr Eric Dubuis \emph{software Engineering and Design},
-\bibitem{ABCDE}Spring.io/guides \emph{•},2019
-\bibitem{ABCDE} \emph{•},
-\bibitem{ABCDE} PostgreSQL \emph{wikipedia}
-\end{thebibliography}
 
 
 \section{Project planning}

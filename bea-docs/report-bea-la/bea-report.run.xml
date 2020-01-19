@@ -82,5 +82,8 @@
     <requires type="dynamic">
       <file>bea-report.bcf</file>
     </requires>
+    <requires type="editable">
+      <file>beauty.bib</file>
+    </requires>
   </external>
 </requests>

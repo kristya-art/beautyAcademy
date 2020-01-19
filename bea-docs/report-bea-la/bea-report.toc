@@ -66,6 +66,8 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {3.0.3}Outlook}{33}% 
 \defcounter {refsection}{0}\relax 
+\contentsline {section}{\nonumberline References}{34}% 
+\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4}Project planning}{34}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.1}Meetings calendar}{34}% 
