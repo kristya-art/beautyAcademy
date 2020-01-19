@@ -68,10 +68,10 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\nonumberline References}{34}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4}Project planning}{34}% 
+\contentsline {section}{\numberline {4}Project planning}{35}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1}Meetings calendar}{34}% 
+\contentsline {subsection}{\numberline {4.1}Meetings calendar}{35}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.2}Spring Backlog}{36}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.2.1}Protocol}{37}% 
+\contentsline {subsubsection}{\numberline {4.2.1}Protocol}{38}% 

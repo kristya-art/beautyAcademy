@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.10.0 (TeX Live 2019)  (format=lualatex 2019.10.8)  19 JAN 2020 13:42
+This is LuaTeX, Version 1.10.0 (TeX Live 2019)  (format=lualatex 2019.10.8)  19 JAN 2020 14:11
  restricted system commands enabled.
 **bea-report.tex
 (./bea-report.tex
@@ -48,7 +48,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.093 seconds
+luaotfload | main : initialization completed in 0.115 seconds
 (/usr/local/texlive/2019/texmf-dist/tex/latex/koma-script/scrartcl.cls
 Document Class: scrartcl 2019/02/01 v3.26b KOMA-Script document class (article)
 (/usr/local/texlive/2019/texmf-dist/tex/latex/koma-script/scrkbase.sty
@@ -1225,46 +1225,46 @@ LaTeX Warning: Label `tab:typo' multiply defined.
 )
 \openout1 = bea-report.aux
 
-LaTeX Font Info:    Checking defaults for OML/jkp/m/it on input line 32.
-LaTeX Font Info:    Try loading font information for OML+jkp on input line 32.
+LaTeX Font Info:    Checking defaults for OML/jkp/m/it on input line 33.
+LaTeX Font Info:    Try loading font information for OML+jkp on input line 33.
  (/usr/local/texlive/2019/texmf-dist/tex/latex/kpfonts/omljkp.fd
 File: omljkp.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OMS/jkp/m/n on input line 32.
-LaTeX Font Info:    Try loading font information for OMS+jkp on input line 32.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OMS/jkp/m/n on input line 33.
+LaTeX Font Info:    Try loading font information for OMS+jkp on input line 33.
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/kpfonts/omsjkp.fd
 File: omsjkp.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OMX/jkp/m/n on input line 32.
-LaTeX Font Info:    Try loading font information for OMX+jkp on input line 32.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OMX/jkp/m/n on input line 33.
+LaTeX Font Info:    Try loading font information for OMX+jkp on input line 33.
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/kpfonts/omxjkp.fd
 File: omxjkp.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for U/jkpexa/m/n on input line 32.
-LaTeX Font Info:    Try loading font information for U+jkpexa on input line 32.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for U/jkpexa/m/n on input line 33.
+LaTeX Font Info:    Try loading font information for U+jkpexa on input line 33.
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/kpfonts/ujkpexa.fd
 File: ujkpexa.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 32.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 32.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 33.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 33.
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    ... okay on input line 33.
 
 (/usr/local/texlive/2019/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -1309,58 +1309,58 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'bea-report.bbl' found.
 
 (./bea-report.bbl)
-Package biblatex Info: Reference section=0 on input line 32.
-Package biblatex Info: Reference segment=0 on input line 32.
+Package biblatex Info: Reference section=0 on input line 33.
+Package biblatex Info: Reference segment=0 on input line 33.
 LaTeX Font Info:    Font shape `TU/lmss/b/n' in size <10.95> not available
-(Font)              Font shape `TU/lmss/bx/n' tried instead on input line 50.
+(Font)              Font shape `TU/lmss/bx/n' tried instead on input line 51.
 LaTeX Font Info:    Font shape `TU/lmss/b/n' in size <20.74> not available
-(Font)              Font shape `TU/lmss/bx/n' tried instead on input line 50.
+(Font)              Font shape `TU/lmss/bx/n' tried instead on input line 51.
 
 
 LaTeX Font Warning: Font shape `TU/lmss/b/sc' undefined
-(Font)              using `TU/lmss/b/n' instead on input line 50.
+(Font)              using `TU/lmss/b/n' instead on input line 51.
 
 LaTeX Font Info:    Font shape `TU/lmss/b/sc' in size <17.28> not available
-(Font)              Font shape `TU/lmss/bx/n' tried instead on input line 50.
+(Font)              Font shape `TU/lmss/bx/n' tried instead on input line 51.
 <./photos/bea_logo.JPG, id=1, 400.49625pt x 187.07391pt>
 File: ./photos/bea_logo.JPG Graphic file (type jpg)
 <use ./photos/bea_logo.JPG>
-Package luatex.def Info: ./photos/bea_logo.JPG  used on input line 50.
+Package luatex.def Info: ./photos/bea_logo.JPG  used on input line 51.
 (luatex.def)             Requested size: 170.71652pt x 79.7437pt.
 LaTeX Font Info:    Font shape `TU/lmss/b/sc' in size <20.74> not available
-(Font)              Font shape `TU/lmss/bx/n' tried instead on input line 50.
+(Font)              Font shape `TU/lmss/bx/n' tried instead on input line 51.
 LaTeX Font Info:    Font shape `TU/lmss/b/sc' in size <10> not available
-(Font)              Font shape `TU/lmss/bx/n' tried instead on input line 50.
-LaTeX Font Info:    Try loading font information for OT1+jkp on input line 50.
+(Font)              Font shape `TU/lmss/bx/n' tried instead on input line 51.
+LaTeX Font Info:    Try loading font information for OT1+jkp on input line 51.
 (/usr/local/texlive/2019/texmf-dist/tex/latex/kpfonts/ot1jkp.fd
 File: ot1jkp.fd 2007/08/30 Fontinst v1.928 font definitions for OT1/jkp.
 )
-LaTeX Font Info:    Try loading font information for U+jkpmia on input line 50.
+LaTeX Font Info:    Try loading font information for U+jkpmia on input line 51.
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/kpfonts/ujkpmia.fd
 File: ujkpmia.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    Try loading font information for U+jkpsya on input line 50.
+LaTeX Font Info:    Try loading font information for U+jkpsya on input line 51.
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/kpfonts/ujkpsya.fd
 File: ujkpsya.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    Try loading font information for U+jkpsyb on input line 50.
+LaTeX Font Info:    Try loading font information for U+jkpsyb on input line 51.
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/kpfonts/ujkpsyb.fd
 File: ujkpsyb.fd 2006/08/15 v1.0
 )
-LaTeX Font Info:    Try loading font information for U+jkpsyc on input line 50.
+LaTeX Font Info:    Try loading font information for U+jkpsyc on input line 51.
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/kpfonts/ujkpsyc.fd
 File: ujkpsyc.fd 2006/08/15 v1.0
 )
-Overfull \hbox (49.00514pt too wide) in paragraph at lines 50--50
+Overfull \hbox (49.00514pt too wide) in paragraph at lines 51--51
  [][] 
  []
 
 LaTeX Font Info:    Font shape `TU/lmss/b/n' in size <14.4> not available
-(Font)              Font shape `TU/lmss/bx/n' tried instead on input line 51.
+(Font)              Font shape `TU/lmss/bx/n' tried instead on input line 52.
 (./bea-report.toc [1
 
 
@@ -1370,32 +1370,32 @@ bea_logo.JPG>])
 
 \openout4 = bea-report.toc
  [2]
-Underfull \hbox (badness 10000) in paragraph at lines 57--58
+Underfull \hbox (badness 10000) in paragraph at lines 58--59
 
  []
 
 LaTeX Font Info:    Font shape `TU/lmss/b/n' in size <12> not available
-(Font)              Font shape `TU/lmss/bx/n' tried instead on input line 68.
+(Font)              Font shape `TU/lmss/bx/n' tried instead on input line 69.
 
-Underfull \hbox (badness 10000) in paragraph at lines 70--78
+Underfull \hbox (badness 10000) in paragraph at lines 71--79
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 80--86
+Underfull \hbox (badness 10000) in paragraph at lines 81--87
 
  []
 
 [3
 
 ]
-Overfull \hbox (6.07881pt too wide) in paragraph at lines 95--99
+Overfull \hbox (6.07881pt too wide) in paragraph at lines 96--100
 \TU/lmr/m/n/10.95 This ap-pli-ca-tion will es-tab-lish a net-work be-tween the 
 lec-tur-ers and par-tic-i-pants. Academia
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 95--99
+Underfull \hbox (badness 10000) in paragraph at lines 96--100
 
  []
 
@@ -1403,10 +1403,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 95--99
 <./photos/ucd_user.JPG, id=25, 490.45734pt x 446.04141pt>
 File: ./photos/ucd_user.JPG Graphic file (type jpg)
 <use ./photos/ucd_user.JPG>
-Package luatex.def Info: ./photos/ucd_user.JPG  used on input line 169.
+Package luatex.def Info: ./photos/ucd_user.JPG  used on input line 170.
 (luatex.def)             Requested size: 426.79134pt x 388.15498pt.
 
-Overfull \hbox (8.53578pt too wide) in paragraph at lines 169--172
+Overfull \hbox (8.53578pt too wide) in paragraph at lines 170--173
  [][] 
  []
 
@@ -1414,31 +1414,31 @@ Overfull \hbox (8.53578pt too wide) in paragraph at lines 169--172
 <./photos/ucd_admin_lecturer.JPG, id=29, 510.78328pt x 452.81671pt>
 File: ./photos/ucd_admin_lecturer.JPG Graphic file (type jpg)
 <use ./photos/ucd_admin_lecturer.JPG>
-Package luatex.def Info: ./photos/ucd_admin_lecturer.JPG  used on input line 176
+Package luatex.def Info: ./photos/ucd_admin_lecturer.JPG  used on input line 177
 .
 (luatex.def)             Requested size: 426.79134pt x 378.3528pt.
 
-Overfull \hbox (8.53578pt too wide) in paragraph at lines 176--179
+Overfull \hbox (8.53578pt too wide) in paragraph at lines 177--180
  [][] 
  []
 
 [7<./photos/ucd_user.JPG>]
 
 LaTeX Font Warning: Font shape `TU/lmr/b/it' in size <10.95> not available
-(Font)              Font shape `TU/lmr/b/sl' tried instead on input line 184.
+(Font)              Font shape `TU/lmr/b/sl' tried instead on input line 185.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 182--198
+Underfull \hbox (badness 10000) in paragraph at lines 183--199
 
  []
 
 [8<./photos/ucd_admin_lecturer.JPG>]
-Underfull \hbox (badness 10000) in paragraph at lines 202--232
+Underfull \hbox (badness 10000) in paragraph at lines 203--233
 
  []
 
 
-Overfull \hbox (5.28299pt too wide) in paragraph at lines 237--250
+Overfull \hbox (5.28299pt too wide) in paragraph at lines 238--251
  [] 
  []
 
@@ -1449,10 +1449,10 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <./photos/domain-in-use.JPG, id=44, 603.75563pt x 436.25484pt>
 File: ./photos/domain-in-use.JPG Graphic file (type jpg)
 <use ./photos/domain-in-use.JPG>
-Package luatex.def Info: ./photos/domain-in-use.JPG  used on input line 291.
+Package luatex.def Info: ./photos/domain-in-use.JPG  used on input line 292.
 (luatex.def)             Requested size: 426.79134pt x 308.38513pt.
 
-Overfull \hbox (8.53578pt too wide) in paragraph at lines 291--294
+Overfull \hbox (8.53578pt too wide) in paragraph at lines 292--295
  [][] 
  []
 
@@ -1460,42 +1460,42 @@ Overfull \hbox (8.53578pt too wide) in paragraph at lines 291--294
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 296--297
+Underfull \hbox (badness 10000) in paragraph at lines 297--298
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 298--299
+Underfull \hbox (badness 10000) in paragraph at lines 299--300
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 300--311
+Underfull \hbox (badness 10000) in paragraph at lines 301--312
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 312--313
+Underfull \hbox (badness 10000) in paragraph at lines 313--314
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 314--329
+Underfull \hbox (badness 10000) in paragraph at lines 315--330
 
  []
 
 [11] [12<./photos/domain-in-use.JPG>]
-Underfull \hbox (badness 10000) in paragraph at lines 330--331
+Underfull \hbox (badness 10000) in paragraph at lines 331--332
 
  []
 
 
-Underfull \hbox (badness 4981) in paragraph at lines 362--362
+Underfull \hbox (badness 4981) in paragraph at lines 363--363
 []|\TU/lmr/m/n/10.95 List par-tic-i-pants and
  []
 
 
-Overfull \hbox (60.36212pt too wide) in paragraph at lines 338--369
+Overfull \hbox (60.36212pt too wide) in paragraph at lines 339--370
  [][] 
  []
 
@@ -1503,60 +1503,60 @@ Overfull \hbox (60.36212pt too wide) in paragraph at lines 338--369
 <./photos/ssd-login.JPG, id=55, 484.81125pt x 388.45125pt>
 File: ./photos/ssd-login.JPG Graphic file (type jpg)
 <use ./photos/ssd-login.JPG>
-Package luatex.def Info: ./photos/ssd-login.JPG  used on input line 379.
+Package luatex.def Info: ./photos/ssd-login.JPG  used on input line 380.
 (luatex.def)             Requested size: 284.52756pt x 227.98692pt.
  [14]
 <./photos/ssd-reg.JPG, id=59, 2530.20282pt x 1236.87094pt>
 File: ./photos/ssd-reg.JPG Graphic file (type jpg)
 <use ./photos/ssd-reg.JPG>
-Package luatex.def Info: ./photos/ssd-reg.JPG  used on input line 388.
+Package luatex.def Info: ./photos/ssd-reg.JPG  used on input line 389.
 (luatex.def)             Requested size: 398.33858pt x 194.71384pt.
 <./photos/sd/sd-createCourse.jpg, id=60, 413.67047pt x 316.93407pt>
 File: ./photos/sd/sd-createCourse.jpg Graphic file (type jpg)
 <use ./photos/sd/sd-createCourse.jpg>
-Package luatex.def Info: ./photos/sd/sd-createCourse.jpg  used on input line 398
+Package luatex.def Info: ./photos/sd/sd-createCourse.jpg  used on input line 399
 .
 (luatex.def)             Requested size: 284.52756pt x 217.99802pt.
  [15<./photos/ssd-login.JPG><./photos/ssd-reg.JPG>]
 <./photos/sd/sd-updateCourse.jpg, id=64, 398.61421pt x 291.71484pt>
 File: ./photos/sd/sd-updateCourse.jpg Graphic file (type jpg)
 <use ./photos/sd/sd-updateCourse.jpg>
-Package luatex.def Info: ./photos/sd/sd-updateCourse.jpg  used on input line 407
+Package luatex.def Info: ./photos/sd/sd-updateCourse.jpg  used on input line 408
 .
 (luatex.def)             Requested size: 284.52756pt x 208.23177pt.
 <./photos/sd/sd-deleteCourse.jpg, id=65, 407.64796pt x 325.96782pt>
 File: ./photos/sd/sd-deleteCourse.jpg Graphic file (type jpg)
 <use ./photos/sd/sd-deleteCourse.jpg>
-Package luatex.def Info: ./photos/sd/sd-deleteCourse.jpg  used on input line 416
+Package luatex.def Info: ./photos/sd/sd-deleteCourse.jpg  used on input line 417
 .
 (luatex.def)             Requested size: 284.52756pt x 227.52432pt.
  [16<./photos/sd/sd-createCourse.jpg><./photos/sd/sd-updateCourse.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 422--423
+Underfull \hbox (badness 10000) in paragraph at lines 423--424
 
  []
 
 <./photos/sd/sd-addCourse.jpg, id=69, 441.90094pt x 331.6139pt>
 File: ./photos/sd/sd-addCourse.jpg Graphic file (type jpg)
 <use ./photos/sd/sd-addCourse.jpg>
-Package luatex.def Info: ./photos/sd/sd-addCourse.jpg  used on input line 426.
+Package luatex.def Info: ./photos/sd/sd-addCourse.jpg  used on input line 427.
 (luatex.def)             Requested size: 284.52756pt x 213.52753pt.
 <./photos/sd/sd-orderExam.jpg, id=70, 388.82765pt x 377.91188pt>
 File: ./photos/sd/sd-orderExam.jpg Graphic file (type jpg)
 <use ./photos/sd/sd-orderExam.jpg>
-Package luatex.def Info: ./photos/sd/sd-orderExam.jpg  used on input line 435.
+Package luatex.def Info: ./photos/sd/sd-orderExam.jpg  used on input line 436.
 (luatex.def)             Requested size: 284.52756pt x 276.54805pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 432--438
+Underfull \hbox (badness 10000) in paragraph at lines 433--439
 
  []
 
 [17<./photos/sd/sd-deleteCourse.jpg><./photos/sd/sd-addCourse.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 441--444
+Underfull \hbox (badness 10000) in paragraph at lines 442--445
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 446--447
+Underfull \hbox (badness 10000) in paragraph at lines 447--448
 
  []
 
@@ -1564,24 +1564,24 @@ Underfull \hbox (badness 10000) in paragraph at lines 446--447
 File: ./photos/proto-foto/ui-courses.JPG Graphic file (type jpg)
 <use ./photos/proto-foto/ui-courses.JPG>
 Package luatex.def Info: ./photos/proto-foto/ui-courses.JPG  used on input line 
-454.
+455.
 (luatex.def)             Requested size: 398.33858pt x 281.68646pt.
 [18<./photos/sd/sd-orderExam.jpg>]
 <./photos/proto-foto/ui-login.JPG, id=78, 3520.15125pt x 2489.3pt>
 File: ./photos/proto-foto/ui-login.JPG Graphic file (type jpg)
 <use ./photos/proto-foto/ui-login.JPG>
 Package luatex.def Info: ./photos/proto-foto/ui-login.JPG  used on input line 46
-4.
+5.
 (luatex.def)             Requested size: 398.33858pt x 281.68646pt.
  [19<./photos/proto-foto/ui-courses.JPG>]
 <./photos/proto-foto/ui-reg.JPG, id=82, 3520.15125pt x 2489.3pt>
 File: ./photos/proto-foto/ui-reg.JPG Graphic file (type jpg)
 <use ./photos/proto-foto/ui-reg.JPG>
-Package luatex.def Info: ./photos/proto-foto/ui-reg.JPG  used on input line 474.
+Package luatex.def Info: ./photos/proto-foto/ui-reg.JPG  used on input line 475.
 
 (luatex.def)             Requested size: 398.33858pt x 281.68646pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 469--477
+Underfull \hbox (badness 10000) in paragraph at lines 470--478
 
  []
 
@@ -1590,135 +1590,135 @@ Underfull \hbox (badness 10000) in paragraph at lines 469--477
 File: ./photos/proto-foto/ui-user-page.JPG Graphic file (type jpg)
 <use ./photos/proto-foto/ui-user-page.JPG>
 Package luatex.def Info: ./photos/proto-foto/ui-user-page.JPG  used on input lin
-e 484.
+e 485.
 (luatex.def)             Requested size: 398.33858pt x 281.68646pt.
  [21<./photos/proto-foto/ui-reg.JPG>]
 <./photos/proto-foto/ui-test-topic.JPG, id=91, 3520.15125pt x 2489.3pt>
 File: ./photos/proto-foto/ui-test-topic.JPG Graphic file (type jpg)
 <use ./photos/proto-foto/ui-test-topic.JPG>
 Package luatex.def Info: ./photos/proto-foto/ui-test-topic.JPG  used on input li
-ne 494.
+ne 495.
 (luatex.def)             Requested size: 398.33858pt x 281.68646pt.
 
 [22<./photos/proto-foto/ui-user-page.JPG>]
-Underfull \hbox (badness 10000) in paragraph at lines 501--504
+Underfull \hbox (badness 10000) in paragraph at lines 502--505
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 505--512
+Underfull \hbox (badness 10000) in paragraph at lines 506--513
 
  []
 
 [23<./photos/proto-foto/ui-test-topic.JPG>]
-Underfull \hbox (badness 10000) in paragraph at lines 525--528
+Underfull \hbox (badness 10000) in paragraph at lines 526--529
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 531--533
+Underfull \hbox (badness 10000) in paragraph at lines 532--534
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 537--546
+Underfull \hbox (badness 10000) in paragraph at lines 538--547
 
  []
 
 [24
 Missing character: There is no ​ (U+200B) in font [lmroman10-regular]:+tlig;!
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 547--550
+Underfull \hbox (badness 10000) in paragraph at lines 548--551
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 551--552
+Underfull \hbox (badness 10000) in paragraph at lines 552--553
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 553--554
+Underfull \hbox (badness 10000) in paragraph at lines 554--555
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 555--556
+Underfull \hbox (badness 10000) in paragraph at lines 556--557
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 558--560
+Underfull \hbox (badness 10000) in paragraph at lines 559--561
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 561--562
+Underfull \hbox (badness 10000) in paragraph at lines 562--563
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 563--564
+Underfull \hbox (badness 10000) in paragraph at lines 564--565
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 565--566
+Underfull \hbox (badness 10000) in paragraph at lines 566--567
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 567--568
+Underfull \hbox (badness 10000) in paragraph at lines 568--569
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 569--570
+Underfull \hbox (badness 10000) in paragraph at lines 570--571
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 571--572
+Underfull \hbox (badness 10000) in paragraph at lines 572--573
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 573--575
+Underfull \hbox (badness 10000) in paragraph at lines 574--576
 
  []
 
 [25]
-Underfull \hbox (badness 10000) in paragraph at lines 576--577
+Underfull \hbox (badness 10000) in paragraph at lines 577--578
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 579--581
+Underfull \hbox (badness 10000) in paragraph at lines 580--582
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 582--583
+Underfull \hbox (badness 10000) in paragraph at lines 583--584
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 584--586
+Underfull \hbox (badness 10000) in paragraph at lines 585--587
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 587--591
+Underfull \hbox (badness 10000) in paragraph at lines 588--592
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 587--591
+Underfull \hbox (badness 10000) in paragraph at lines 588--592
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 592--595
+Underfull \hbox (badness 10000) in paragraph at lines 593--596
 
  []
 
@@ -1726,25 +1726,25 @@ Underfull \hbox (badness 10000) in paragraph at lines 592--595
 <./photos/layer.JPG, id=107, 679.41328pt x 315.80484pt>
 File: ./photos/layer.JPG Graphic file (type jpg)
 <use ./photos/layer.JPG>
-Package luatex.def Info: ./photos/layer.JPG  used on input line 610.
+Package luatex.def Info: ./photos/layer.JPG  used on input line 611.
 (luatex.def)             Requested size: 369.88582pt x 171.92952pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 616--628
+Underfull \hbox (badness 10000) in paragraph at lines 617--629
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 629--630
+Underfull \hbox (badness 10000) in paragraph at lines 630--631
 
  []
 
 [27<./photos/layer.JPG>]
-Underfull \hbox (badness 10000) in paragraph at lines 631--644
+Underfull \hbox (badness 10000) in paragraph at lines 632--645
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 646--649
+Underfull \hbox (badness 10000) in paragraph at lines 647--650
 
  []
 
@@ -1752,25 +1752,25 @@ Underfull \hbox (badness 10000) in paragraph at lines 646--649
 File: ./photos/application-properties.jpg Graphic file (type jpg)
 <use ./photos/application-properties.jpg>
 Package luatex.def Info: ./photos/application-properties.jpg  used on input line
- 655.
+ 656.
 (luatex.def)             Requested size: 426.79134pt x 258.89014pt.
 
-Overfull \hbox (8.53578pt too wide) in paragraph at lines 655--658
+Overfull \hbox (8.53578pt too wide) in paragraph at lines 656--659
  [][] 
  []
 
 [28]
-Underfull \hbox (badness 10000) in paragraph at lines 660--661
+Underfull \hbox (badness 10000) in paragraph at lines 661--662
 
  []
 
 <./photos/run_backend.JPG, id=116, 963.6pt x 602.25pt>
 File: ./photos/run_backend.JPG Graphic file (type jpg)
 <use ./photos/run_backend.JPG>
-Package luatex.def Info: ./photos/run_backend.JPG  used on input line 668.
+Package luatex.def Info: ./photos/run_backend.JPG  used on input line 669.
 (luatex.def)             Requested size: 426.79134pt x 266.73683pt.
 
-Overfull \hbox (8.53578pt too wide) in paragraph at lines 668--671
+Overfull \hbox (8.53578pt too wide) in paragraph at lines 669--672
  [][] 
  []
 
@@ -1778,10 +1778,10 @@ Overfull \hbox (8.53578pt too wide) in paragraph at lines 668--671
 <./photos/run_frontend.JPG, id=120, 400.11984pt x 567.24422pt>
 File: ./photos/run_frontend.JPG Graphic file (type jpg)
 <use ./photos/run_frontend.JPG>
-Package luatex.def Info: ./photos/run_frontend.JPG  used on input line 675.
+Package luatex.def Info: ./photos/run_frontend.JPG  used on input line 676.
 (luatex.def)             Requested size: 426.79134pt x 605.09305pt.
 
-Overfull \hbox (8.53578pt too wide) in paragraph at lines 675--678
+Overfull \hbox (8.53578pt too wide) in paragraph at lines 676--679
  [][] 
  []
 
@@ -1790,118 +1790,104 @@ Overfull \vbox (41.66823pt too high) has occurred while \output is active []
 
 
 [31<./photos/run_frontend.JPG>]
-Underfull \hbox (badness 10000) in paragraph at lines 682--698
+Underfull \hbox (badness 10000) in paragraph at lines 683--699
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 711--719
+Underfull \hbox (badness 10000) in paragraph at lines 712--720
 
  []
 
 [32]
-Underfull \hbox (badness 10000) in paragraph at lines 737--741
+Underfull \hbox (badness 10000) in paragraph at lines 738--742
 
  []
 
-[33]
-<./photos/agenda.jpg, id=134, 856.19875pt x 496.85625pt>
+[33] [34]
+<./photos/agenda.jpg, id=138, 856.19875pt x 496.85625pt>
 File: ./photos/agenda.jpg Graphic file (type jpg)
 <use ./photos/agenda.jpg>
-Package luatex.def Info: ./photos/agenda.jpg  used on input line 758.
+Package luatex.def Info: ./photos/agenda.jpg  used on input line 759.
 (luatex.def)             Requested size: 369.88582pt x 214.64476pt.
 
-Underfull \hbox (badness 1033) in paragraph at lines 786--786
+Underfull \hbox (badness 1033) in paragraph at lines 787--787
 []|\TU/lmr/m/n/10.95 Ex-tend doc-u-men-ta-tion with
  []
 
 
-Underfull \hbox (badness 4441) in paragraph at lines 786--786
+Underfull \hbox (badness 4441) in paragraph at lines 787--787
 \TU/lmr/m/n/10.95 ex-pla-na-tion about An-gu-lar
  []
 
 
-Underfull \hbox (badness 1635) in paragraph at lines 786--786
+Underfull \hbox (badness 1635) in paragraph at lines 787--787
 \TU/lmr/m/n/10.95 and Spring. ”What is it
  []
 
 
-Underfull \hbox (badness 2671) in paragraph at lines 790--790
+Overfull \hbox (156.29399pt too wide) in paragraph at lines 771--790
+ [] 
+ []
+
+[35<./photos/agenda.jpg>]
+Underfull \hbox (badness 2671) in paragraph at lines 806--806
 []|\TU/lmr/m/n/10.95 Add post-gres SQL to the
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 804--804
+Overfull \hbox (156.29399pt too wide) in paragraph at lines 798--813
+ [] 
+ []
+
+[36]
+Underfull \hbox (badness 10000) in paragraph at lines 835--835
 []|\TU/lmr/m/n/10.95 Repos-i-to-ries and Ser-vice
  []
 
 
-Overfull \hbox (156.29399pt too wide) in paragraph at lines 770--810
+Overfull \hbox (156.29399pt too wide) in paragraph at lines 821--841
  [] 
  []
 
-[34<./photos/agenda.jpg>] [35]
-Overfull \vbox (164.55058pt too high) has occurred while \output is active []
 
-
-[36]
-Underfull \hbox (badness 2922) in paragraph at lines 828--828
+Underfull \hbox (badness 2922) in paragraph at lines 859--859
 []|\TU/lmr/m/n/10.95 Make new com-po-nents for
  []
 
 
-Overfull \hbox (156.29399pt too wide) in paragraph at lines 819--844
+Overfull \hbox (156.29399pt too wide) in paragraph at lines 850--875
  [] 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 858--859
+[37]
+Underfull \hbox (badness 10000) in paragraph at lines 889--890
 
  []
 
-[37]
-Overfull \hbox (0.29724pt too wide) in paragraph at lines 886--889
+[38]
+Overfull \hbox (0.29724pt too wide) in paragraph at lines 917--920
 \TU/lmr/m/n/10.95 To doc-u-men-ta-tion plays de-ci-sive role in Soft-ware En-gi
 -neer-ing Project. The first analysing
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 886--889
+Underfull \hbox (badness 10000) in paragraph at lines 917--920
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 893--896
+Underfull \hbox (badness 10000) in paragraph at lines 924--927
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 910--912
+Underfull \hbox (badness 10000) in paragraph at lines 941--943
 
  []
 
-[38]
-Underfull \hbox (badness 10000) in paragraph at lines 913--914
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 917--918
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 934--937
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 939--941
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 946--947
+[39]
+Underfull \hbox (badness 10000) in paragraph at lines 944--945
 
  []
 
@@ -1911,61 +1897,81 @@ Underfull \hbox (badness 10000) in paragraph at lines 948--949
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 952--954
-
- []
-
-[39]
-Underfull \hbox (badness 10000) in paragraph at lines 967--969
+Underfull \hbox (badness 10000) in paragraph at lines 965--968
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 970--971
+Underfull \hbox (badness 10000) in paragraph at lines 970--972
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 976--977
+Underfull \hbox (badness 10000) in paragraph at lines 977--978
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 978--979
+Underfull \hbox (badness 10000) in paragraph at lines 979--980
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 980--984
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 989--992
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 996--998
+Underfull \hbox (badness 10000) in paragraph at lines 983--985
 
  []
 
 [40]
-Underfull \hbox (badness 10000) in paragraph at lines 1011--1013
+Underfull \hbox (badness 10000) in paragraph at lines 998--1000
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1020--1021
+Underfull \hbox (badness 10000) in paragraph at lines 1001--1002
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1025--1027
+Underfull \hbox (badness 10000) in paragraph at lines 1007--1008
 
  []
 
-[41] (./bea-report.aux)
+
+Underfull \hbox (badness 10000) in paragraph at lines 1009--1010
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1011--1015
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1020--1023
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1027--1029
+
+ []
+
+[41]
+Underfull \hbox (badness 10000) in paragraph at lines 1042--1044
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1051--1052
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1056--1058
+
+ []
+
+[42] (./bea-report.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -1983,7 +1989,7 @@ Here is how much of LuaTeX's memory you used:
  587 words of node memory still in use:
    6 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 8 attribute, 71 glue_spec,
  8 attribute_list, 1 write nodes
-   avail lists: 1:3,2:1379,3:399,4:73,5:332,6:151,7:5197,8:84,9:1319,10:27,11:35
+   avail lists: 1:3,2:1373,3:315,4:73,5:332,6:167,7:5197,8:84,9:1496,10:27,11:35
 8
  28812 multiletter control sequences out of 65536+600000
  107 fonts using 11944487 bytes
@@ -1999,10 +2005,10 @@ m/lmmono12-regular.otf></usr/local/texlive/2019/texmf-dist/fonts/opentype/public
 /public/lm/lmroman12-regular.otf></usr/local/texlive/2019/texmf-dist/fonts/opent
 ype/public/lm/lmroman12-italic.otf></usr/local/texlive/2019/texmf-dist/fonts/ope
 ntype/public/lm/lmsans10-bold.otf>
-Output written on bea-report.pdf (41 pages, 6515101 bytes).
+Output written on bea-report.pdf (42 pages, 6515905 bytes).
 
-PDF statistics: 225 PDF objects out of 1000 (max. 8388607)
- 129 compressed objects within 2 object streams
+PDF statistics: 228 PDF objects out of 1000 (max. 8388607)
+ 131 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 131072)
  1 words of extra memory for PDF output out of 10000 (max. 100000000)
 
